@@ -190,6 +190,13 @@ html[dir="rtl"] .btn:hover svg{transform:translateX(-4px)}
 .brand-text{display:flex;flex-direction:column;line-height:1;font-weight:800;color:#fff;letter-spacing:.14em}
 .brand-text .bt-top{font-size:13px}
 .brand-text .bt-sub{font-size:9px;font-weight:600;letter-spacing:.42em;color:var(--copper-2);margin-top:4px}
+/* ===== Logo Images ===== */
+.logo-img{height:42px;width:auto;display:block;flex-shrink:0}
+.logo-zh{display:none}
+html[lang="zh"] .logo-en{display:none}
+html[lang="zh"] .logo-zh{display:block}
+@media(max-width:640px){.logo-img{height:34px}}
+
 .main-nav{display:flex;align-items:center;gap:clamp(14px,2vw,30px)}
 .main-nav a{color:rgba(255,255,255,.82);font-size:14.5px;font-weight:600;position:relative;padding:6px 2px;transition:color .25s}
 .main-nav a::after{content:"";position:absolute;inset-inline:0;bottom:0;height:2px;background:var(--copper);transform:scaleX(0);transform-origin:center;transition:transform .3s var(--ease)}
@@ -470,6 +477,8 @@ a:focus-visible,button:focus-visible,.lang-opt:focus-visible{outline:2px solid v
   .about-stats{grid-template-columns:repeat(2,1fr)}
 }
 </style>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
 </head>
 <body>
 
@@ -477,16 +486,8 @@ a:focus-visible,button:focus-visible,.lang-opt:focus-visible{outline:2px solid v
 <header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a class="brand" href="#home" aria-label="OUZHI Cable">
-      <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
-        <circle class="c0" cx="24" cy="24" r="21.5" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".3"/>
-        <circle class="c1" cx="24" cy="24" r="15.5" fill="none" stroke-width="2.6"/>
-        <circle class="c0" cx="24" cy="24" r="9" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5"/>
-        <circle class="c1" cx="24" cy="24" r="3" fill="currentColor"/>
-      </svg>
-      <span class="brand-text">
-        <span class="bt-top" data-i18n="brand.name">OUZHI</span>
-        <span class="bt-sub" data-i18n="brand.sub">CABLE</span>
-      </span>
+      <img class="logo-img logo-en" src="logo-en.png" alt="OUZHI Cable — 35kV Power Cable Manufacturer">
+      <img class="logo-img logo-zh" src="logo-zh.png" alt="欧智电缆 — 35kV电力电缆源头工厂">
     </a>
 
     <nav class="main-nav" aria-label="Primary">
@@ -968,14 +969,9 @@ a:focus-visible,button:focus-visible,.lang-opt:focus-visible{outline:2px solid v
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a class="brand" href="#home">
-          <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
-            <circle cx="24" cy="24" r="21.5" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".3"/>
-            <circle cx="24" cy="24" r="15.5" fill="none" stroke="var(--copper)" stroke-width="2.6"/>
-            <circle cx="24" cy="24" r="9" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5"/>
-            <circle cx="24" cy="24" r="3" fill="var(--copper)"/>
-          </svg>
-          <span class="brand-text"><span class="bt-top" data-i18n="brand.name">OUZHI</span><span class="bt-sub" data-i18n="brand.sub">CABLE</span></span>
+        <a class="brand" href="#home" aria-label="OUZHI Cable">
+          <img class="logo-img logo-en" src="logo-en.png" alt="OUZHI Cable">
+          <img class="logo-img logo-zh" src="logo-zh.png" alt="欧智电缆">
         </a>
         <p data-i18n="footer.about">Source factory of IEC-certified 26/35 kV XLPE medium-voltage power cables — factory-direct supply to data centers, renewables, industry and grid infrastructure worldwide.</p>
       </div>
