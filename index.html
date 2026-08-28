@@ -8,15 +8,15 @@
 <meta name="keywords" content="35kV power cable manufacturer, 26/35 kV XLPE cable factory, source factory, MV cable manufacturer, factory direct cable supply, data center power cable, medium voltage cable export, GOST 31996 cable, IEC 60502-2 cable, cable supplier Uzbekistan">
 <meta name="robots" content="index, follow">
 <meta name="author" content="OUZHI Cable">
-<link rel="canonical" href="https://www.ouzcable.com/">
+<link rel="canonical" href="https://ouzcable.com/">
 
 <!-- hreflang for language versions -->
-<link rel="alternate" hreflang="en" href="https://www.ouzcable.com/">
-<link rel="alternate" hreflang="ru" href="https://www.ouzcable.com/?lang=ru">
-<link rel="alternate" hreflang="ar" href="https://www.ouzcable.com/?lang=ar">
-<link rel="alternate" hreflang="es" href="https://www.ouzcable.com/?lang=es">
-<link rel="alternate" hreflang="zh" href="https://www.ouzcable.com/?lang=zh">
-<link rel="alternate" hreflang="x-default" href="https://www.ouzcable.com/">
+<link rel="alternate" hreflang="en" href="https://ouzcable.com/">
+<link rel="alternate" hreflang="ru" href="https://ouzcable.com/?lang=ru">
+<link rel="alternate" hreflang="ar" href="https://ouzcable.com/?lang=ar">
+<link rel="alternate" hreflang="es" href="https://ouzcable.com/?lang=es">
+<link rel="alternate" hreflang="zh" href="https://ouzcable.com/?lang=zh">
+<link rel="alternate" hreflang="x-default" href="https://ouzcable.com/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -24,7 +24,7 @@
 <meta property="og:title" content="35kV Power Cable Manufacturer &amp; Source Factory | OUZHI Cable">
 <meta property="og:description" content="Source factory of IEC-certified 26/35 kV XLPE power cables. Factory-direct supply to data centers, renewables, industry and grid infrastructure. Global export with full testing and certification.">
 <meta property="og:image" content="https://aka.doubaocdn.com/s/uAc53Rs2Qv">
-<meta property="og:url" content="https://www.ouzcable.com/">
+<meta property="og:url" content="https://ouzcable.com/">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
@@ -45,22 +45,50 @@
   "@graph": [
     {
       "@type": "Organization",
+      "@id": "https://ouzcable.com/#organization",
       "name": "OUZHI Cable",
-      "url": "https://www.ouzcable.com/",
+      "alternateName": "欧智电缆",
+      "url": "https://ouzcable.com/",
+      "logo": "https://ouzcable.com/logo-en.png",
+      "image": "https://ouzcable.com/logo-en.png",
       "description": "Source factory and manufacturer of IEC-certified 26/35 kV XLPE medium-voltage power cables. Factory-direct supply for data centers, renewable energy, industry and grid infrastructure worldwide.",
+      "foundingDate": "2009",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CN",
+        "addressLocality": "China"
+      },
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "sales",
         "email": "info@ouzcable.com",
-        "areaServed": ["Central Asia","Middle East","Russia","Europe","Americas","Uzbekistan","Kazakhstan","Turkey","Germany","Malaysia","Mexico"]
+        "telephone": "+998998516999",
+        "areaServed": ["Central Asia","Middle East","Russia","Europe","Americas","Uzbekistan","Kazakhstan","Turkey","Germany","Malaysia","Mexico"],
+        "availableLanguage": ["English","Russian","Arabic","Spanish","Chinese"]
       }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ouzcable.com/#website",
+      "url": "https://ouzcable.com/",
+      "name": "OUZHI Cable — 35kV Power Cable Manufacturer",
+      "publisher": { "@id": "https://ouzcable.com/#organization" },
+      "inLanguage": ["en","ru","ar","es","zh"]
     },
     {
       "@type": "Product",
       "name": "26/35 kV XLPE Power Cable",
       "category": "Medium Voltage Power Cable",
       "brand": { "@type": "Brand", "name": "OUZHI Cable" },
-      "description": "Copper or aluminium conductor, XLPE insulation, copper wire and tape screen, SWA or aluminium armour, PVC or LSZH sheath. Compliant with IEC 60502-2, GB/T 12706.2 and GOST 31996."
+      "manufacturer": { "@id": "https://ouzcable.com/#organization" },
+      "description": "Copper or aluminium conductor, XLPE insulation, copper wire and tape screen, SWA or aluminium armour, PVC or LSZH sheath. Compliant with IEC 60502-2, GB/T 12706.2 and GOST 31996.",
+      "sku": "35KV-XLPE",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://ouzcable.com/#contact"
+      }
     }
   ]
 }
