@@ -1,0 +1,122 @@
+# OUZHI Cable - robots.txt
+# https://ouzcable.com
+
+User-agent: *
+Allow: /
+
+# === 主流搜索引擎 ===
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: YandexAccessibilityBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Baiduspider-image
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# === AI 搜索引擎 / 大模型爬虫 ===
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: PerplexityRender
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: AI2Bot-Dolma
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# === 禁止恶意爬虫 ===
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://ouzcable.com/sitemap.xml
