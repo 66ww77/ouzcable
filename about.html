@@ -9,91 +9,73 @@
 <meta name="robots" content="index, follow">
 <meta name="author" content="OUZHI Cable">
 <link rel="canonical" href="https://ouzcable.com/about.html">
-
-<!-- Open Graph -->
+<link rel="alternate" hreflang="en" href="https://ouzcable.com/about.html?lang=en">
+<link rel="alternate" hreflang="zh" href="https://ouzcable.com/about.html?lang=zh">
+<link rel="alternate" hreflang="ru" href="https://ouzcable.com/about.html?lang=ru">
+<link rel="alternate" hreflang="ar" href="https://ouzcable.com/about.html?lang=ar">
+<link rel="alternate" hreflang="fr" href="https://ouzcable.com/about.html?lang=fr">
+<link rel="alternate" hreflang="de" href="https://ouzcable.com/about.html?lang=de">
+<link rel="alternate" hreflang="uk" href="https://ouzcable.com/about.html?lang=uk">
+<link rel="alternate" hreflang="es" href="https://ouzcable.com/about.html?lang=es">
+<link rel="alternate" hreflang="tr" href="https://ouzcable.com/about.html?lang=tr">
+<link rel="alternate" hreflang="pt" href="https://ouzcable.com/about.html?lang=pt">
+<link rel="alternate" hreflang="x-default" href="https://ouzcable.com/about.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OUZHI Cable">
 <meta property="og:title" content="About OUZHI Cable — 35kV Power Cable Source Factory">
 <meta property="og:description" content="OUZHI Cable (欧智电缆) — source factory of IEC-certified 26/35 kV XLPE power cables. Factory-direct supply to data centers, renewables, industry and grid infrastructure worldwide.">
 <meta property="og:url" content="https://ouzcable.com/about.html">
 <meta property="og:image" content="https://ouzcable.com/logo-en.png">
-
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="OUZHI Cable — 35kV Power Cable Source Factory">
 <meta name="twitter:description" content="Factory-direct IEC-certified 26/35 kV XLPE power cables for data centers, renewables, industry and grid infrastructure.">
 <meta name="twitter:image" content="https://ouzcable.com/logo-en.png">
-
-<!-- Fonts -->
 <link rel="preconnect" href="https://miaoda.feishu.cn" crossorigin>
-<link rel="preconnect" href="https://aka.doubaocdn.com" crossorigin>
-<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap">
-
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap">
 <style>
 :root{
-  --navy:#0a1628;
-  --navy-2:#0e1e38;
-  --navy-3:#13294d;
-  --copper:#c8843d;
-  --copper-2:#e0a45f;
-  --text:#aab8cd;
-  --white:#ffffff;
+  --navy:#0a1628;--navy-2:#0e1e38;--navy-3:#13294d;
+  --copper:#c8843d;--copper-2:#e0a45f;--text:#aab8cd;--white:#fff;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Manrope','Noto Sans SC',sans-serif;background:var(--navy);color:var(--text);line-height:1.75;font-size:16px}
+body{font-family:'Manrope','Noto Sans SC','Noto Sans Arabic',sans-serif;background:var(--navy);color:var(--text);line-height:1.75;font-size:16px}
+html[dir="rtl"] body{font-family:'Noto Sans Arabic','Manrope',sans-serif}
 .container{max-width:1080px;margin:0 auto;padding:0 28px}
-
-/* Top bar */
 .topbar{background:var(--navy-2);border-bottom:1px solid rgba(200,132,61,.25);padding:14px 0}
 .topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:14px;text-decoration:none}
 .brand img{height:52px;width:auto}
-.lang{display:flex;gap:8px}
-.lang a{color:var(--copper-2);text-decoration:none;font-size:13px;font-weight:700;letter-spacing:.06em;padding:5px 12px;border:1px solid rgba(200,132,61,.4);border-radius:20px;transition:.3s}
-.lang a:hover{background:var(--copper);color:#fff}
-
-/* Hero */
+.lang-select{position:relative}
+.lang-select select{background:var(--navy-3);color:var(--copper-2);border:1px solid rgba(200,132,61,.4);border-radius:20px;padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer;outline:none;font-family:inherit}
+.lang-select select option{background:var(--navy);color:var(--copper-2)}
 .hero{padding:80px 0 60px;text-align:center;background:radial-gradient(ellipse at top,rgba(19,41,77,.7),rgba(10,22,40,0) 65%)}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--copper-2);font-weight:700;letter-spacing:.22em;font-size:13px;text-transform:uppercase}
 .hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;color:#fff;margin:18px 0 14px;letter-spacing:.01em}
 .hero .sub{font-size:clamp(1rem,2vw,1.2rem);color:var(--copper-2);font-weight:600;margin-bottom:10px}
 .hero p.lead{max-width:820px;margin:0 auto;font-size:1.05rem}
-
-/* Sections */
 .section{padding:56px 0;border-top:1px solid rgba(255,255,255,.06)}
-.section h2{color:#fff;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;margin-bottom:20px;letter-spacing:.01em}
+.section h2{color:#fff;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;margin-bottom:20px}
 .section h3{color:var(--copper-2);font-size:1.1rem;font-weight:700;margin:24px 0 10px}
 .section p{margin-bottom:16px}
 .section ul{margin:0 0 18px 20px}
 .section li{margin-bottom:8px}
-
-/* Cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:10px}
 .card{background:var(--navy-2);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:22px}
 .card .num{color:var(--copper);font-size:1.6rem;font-weight:800;line-height:1}
 .card .t{color:#fff;font-weight:700;margin:10px 0 6px}
 .card .d{font-size:.9rem}
-
-/* Markets */
 .market-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
 .market-tags span{background:rgba(200,132,61,.12);border:1px solid rgba(200,132,61,.35);color:var(--copper-2);padding:8px 16px;border-radius:24px;font-weight:700;font-size:.92rem}
-
-/* Table */
 table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem}
 th{background:var(--navy-3);color:var(--copper-2);text-align:left;padding:12px 14px;font-weight:700}
 td{padding:11px 14px;border-bottom:1px solid rgba(255,255,255,.08)}
-tr:hover td{background:rgba(200,132,61,.06)}
-
-/* Contact CTA */
+html[dir="rtl"] th,html[dir="rtl"] td{text-align:right}
 .cta{background:linear-gradient(135deg,var(--navy-3),var(--navy-2));border:1px solid rgba(200,132,61,.3);border-radius:16px;padding:36px;margin-top:30px}
 .cta h2{color:#fff;margin-bottom:14px}
 .cta p{margin-bottom:18px}
 .btn{display:inline-block;background:var(--copper);color:#fff;font-weight:700;padding:14px 34px;border-radius:30px;text-decoration:none;font-size:1rem;letter-spacing:.04em;transition:.3s}
 .btn:hover{background:var(--copper-2)}
-.contact-lines{margin-top:22px;font-size:.98rem}
-.contact-lines a{color:var(--copper-2);text-decoration:none;font-weight:600}
-.contact-lines a:hover{text-decoration:underline}
 .contact-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
 .contact-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 22px;border-radius:30px;font-weight:700;font-size:.95rem;text-decoration:none;transition:.3s;border:1px solid transparent}
 .contact-btn svg{width:19px;height:19px;flex-shrink:0}
@@ -104,101 +86,96 @@ tr:hover td{background:rgba(200,132,61,.06)}
 .cb-wa:hover{background:#25d366;color:#062b12}
 .cb-tg{background:rgba(42,171,238,.12);border-color:rgba(42,171,238,.45);color:#4dc3f6}
 .cb-tg:hover{background:#2aabee;color:#06233a}
-
-/* Footer */
+.contact-lines{margin-top:22px;font-size:.98rem}
+.contact-lines a{color:var(--copper-2);text-decoration:none;font-weight:600}
+.contact-lines a:hover{text-decoration:underline}
 footer{padding:30px 0;border-top:1px solid rgba(255,255,255,.08);text-align:center;font-size:.85rem}
 footer a{color:var(--copper-2);text-decoration:none}
 .back{display:inline-block;margin:16px 0 0;color:var(--copper-2);text-decoration:none;font-weight:700}
-
-.lang-zh{display:none}
-html[lang="zh"] .lang-en{display:none}
-html[lang="zh"] .lang-zh{display:block}
-
-@media(max-width:640px){
-  .hero{padding:56px 0 40px}
-  .section{padding:40px 0}
-  .cta{padding:26px 20px}
-  .brand img{height:42px}
-}
+@media(max-width:640px){.hero{padding:56px 0 40px}.section{padding:40px 0}.cta{padding:26px 20px}.brand img{height:42px}}
 </style>
 </head>
 <body>
 
 <div class="topbar">
   <div class="container topbar-inner">
-    <a class="brand" href="https://ouzcable.com/">
-      <img src="logo-en.png" alt="OUZHI Cable — 35kV Power Cable Manufacturer">
-    </a>
-    <div class="lang">
-      <a href="#" onclick="setLang('en');return false;">EN</a>
-      <a href="#" onclick="setLang('zh');return false;">中文</a>
+    <a class="brand" href="https://ouzcable.com/"><img src="logo-en.png" alt="OUZHI Cable"></a>
+    <div class="lang-select">
+      <select id="langSelect" onchange="setLang(this.value)">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+        <option value="ru">Русский</option>
+        <option value="ar">العربية</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="uk">Українська</option>
+        <option value="es">Español</option>
+        <option value="tr">Türkçe</option>
+        <option value="pt">Português</option>
+      </select>
     </div>
   </div>
 </div>
 
-<!-- ============ ENGLISH ============ -->
-<div class="lang-en">
 <section class="hero">
   <div class="container">
-    <span class="eyebrow">Source Factory · Factory Direct · Global Export</span>
-    <h1>OUZHI Cable — Powering the World's Critical Infrastructure</h1>
-    <div class="sub">欧智电缆 · 35 kV XLPE Medium-Voltage Cable Source Factory</div>
-    <p class="lead">OUZHI Cable (欧智电缆) is a genuine source factory for 26/35 kV XLPE medium-voltage power cables — not a trading company. We design, produce, test and export IEC-certified 35 kV cable systems directly from our own production lines to customers across Central Asia, the Middle East, Russia, Europe and the Americas.</p>
+    <span class="eyebrow" data-i18n="hero.eyebrow">Source Factory · Factory Direct · Global Export</span>
+    <h1 data-i18n="hero.title">OUZHI Cable — Powering the World's Critical Infrastructure</h1>
+    <div class="sub" data-i18n="hero.sub">欧智电缆 · 35 kV XLPE Medium-Voltage Cable Source Factory</div>
+    <p class="lead" data-i18n="hero.lead">OUZHI Cable (欧智电缆) is a genuine source factory for 26/35 kV XLPE medium-voltage power cables — not a trading company. We design, produce, test and export IEC-certified 35 kV cable systems directly from our own production lines to customers across Central Asia, the Middle East, Russia, Europe and the Americas.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <h2>Who We Are</h2>
-    <p>Founded as a manufacturing enterprise, OUZHI Cable owns the complete production chain for medium-voltage power cables: copper and aluminium conductors, XLPE insulation, copper wire and tape screens, SWA or aluminium armour, and PVC or LSZH sheaths. Because we are the factory, we control quality, pricing and delivery from the first drawing to the port — with no middlemen and no trading margins.</p>
-    <p>Our 35 kV cable line is produced end-to-end on our own modern extrusion, screening and armouring equipment, followed by rigorous in-house high-voltage testing. Every reel that leaves our factory complies with <strong>IEC 60502-2</strong>, <strong>GB/T 12706.2</strong> and <strong>GOST 31996</strong>, backed by ISO 9001 quality management.</p>
+    <h2 data-i18n="about.title">Who We Are</h2>
+    <p data-i18n="about.p1">Founded as a manufacturing enterprise, OUZHI Cable owns the complete production chain for medium-voltage power cables: copper and aluminium conductors, XLPE insulation, copper wire and tape screens, SWA or aluminium armour, and PVC or LSZH sheaths. Because we are the factory, we control quality, pricing and delivery from the first drawing to the port — with no middlemen and no trading margins.</p>
+    <p data-i18n="about.p2">Our 35 kV cable line is produced end-to-end on our own modern extrusion, screening and armouring equipment, followed by rigorous in-house high-voltage testing. Every reel that leaves our factory complies with <strong>IEC 60502-2</strong>, <strong>GB/T 12706.2</strong> and <strong>GOST 31996</strong>, backed by ISO 9001 quality management.</p>
     <div class="grid">
-      <div class="card"><div class="num">35 kV</div><div class="t">Core Product</div><div class="d">26/35 kV XLPE medium-voltage power cable systems for critical power delivery.</div></div>
-      <div class="card"><div class="num">100%</div><div class="t">Source Factory</div><div class="d">Own production lines. Factory-direct pricing, no trading layers.</div></div>
-      <div class="card"><div class="num">3+</div><div class="t">Certifications</div><div class="d">IEC 60502-2, GB/T 12706.2, GOST 31996 &amp; ISO 9001.</div></div>
-      <div class="card"><div class="num">20+</div><div class="t">Export Markets</div><div class="d">Serving Central Asia, Middle East, Russia, Europe and the Americas.</div></div>
+      <div class="card"><div class="num" data-i18n="about.c1n">35 kV</div><div class="t" data-i18n="about.c1t">Core Product</div><div class="d" data-i18n="about.c1d">26/35 kV XLPE medium-voltage power cable systems for critical power delivery.</div></div>
+      <div class="card"><div class="num" data-i18n="about.c2n">100%</div><div class="t" data-i18n="about.c2t">Source Factory</div><div class="d" data-i18n="about.c2d">Own production lines. Factory-direct pricing, no trading layers.</div></div>
+      <div class="card"><div class="num" data-i18n="about.c3n">3+</div><div class="t" data-i18n="about.c3t">Certifications</div><div class="d" data-i18n="about.c3d">IEC 60502-2, GB/T 12706.2, GOST 31996 &amp; ISO 9001.</div></div>
+      <div class="card"><div class="num" data-i18n="about.c4n">20+</div><div class="t" data-i18n="about.c4t">Export Markets</div><div class="d" data-i18n="about.c4d">Serving Central Asia, Middle East, Russia, Europe and the Americas.</div></div>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <h2>Core Product — 35 kV Power Cable for Data Centers &amp; Grids</h2>
-    <p>Our flagship 26/35 kV XLPE power cable is engineered for the most demanding medium-voltage applications:</p>
+    <h2 data-i18n="product.title">Core Product — 35 kV Power Cable for Data Centers &amp; Grids</h2>
+    <p data-i18n="product.p1">Our flagship 26/35 kV XLPE power cable is engineered for the most demanding medium-voltage applications:</p>
     <ul>
-      <li><strong>Data centers &amp; computing power facilities (算力中心)</strong> — reliable MV power delivery for AI and high-performance computing infrastructure.</li>
-      <li><strong>Renewable energy</strong> — wind and solar farm collector circuits and substation connections.</li>
-      <li><strong>Industrial plants</strong> — continuous process lines, mines and heavy industry.</li>
-      <li><strong>Grid infrastructure</strong> — urban distribution networks, substations and power utilities.</li>
+      <li data-i18n="product.li1"><strong>Data centers &amp; computing power facilities</strong> — reliable MV power delivery for AI and high-performance computing infrastructure.</li>
+      <li data-i18n="product.li2"><strong>Renewable energy</strong> — wind and solar farm collector circuits and substation connections.</li>
+      <li data-i18n="product.li3"><strong>Industrial plants</strong> — continuous process lines, mines and heavy industry.</li>
+      <li data-i18n="product.li4"><strong>Grid infrastructure</strong> — urban distribution networks, substations and power utilities.</li>
     </ul>
-    <p>Conductor, armour, sheath (PVC or LSZH), drum type, labelling and private-label packaging can all be customized to meet your project specifications, local standards and market requirements.</p>
+    <p data-i18n="product.p2">Conductor, armour, sheath (PVC or LSZH), drum type, labelling and private-label packaging can all be customized to meet your project specifications, local standards and market requirements.</p>
     <table>
-      <tr><th>Parameter</th><th>Specification</th></tr>
-      <tr><td>Rated Voltage</td><td>26/35 kV (36 kV system)</td></tr>
-      <tr><td>Standards</td><td>IEC 60502-2, GB/T 12706.2, GOST 31996</td></tr>
-      <tr><td>Conductor</td><td>Copper or aluminium, compact stranded</td></tr>
-      <tr><td>Insulation</td><td>XLPE (cross-linked polyethylene)</td></tr>
-      <tr><td>Screen</td><td>Copper wire and copper tape</td></tr>
-      <tr><td>Armour</td><td>SWA or aluminium (optional)</td></tr>
-      <tr><td>Sheath</td><td>PVC or LSZH (low smoke zero halogen)</td></tr>
+      <tr><th data-i18n="product.th1">Parameter</th><th data-i18n="product.th2">Specification</th></tr>
+      <tr><td data-i18n="product.r1k">Rated Voltage</td><td>26/35 kV (36 kV system)</td></tr>
+      <tr><td data-i18n="product.r2k">Standards</td><td>IEC 60502-2, GB/T 12706.2, GOST 31996</td></tr>
+      <tr><td data-i18n="product.r3k">Conductor</td><td data-i18n="product.r3v">Copper or aluminium, compact stranded</td></tr>
+      <tr><td data-i18n="product.r4k">Insulation</td><td>XLPE (cross-linked polyethylene)</td></tr>
+      <tr><td data-i18n="product.r5k">Screen</td><td data-i18n="product.r5v">Copper wire and copper tape</td></tr>
+      <tr><td data-i18n="product.r6k">Armour</td><td data-i18n="product.r6v">SWA or aluminium (optional)</td></tr>
+      <tr><td data-i18n="product.r7k">Sheath</td><td data-i18n="product.r7v">PVC or LSZH (low smoke zero halogen)</td></tr>
     </table>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <h2>Global Market Coverage</h2>
-    <p>Headquartered in China, OUZHI Cable exports to customers worldwide, with a strong presence in the fastest-growing and most demanding power markets:</p>
-    <div class="market-tags">
-      <span>Uzbekistan</span><span>Kazakhstan</span><span>Central Asia</span><span>Turkey</span><span>Middle East</span><span>Russia</span><span>Germany</span><span>Europe</span><span>Malaysia</span><span>Mexico</span><span>Americas</span>
-    </div>
-    <h3>Why Customers Choose OUZHI Cable</h3>
+    <h2 data-i18n="markets.title">Global Market Coverage</h2>
+    <p data-i18n="markets.p">Headquartered in China, OUZHI Cable exports to customers worldwide, with a strong presence in the fastest-growing and most demanding power markets:</p>
+    <div class="market-tags" id="marketTags"></div>
+    <h3 data-i18n="markets.why">Why Customers Choose OUZHI Cable</h3>
     <ul>
-      <li><strong>Factory-direct pricing</strong> — you buy from the source, not from a trader.</li>
-      <li><strong>Certified quality</strong> — IEC, GB and GOST compliant with full test documentation.</li>
-      <li><strong>Flexible MOQ</strong> — from small project drums to full container and turnkey export orders.</li>
-      <li><strong>Custom &amp; OEM</strong> — private label, custom lengths, drums and packaging.</li>
-      <li><strong>Dedicated export team</strong> — multilingual support for international projects and tenders.</li>
+      <li data-i18n="markets.w1"><strong>Factory-direct pricing</strong> — you buy from the source, not from a trader.</li>
+      <li data-i18n="markets.w2"><strong>Certified quality</strong> — IEC, GB and GOST compliant with full test documentation.</li>
+      <li data-i18n="markets.w3"><strong>Flexible MOQ</strong> — from small project drums to full container and turnkey export orders.</li>
+      <li data-i18n="markets.w4"><strong>Custom &amp; OEM</strong> — private label, custom lengths, drums and packaging.</li>
+      <li data-i18n="markets.w5"><strong>Dedicated export team</strong> — multilingual support for international projects and tenders.</li>
     </ul>
   </div>
 </section>
@@ -206,175 +183,481 @@ html[lang="zh"] .lang-zh{display:block}
 <section class="section">
   <div class="container">
     <div class="cta">
-      <h2>Request a Factory-Direct Quote</h2>
-      <p>Contact our export sales team for specifications, certifications, pricing and delivery. We reply to every inquiry with detailed technical documentation.</p>
-      <a class="btn" href="mailto:info@ouzcable.com">Email: info@ouzcable.com</a>
+      <h2 data-i18n="cta.title">Request a Factory-Direct Quote</h2>
+      <p data-i18n="cta.p">Contact our export sales team for specifications, certifications, pricing and delivery. We reply to every inquiry with detailed technical documentation.</p>
+      <a class="btn" href="mailto:info@ouzcable.com" data-i18n="cta.btn">Email: info@ouzcable.com</a>
       <div class="contact-row">
-        <a class="contact-btn cb-phone" href="tel:+998998516999" title="Call us">
+        <a class="contact-btn cb-phone" href="tel:+998998516999">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-          Phone: +998 99 851 6999
+          <span data-i18n="cta.phone">Phone: +998 99 851 6999</span>
         </a>
-        <a class="contact-btn cb-wa" href="https://wa.me/998998516999" target="_blank" rel="noopener" title="Chat on WhatsApp">
+        <a class="contact-btn cb-wa" href="https://wa.me/998998516999" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          WhatsApp: +998 99 851 6999
+          <span data-i18n="cta.whatsapp">WhatsApp: +998 99 851 6999</span>
         </a>
-        <a class="contact-btn cb-tg" href="https://t.me/H99G99" target="_blank" rel="noopener" title="Chat on Telegram">
+        <a class="contact-btn cb-tg" href="https://t.me/H99G99" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-          Telegram: @H99G99
+          <span data-i18n="cta.telegram">Telegram: @H99G99</span>
         </a>
       </div>
       <div class="contact-lines">
-        Email: <a href="mailto:info@ouzcable.com">info@ouzcable.com</a><br>
-        HQ: China · Export Worldwide
+        <span data-i18n="cta.email">Email:</span> <a href="mailto:info@ouzcable.com">info@ouzcable.com</a><br>
+        <span data-i18n="cta.hq">HQ: China · Export Worldwide</span>
       </div>
     </div>
   </div>
 </section>
-</div>
-
-<!-- ============ CHINESE ============ -->
-<div class="lang-zh">
-<section class="hero">
-  <div class="container">
-    <span class="eyebrow">源头工厂 · 工厂直供 · 全球出口</span>
-    <h1>欧智电缆 — 为全球关键基础设施输送电力</h1>
-    <div class="sub">OUZHI Cable · 26/35 kV XLPE 中压电力电缆源头工厂</div>
-    <p class="lead">欧智电缆（OUZHI Cable）是一家真正的 35KV 电力电缆源头工厂，而非贸易公司。我们从自有生产线直接设计、生产、检测并出口符合 IEC 认证的 35KV 电缆系统，产品远销中亚、中东、俄罗斯、欧洲与美洲市场。</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2>关于我们</h2>
-    <p>欧智电缆拥有中压电力电缆的完整生产链条：铜芯与铝芯导体、XLPE 交联绝缘、铜丝与铜带屏蔽、钢带或铝合金铠装，以及 PVC 或低烟无卤（LSZH）护套。作为源头工厂，我们从图纸到港口全程把控质量、价格与交期——没有中间商，没有贸易加价。</p>
-    <p>我们的 35KV 电缆生产线采用自有现代化挤塑、屏蔽与铠装设备，并通过严格的内控高压测试。每一盘出厂的电缆均符合 <strong>IEC 60502-2</strong>、<strong>GB/T 12706.2</strong> 与 <strong>GOST 31996</strong> 标准，并配套 ISO 9001 质量管理体系。</p>
-    <div class="grid">
-      <div class="card"><div class="num">35 kV</div><div class="t">核心产品</div><div class="d">26/35 kV XLPE 中压电力电缆系统，用于关键电力输送。</div></div>
-      <div class="card"><div class="num">100%</div><div class="t">源头工厂</div><div class="d">自有生产线，工厂直供价格，无贸易环节。</div></div>
-      <div class="card"><div class="num">3+</div><div class="t">认证标准</div><div class="d">IEC 60502-2、GB/T 12706.2、GOST 31996 及 ISO 9001。</div></div>
-      <div class="card"><div class="num">20+</div><div class="t">出口市场</div><div class="d">覆盖中亚、中东、俄罗斯、欧洲与美洲。</div></div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2>核心产品 — 数据中心与电网用 35KV 电力电缆</h2>
-    <p>旗舰产品 26/35 kV XLPE 电力电缆，专为严苛的中压应用场景设计：</p>
-    <ul>
-      <li><strong>数据中心与算力中心</strong> — 为 AI 与高性能计算基础设施提供可靠中压供电。</li>
-      <li><strong>新能源</strong> — 风电、光伏场区集电线路与升压站连接。</li>
-      <li><strong>工业项目</strong> — 连续生产线、矿山与重工业。</li>
-      <li><strong>电网基础设施</strong> — 城市配电网、变电站与电力公用事业。</li>
-    </ul>
-    <p>导体、铠装、护套（PVC 或 LSZH）、盘具、标识与贴牌包装均可按您的项目规格、当地标准与市场需求定制。</p>
-    <table>
-      <tr><th>参数</th><th>规格</th></tr>
-      <tr><td>额定电压</td><td>26/35 kV（36 kV 系统）</td></tr>
-      <tr><td>执行标准</td><td>IEC 60502-2、GB/T 12706.2、GOST 31996</td></tr>
-      <tr><td>导体</td><td>铜或铝，紧压圆形/扇形</td></tr>
-      <tr><td>绝缘</td><td>XLPE（交联聚乙烯）</td></tr>
-      <tr><td>屏蔽</td><td>铜丝 + 铜带</td></tr>
-      <tr><td>铠装</td><td>钢带铠装或铝合金（可选）</td></tr>
-      <tr><td>护套</td><td>PVC 或低烟无卤（LSZH）</td></tr>
-    </table>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2>全球市场覆盖</h2>
-    <p>欧智电缆总部位于中国，产品出口全球，在最具增长潜力的电力市场拥有强劲布局：</p>
-    <div class="market-tags">
-      <span>乌兹别克斯坦</span><span>哈萨克斯坦</span><span>中亚</span><span>土耳其</span><span>中东</span><span>俄罗斯</span><span>德国</span><span>欧洲</span><span>马来西亚</span><span>墨西哥</span><span>美洲</span>
-    </div>
-    <h3>客户为何选择欧智电缆</h3>
-    <ul>
-      <li><strong>工厂直供价格</strong> — 直接与源头工厂交易，而非贸易商。</li>
-      <li><strong>认证品质</strong> — 符合 IEC、GB、GOST 标准，附完整检测文件。</li>
-      <li><strong>灵活起订量</strong> — 从小批量盘具到整柜及交钥匙出口订单均可承接。</li>
-      <li><strong>定制与 OEM</strong> — 贴牌、定制长度、盘具与包装。</li>
-      <li><strong>专业出口团队</strong> — 面向国际项目与招投标的多语言支持。</li>
-    </ul>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="cta">
-      <h2>获取工厂直供报价</h2>
-      <p>联系出口销售团队获取规格、认证、价格与交期信息。我们为每一封询盘提供详细的技术文件。</p>
-      <a class="btn" href="mailto:info@ouzcable.com">邮箱：info@ouzcable.com</a>
-      <div class="contact-row">
-        <a class="contact-btn cb-phone" href="tel:+998998516999" title="拨打">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-          电话：+998 99 851 6999
-        </a>
-        <a class="contact-btn cb-wa" href="https://wa.me/998998516999" target="_blank" rel="noopener" title="WhatsApp 聊天">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          WhatsApp：+998 99 851 6999
-        </a>
-        <a class="contact-btn cb-tg" href="https://t.me/H99G99" target="_blank" rel="noopener" title="Telegram 聊天">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-          Telegram：@H99G99
-        </a>
-      </div>
-      <div class="contact-lines">
-        邮箱：<a href="mailto:info@ouzcable.com">info@ouzcable.com</a><br>
-        总部：中国 · 出口全球
-      </div>
-    </div>
-  </div>
-</section>
-</div>
 
 <footer>
   <div class="container">
-    <a class="back" href="https://ouzcable.com/">← Back to OUZHI Cable Home</a>
-    <p>© <span id="year">2026</span> OUZHI Cable (欧智电缆). All rights reserved. · <a href="mailto:info@ouzcable.com">info@ouzcable.com</a> · +998 99 851 6999</p>
+    <a class="back" href="https://ouzcable.com/" data-i18n="footer.back">← Back to OUZHI Cable Home</a>
+    <p>© <span id="year">2026</span> OUZHI Cable (欧智电缆). <span data-i18n="footer.rights">All rights reserved.</span> · <a href="mailto:info@ouzcable.com">info@ouzcable.com</a> · +998 99 851 6999</p>
   </div>
 </footer>
 
 <script>
+var I18N = {
+en:{
+"hero.eyebrow":"Source Factory · Factory Direct · Global Export",
+"hero.title":"OUZHI Cable — Powering the World's Critical Infrastructure",
+"hero.sub":"欧智电缆 · 35 kV XLPE Medium-Voltage Cable Source Factory",
+"hero.lead":"OUZHI Cable (欧智电缆) is a genuine source factory for 26/35 kV XLPE medium-voltage power cables — not a trading company. We design, produce, test and export IEC-certified 35 kV cable systems directly from our own production lines to customers across Central Asia, the Middle East, Russia, Europe and the Americas.",
+"about.title":"Who We Are",
+"about.p1":"Founded as a manufacturing enterprise, OUZHI Cable owns the complete production chain for medium-voltage power cables: copper and aluminium conductors, XLPE insulation, copper wire and tape screens, SWA or aluminium armour, and PVC or LSZH sheaths. Because we are the factory, we control quality, pricing and delivery from the first drawing to the port — with no middlemen and no trading margins.",
+"about.p2":"Our 35 kV cable line is produced end-to-end on our own modern extrusion, screening and armouring equipment, followed by rigorous in-house high-voltage testing. Every reel that leaves our factory complies with IEC 60502-2, GB/T 12706.2 and GOST 31996, backed by ISO 9001 quality management.",
+"about.c1n":"35 kV","about.c1t":"Core Product","about.c1d":"26/35 kV XLPE medium-voltage power cable systems for critical power delivery.",
+"about.c2n":"100%","about.c2t":"Source Factory","about.c2d":"Own production lines. Factory-direct pricing, no trading layers.",
+"about.c3n":"3+","about.c3t":"Certifications","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 & ISO 9001.",
+"about.c4n":"20+","about.c4t":"Export Markets","about.c4d":"Serving Central Asia, Middle East, Russia, Europe and the Americas.",
+"product.title":"Core Product — 35 kV Power Cable for Data Centers & Grids",
+"product.p1":"Our flagship 26/35 kV XLPE power cable is engineered for the most demanding medium-voltage applications:",
+"product.li1":"Data centers & computing power facilities — reliable MV power delivery for AI and high-performance computing infrastructure.",
+"product.li2":"Renewable energy — wind and solar farm collector circuits and substation connections.",
+"product.li3":"Industrial plants — continuous process lines, mines and heavy industry.",
+"product.li4":"Grid infrastructure — urban distribution networks, substations and power utilities.",
+"product.p2":"Conductor, armour, sheath (PVC or LSZH), drum type, labelling and private-label packaging can all be customized to meet your project specifications, local standards and market requirements.",
+"product.th1":"Parameter","product.th2":"Specification",
+"product.r1k":"Rated Voltage","product.r2k":"Standards","product.r3k":"Conductor","product.r3v":"Copper or aluminium, compact stranded",
+"product.r4k":"Insulation","product.r5k":"Screen","product.r5v":"Copper wire and copper tape",
+"product.r6k":"Armour","product.r6v":"SWA or aluminium (optional)","product.r7k":"Sheath","product.r7v":"PVC or LSZH (low smoke zero halogen)",
+"markets.title":"Global Market Coverage",
+"markets.p":"Headquartered in China, OUZHI Cable exports to customers worldwide, with a strong presence in the fastest-growing and most demanding power markets:",
+"markets.tags":["Uzbekistan","Kazakhstan","Central Asia","Turkey","Middle East","Russia","Germany","Europe","Malaysia","Mexico","Americas"],
+"markets.why":"Why Customers Choose OUZHI Cable",
+"markets.w1":"Factory-direct pricing — you buy from the source, not from a trader.",
+"markets.w2":"Certified quality — IEC, GB and GOST compliant with full test documentation.",
+"markets.w3":"Flexible MOQ — from small project drums to full container and turnkey export orders.",
+"markets.w4":"Custom & OEM — private label, custom lengths, drums and packaging.",
+"markets.w5":"Dedicated export team — multilingual support for international projects and tenders.",
+"cta.title":"Request a Factory-Direct Quote",
+"cta.p":"Contact our export sales team for specifications, certifications, pricing and delivery. We reply to every inquiry with detailed technical documentation.",
+"cta.btn":"Email: info@ouzcable.com",
+"cta.phone":"Phone: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999",
+"cta.telegram":"Telegram: @H99G99",
+"cta.email":"Email:","cta.hq":"HQ: China · Export Worldwide",
+"footer.back":"← Back to OUZHI Cable Home","footer.rights":"All rights reserved."
+},
+zh:{
+"hero.eyebrow":"源头工厂 · 工厂直供 · 全球出口",
+"hero.title":"欧智电缆 — 为全球关键基础设施输送电力",
+"hero.sub":"OUZHI Cable · 26/35 kV XLPE 中压电力电缆源头工厂",
+"hero.lead":"欧智电缆（OUZHI Cable）是一家真正的 35KV 电力电缆源头工厂，而非贸易公司。我们从自有生产线直接设计、生产、检测并出口符合 IEC 认证的 35KV 电缆系统，产品远销中亚、中东、俄罗斯、欧洲与美洲市场。",
+"about.title":"关于我们",
+"about.p1":"欧智电缆拥有中压电力电缆的完整生产链条：铜芯与铝芯导体、XLPE 交联绝缘、铜丝与铜带屏蔽、钢带或铝合金铠装，以及 PVC 或低烟无卤（LSZH）护套。作为源头工厂，我们从图纸到港口全程把控质量、价格与交期——没有中间商，没有贸易加价。",
+"about.p2":"我们的 35KV 电缆生产线采用自有现代化挤塑、屏蔽与铠装设备，并通过严格的内控高压测试。每一盘出厂的电缆均符合 IEC 60502-2、GB/T 12706.2 与 GOST 31996 标准，并配套 ISO 9001 质量管理体系。",
+"about.c1n":"35 kV","about.c1t":"核心产品","about.c1d":"26/35 kV XLPE 中压电力电缆系统，用于关键电力输送。",
+"about.c2n":"100%","about.c2t":"源头工厂","about.c2d":"自有生产线，工厂直供价格，无贸易环节。",
+"about.c3n":"3+","about.c3t":"认证标准","about.c3d":"IEC 60502-2、GB/T 12706.2、GOST 31996 及 ISO 9001。",
+"about.c4n":"20+","about.c4t":"出口市场","about.c4d":"覆盖中亚、中东、俄罗斯、欧洲与美洲。",
+"product.title":"核心产品 — 数据中心与电网用 35KV 电力电缆",
+"product.p1":"旗舰产品 26/35 kV XLPE 电力电缆，专为严苛的中压应用场景设计：",
+"product.li1":"数据中心与算力中心 — 为 AI 与高性能计算基础设施提供可靠中压供电。",
+"product.li2":"新能源 — 风电、光伏场区集电线路与升压站连接。",
+"product.li3":"工业项目 — 连续生产线、矿山与重工业。",
+"product.li4":"电网基础设施 — 城市配电网、变电站与电力公用事业。",
+"product.p2":"导体、铠装、护套（PVC 或 LSZH）、盘具、标识与贴牌包装均可按您的项目规格、当地标准与市场需求定制。",
+"product.th1":"参数","product.th2":"规格",
+"product.r1k":"额定电压","product.r2k":"执行标准","product.r3k":"导体","product.r3v":"铜或铝，紧压圆形/扇形",
+"product.r4k":"绝缘","product.r5k":"屏蔽","product.r5v":"铜丝 + 铜带",
+"product.r6k":"铠装","product.r6v":"钢带铠装或铝合金（可选）","product.r7k":"护套","product.r7v":"PVC 或低烟无卤（LSZH）",
+"markets.title":"全球市场覆盖",
+"markets.p":"欧智电缆总部位于中国，产品出口全球，在最具增长潜力的电力市场拥有强劲布局：",
+"markets.tags":["乌兹别克斯坦","哈萨克斯坦","中亚","土耳其","中东","俄罗斯","德国","欧洲","马来西亚","墨西哥","美洲"],
+"markets.why":"客户为何选择欧智电缆",
+"markets.w1":"工厂直供价格 — 直接与源头工厂交易，而非贸易商。",
+"markets.w2":"认证品质 — 符合 IEC、GB、GOST 标准，附完整检测文件。",
+"markets.w3":"灵活起订量 — 从小批量盘具到整柜及交钥匙出口订单均可承接。",
+"markets.w4":"定制与 OEM — 贴牌、定制长度、盘具与包装。",
+"markets.w5":"专业出口团队 — 面向国际项目与招投标的多语言支持。",
+"cta.title":"获取工厂直供报价",
+"cta.p":"联系出口销售团队获取规格、认证、价格与交期信息。我们为每一封询盘提供详细的技术文件。",
+"cta.btn":"邮箱：info@ouzcable.com",
+"cta.phone":"电话：+998 99 851 6999",
+"cta.whatsapp":"WhatsApp：+998 99 851 6999",
+"cta.telegram":"Telegram：@H99G99",
+"cta.email":"邮箱：","cta.hq":"总部：中国 · 出口全球",
+"footer.back":"← 返回欧智电缆首页","footer.rights":"版权所有。"
+},
+ru:{
+"hero.eyebrow":"Завод-изготовитель · Прямые поставки · Глобальный экспорт",
+"hero.title":"OUZHI Cable — Энергоснабжение критической инфраструктуры мира",
+"hero.sub":"欧智电缆 · Завод по производству кабелей 35 кВ XLPE",
+"hero.lead":"OUZHI Cable (欧智电缆) — настоящий завод-изготовитель кабелей среднего напряжения 26/35 кВ XLPE, а не торговая компания. Мы проектируем, производим, тестируем и экспортируем сертифицированные по IEC кабельные системы 35 кВ напрямую с собственных производственных линий клиентам в Центральной Азии, на Ближнем Востоке, в России, Европе и Америке.",
+"about.title":"О нас",
+"about.p1":"Основанное как производственное предприятие, OUZHI Cable владеет полным производственным циклом кабелей среднего напряжения: медные и алюминиевые жилы, изоляция XLPE, медный экран из проволоки и ленты, броня из стальной проволоки или алюминия, оболочка из ПВХ или LSZH. Будучи заводом, мы контролируем качество, цены и сроки поставки от первого чертежа до порта — без посредников и торговых наценок.",
+"about.p2":"Наша линия кабелей 35 кВ производится полностью на собственном современном оборудовании для экструзии, экранирования и бронирования, с последующим строгим внутренним высоковольтным тестированием. Каждый барабан, покидающий наш завод, соответствует стандартам IEC 60502-2, GB/T 12706.2 и GOST 31996, подкрепленным менеджментом качества ISO 9001.",
+"about.c1n":"35 кВ","about.c1t":"Основной продукт","about.c1d":"Кабельные системы среднего напряжения 26/35 кВ XLPE для критического энергоснабжения.",
+"about.c2n":"100%","about.c2t":"Завод-изготовитель","about.c2d":"Собственные производственные линии. Цены завода-изготовителя, без торговых посредников.",
+"about.c3n":"3+","about.c3t":"Сертификаты","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 и ISO 9001.",
+"about.c4n":"20+","about.c4t":"Рынки экспорта","about.c4d":"Поставки в Центральную Азию, на Ближний Восток, в Россию, Европу и Америку.",
+"product.title":"Основной продукт — Кабель 35 кВ для дата-центров и электросетей",
+"product.p1":"Наш флагманский кабель 26/35 кВ XLPE разработан для самых требовательных применений среднего напряжения:",
+"product.li1":"Дата-центры и вычислительные центры — надежное энергоснабжение для ИИ и высокопроизводительных вычислительных инфраструктур.",
+"product.li2":"Возобновляемая энергетика — сборные цепи ветровых и солнечных ферм, подключения подстанций.",
+"product.li3":"Промышленные предприятия — непрерывные технологические линии, шахты и тяжелая промышленность.",
+"product.li4":"Электросетевая инфраструктура — городские распределительные сети, подстанции и энергокомпании.",
+"product.p2":"Жила, броня, оболочка (ПВХ или LSZH), тип барабана, маркировка и упаковка под частную марку могут быть настроены в соответствии со спецификациями вашего проекта, местными стандартами и требованиями рынка.",
+"product.th1":"Параметр","product.th2":"Спецификация",
+"product.r1k":"Номинальное напряжение","product.r2k":"Стандарты","product.r3k":"Жила","product.r3v":"Медь или алюминий, уплотненная многопроволочная",
+"product.r4k":"Изоляция","product.r5k":"Экран","product.r5v":"Медная проволока и медная лента",
+"product.r6k":"Броня","product.r6v":"Стальная проволока или алюминий (опционально)","product.r7k":"Оболочка","product.r7v":"ПВХ или LSZH (низкое дымо- и газовыделение)",
+"markets.title":"Глобальное покрытие рынков",
+"markets.p":"Со штаб-квартирой в Китае, OUZHI Cable экспортирует продукцию клиентам по всему миру, имея сильное присутствие на самых быстрорастущих и требовательных энергетических рынках:",
+"markets.tags":["Узбекистан","Казахстан","Центральная Азия","Турция","Ближний Восток","Россия","Германия","Европа","Малайзия","Мексика","Америка"],
+"markets.why":"Почему клиенты выбирают OUZHI Cable",
+"markets.w1":"Цены завода-изготовителя — вы покупаете у источника, а не у торговца.",
+"markets.w2":"Сертифицированное качество — соответствие IEC, GB и GOST с полной документацией по испытаниям.",
+"markets.w3":"Гибкий минимальный заказ — от небольших проектных барабанов до полных контейнеров и экспортных заказов под ключ.",
+"markets.w4":"Кастомизация и OEM — частная марка, индивидуальные длины, барабаны и упаковка.",
+"markets.w5":"Выделенная экспортная команда — многоязычная поддержка международных проектов и тендеров.",
+"cta.title":"Запросить цену завода-изготовителя",
+"cta.p":"Свяжитесь с нашей экспортной командой продаж для получения спецификаций, сертификатов, цен и сроков поставки. Мы отвечаем на каждый запрос подробной технической документацией.",
+"cta.btn":"Email: info@ouzcable.com",
+"cta.phone":"Телефон: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999",
+"cta.telegram":"Telegram: @H99G99",
+"cta.email":"Email:","cta.hq":"Штаб: Китай · Экспорт по всему миру",
+"footer.back":"← Вернуться на главную OUZHI Cable","footer.rights":"Все права защищены."
+},
+ar:{
+"hero.eyebrow":"مصنع مصدر · توريد مباشر من المصنع · تصدير عالمي",
+"hero.title":"OUZHI Cable — تشغيل البنية التحتية الحرجة في العالم",
+"hero.sub":"أوزهي كيبل · مصنع كابلات متوسط الجهد 35 كيلوفولت XLPE",
+"hero.lead":"OUZHI Cable (أوزهي كيبل) هي مصنع مصدر حقيقي لكابلات متوسط الجهد 26/35 كيلوفولت XLPE — وليست شركة تجارية. نقوم بتصميم وإنتاج واختبار وتصدير أنظمة كابلات 35 كيلوفولت المعتمدة حسب معيار IEC مباشرة من خطوط الإنتاج الخاصة بنا إلى العملاء في جميع أنحاء آسيا الوسطى والشرق الأوسط وروسيا وأوروبا والأمريكتين.",
+"about.title":"من نحن",
+"about.p1":"تأسست OUZHI Cable كمؤسسة تصنيعية، وتمتلك OUZHI Cable سلسلة الإنتاج الكاملة لكابلات متوسط الجهد: الموصلات النحاسية والألومنيوم، وعزل XLPE، وشاشات الأسلاك النحاسية والأشرطة، والدرع من الأسلاك الفولاذية أو الألومنيوم، والغلاف من PVC أو LSZH. لأننا المصنع، فإننا نتحكم في الجودة والتسعير والتسليم من أول رسم إلى الميناء — بدون وسطاء وبدون هوامش تجارية.",
+"about.p2":"يتم إنتاج خط كابلات 35 كيلوفولت الخاص بنا من البداية إلى النهاية على معدات البثق والشاشة والدرع الحديثة الخاصة بنا، يليها اختبار صارم للجهد العالي داخل المصنع. كل بكرة تغادر مصنعنا تتوافق مع معايير IEC 60502-2 و GB/T 12706.2 و GOST 31996، مدعومة بإدارة جودة ISO 9001.",
+"about.c1n":"35 كيلوفولت","about.c1t":"المنتج الأساسي","about.c1d":"أنظمة كابلات متوسط الجهد 26/35 كيلوفولت XLPE لتوصيل الطاقة الحرج.",
+"about.c2n":"100%","about.c2t":"مصنع مصدر","about.c2d":"خطوط إنتاج خاصة. تسعير مباشر من المصنع، بدون طبقات تجارية.",
+"about.c3n":"3+","about.c3t":"الشهادات","about.c3d":"IEC 60502-2 و GB/T 12706.2 و GOST 31996 و ISO 9001.",
+"about.c4n":"20+","about.c4t":"أسواق التصدير","about.c4d":"نخدم آسيا الوسطى والشرق الأوسط وروسيا وأوروبا والأمريكتين.",
+"product.title":"المنتج الأساسي — كابل 35 كيلوفولت لمراكز البيانات والشبكات",
+"product.p1":"تم تصميم كابل 26/35 كيلوفولت XLPE الرائد لأكثر تطبيقات متوسط الجهد تطلباً:",
+"product.li1":"مراكز البيانات ومرافق الحوسبة — توصيل طاقة موثوق لبنى تحتية للذكاء الاصطناعي والحوسبة عالية الأداء.",
+"product.li2":"الطاقة المتجددة — دوائر تجميع مزارع الرياح والطاقة الشمسية واتصالات المحطات الفرعية.",
+"product.li3":"المصانع الصناعية — خطوط الإنتاج المستمرة والمناجم والصناعات الثقيلة.",
+"product.li4":"بنية تحتية للشبكة — شبكات التوزيع الحضرية والمحطات الفرعية وشركات المرافق الكهربائية.",
+"product.p2":"يمكن تخصيص الموصل والدرع والغلاف (PVC أو LSZH) ونوع البكرة والوسوم والتغليف بالعلامة الخاصة لتلبية مواصفات مشروعك والمعايير المحلية ومتطلبات السوق.",
+"product.th1":"المعامل","product.th2":"المواصفات",
+"product.r1k":"الجهد الاسمي","product.r2k":"المعايير","product.r3k":"الموصل","product.r3v":"نحاس أو ألومنيوم، مجدول مضغوط",
+"product.r4k":"العزل","product.r5k":"الشاشة","product.r5v":"سلك نحاسي وشريط نحاسي",
+"product.r6k":"الدرع","product.r6v":"أسلاك فولاذية أو ألومنيوم (اختياري)","product.r7k":"الغلاف","product.r7v":"PVC أو LSZH (دخان منخفض بدون هالوجين)",
+"markets.title":"تغطية السوق العالمية",
+"markets.p":"مع مقرها الرئيسي في الصين، تصدر OUZHI Cable للعملاء في جميع أنحاء العالم، مع حضور قوي في أسواق الطاقة الأسرع نمواً والأكثر تطلباً:",
+"markets.tags":["أوزبكستان","كازاخستان","آسيا الوسطى","تركيا","الشرق الأوسط","روسيا","ألمانيا","أوروبا","ماليزيا","المكسيك","الأمريكتين"],
+"markets.why":"لماذا يختار العملاء OUZHI Cable",
+"markets.w1":"تسعير مباشر من المصنع — تشتري من المصدر، وليس من تاجر.",
+"markets.w2":"جودة معتمدة — متوافق مع IEC و GB و GOST مع وثائق اختبار كاملة.",
+"markets.w3":"حد أدنى مرن للطلب — من بكرات المشروع الصغيرة إلى الحاويات الكاملة وطلبات التصدير المتكاملة.",
+"markets.w4":"تخصيص و OEM — علامة خاصة وأطوال مخصصة وبكرات وتغليف.",
+"markets.w5":"فريق تصدير مخصص — دعم متعدد اللغات للمشاريع الدولية والمناقصات.",
+"cta.title":"اطلب عرض سعر مباشر من المصنع",
+"cta.p":"اتصل بفريق المبيعات للتصدير لدينا للحصول على المواصفات والشهادات والأسعار والتسليم. نرد على كل استفسار بوثائق تقنية مفصلة.",
+"cta.btn":"البريد الإلكتروني: info@ouzcable.com",
+"cta.phone":"الهاتف: +998 99 851 6999",
+"cta.whatsapp":"واتساب: +998 99 851 6999",
+"cta.telegram":"تيليجرام: @H99G99",
+"cta.email":"البريد الإلكتروني:","cta.hq":"المقر: الصين · تصدير عالمي",
+"footer.back":"← العودة إلى الصفحة الرئيسية OUZHI Cable","footer.rights":"جميع الحقوق محفوظة."
+},
+fr:{
+"hero.eyebrow":"Usine source · Direct usine · Export mondial",
+"hero.title":"OUZHI Cable — Alimenter les infrastructures critiques du monde",
+"hero.sub":"欧智电缆 · Usine de câbles moyenne tension 35 kV XLPE",
+"hero.lead":"OUZHI Cable (欧智电缆) est une véritable usine source de câbles moyenne tension 26/35 kV XLPE — pas une société commerciale. Nous concevons, produisons, testons et exportons des systèmes de câbles 35 kV certifiés IEC directement depuis nos propres lignes de production vers des clients en Asie centrale, au Moyen-Orient, en Russie, en Europe et dans les Amériques.",
+"about.title":"Qui sommes-nous",
+"about.p1":"Fondée en tant qu'entreprise manufacturière, OUZHI Cable possède la chaîne de production complète des câbles moyenne tension : conducteurs cuivre et aluminium, isolation XLPE, écrans fil et ruban cuivre, armure SWA ou aluminium, gaine PVC ou LSZH. Parce que nous sommes l'usine, nous contrôlons la qualité, les prix et la livraison du premier dessin au port — sans intermédiaires ni marges commerciales.",
+"about.p2":"Notre ligne de câbles 35 kV est produite de bout en bout sur nos propres équipements modernes d'extrusion, d'écrantage et d'armure, suivis de tests haute tension internes rigoureux. Chaque bobine qui quitte notre usine est conforme aux normes IEC 60502-2, GB/T 12706.2 et GOST 31996, soutenue par la gestion de la qualité ISO 9001.",
+"about.c1n":"35 kV","about.c1t":"Produit principal","about.c1d":"Systèmes de câbles moyenne tension 26/35 kV XLPE pour l'alimentation électrique critique.",
+"about.c2n":"100%","about.c2t":"Usine source","about.c2d":"Lignes de production propres. Prix direct usine, sans couches commerciales.",
+"about.c3n":"3+","about.c3t":"Certifications","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 et ISO 9001.",
+"about.c4n":"20+","about.c4t":"Marchés d'exportation","about.c4d":"Desservons l'Asie centrale, le Moyen-Orient, la Russie, l'Europe et les Amériques.",
+"product.title":"Produit principal — Câble 35 kV pour centres de données et réseaux",
+"product.p1":"Notre câble phare 26/35 kV XLPE est conçu pour les applications moyenne tension les plus exigeantes :",
+"product.li1":"Centres de données et installations de calcul — alimentation MV fiable pour l'IA et les infrastructures de calcul haute performance.",
+"product.li2":"Énergies renouvelables — circuits collecteurs de parcs éoliens et solaires, connexions de postes.",
+"product.li3":"Usines industrielles — lignes de processus continues, mines et industrie lourde.",
+"product.li4":"Infrastructure réseau — réseaux de distribution urbains, postes et services publics.",
+"product.p2":"Le conducteur, l'armure, la gaine (PVC ou LSZH), le type de bobine, l'étiquetage et l'emballage sous marque privée peuvent tous être personnalisés selon vos spécifications de projet, normes locales et exigences du marché.",
+"product.th1":"Paramètre","product.th2":"Spécification",
+"product.r1k":"Tension nominale","product.r2k":"Normes","product.r3k":"Conducteur","product.r3v":"Cuivre ou aluminium, toronné compact",
+"product.r4k":"Isolation","product.r5k":"Écran","product.r5v":"Fil et ruban de cuivre",
+"product.r6k":"Armure","product.r6v":"SWA ou aluminium (optionnel)","product.r7k":"Gaine","product.r7v":"PVC ou LSZH (faible fumée sans halogène)",
+"markets.title":"Couverture mondiale des marchés",
+"markets.p":"Basée en Chine, OUZHI Cable exporte vers des clients du monde entier, avec une forte présence sur les marchés de l'énergie les plus dynamiques et les plus exigeants :",
+"markets.tags":["Ouzbékistan","Kazakhstan","Asie centrale","Turquie","Moyen-Orient","Russie","Allemagne","Europe","Malaisie","Mexique","Amériques"],
+"markets.why":"Pourquoi les clients choisissent OUZHI Cable",
+"markets.w1":"Prix direct usine — vous achetez à la source, pas à un commerçant.",
+"markets.w2":"Qualité certifiée — conforme IEC, GB et GOST avec documentation de test complète.",
+"markets.w3":"MOQ flexible — des petites bobines de projet aux conteneurs complets et commandes d'export clé en main.",
+"markets.w4":"Personnalisation & OEM — marque privée, longueurs personnalisées, bobines et emballage.",
+"markets.w5":"Équipe export dédiée — support multilingue pour projets et appels d'offres internationaux.",
+"cta.title":"Demander un devis direct usine",
+"cta.p":"Contactez notre équipe commerciale export pour les spécifications, certifications, prix et délais. Nous répondons à chaque demande avec une documentation technique détaillée.",
+"cta.btn":"Email : info@ouzcable.com",
+"cta.phone":"Téléphone : +998 99 851 6999",
+"cta.whatsapp":"WhatsApp : +998 99 851 6999",
+"cta.telegram":"Telegram : @H99G99",
+"cta.email":"Email :","cta.hq":"Siège : Chine · Export mondial",
+"footer.back":"← Retour à l'accueil OUZHI Cable","footer.rights":"Tous droits réservés."
+},
+de:{
+"hero.eyebrow":"Quellfabrik · Direkt ab Werk · Globaler Export",
+"hero.title":"OUZHI Cable — Die kritische Infrastruktur der Welt mit Strom versorgen",
+"hero.sub":"欧智电缆 · Fabrik für Mittelspannungskabel 35 kV XLPE",
+"hero.lead":"OUZHI Cable (欧智电缆) ist eine echte Quellfabrik für Mittelspannungskabel 26/35 kV XLPE — kein Handelsunternehmen. Wir entwickeln, produzieren, testen und exportieren IEC-zertifizierte 35-kV-Kabelsysteme direkt von unseren eigenen Produktionslinien an Kunden in Zentralasien, im Nahen Osten, in Russland, Europa und den Amerikas.",
+"about.title":"Über uns",
+"about.p1":"OUZHI Cable wurde als Produktionsunternehmen gegründet und besitzt die komplette Produktionskette für Mittelspannungskabel: Kupfer- und Aluminiumleiter, XLPE-Isolierung, Kupferdraht- und Bandabschirmung, SWA- oder Aluminiumpanzerung sowie PVC- oder LSZH-Mantel. Da wir die Fabrik sind, kontrollieren wir Qualität, Preis und Lieferung von der ersten Zeichnung bis zum Hafen — ohne Zwischenhändler und ohne Handelsmargen.",
+"about.p2":"Unsere 35-kV-Kabellinie wird durchgängig auf eigenen modernen Extrusions-, Abschirmungs- und Panzerungsanlagen produziert, gefolgt von strengen internen Hochspannungsprüfungen. Jede Trommel, die unser Werk verlässt, entspricht den Normen IEC 60502-2, GB/T 12706.2 und GOST 31996, unterstützt durch das Qualitätsmanagement ISO 9001.",
+"about.c1n":"35 kV","about.c1t":"Kernprodukt","about.c1d":"Mittelspannungskabelsysteme 26/35 kV XLPE für kritische Stromversorgung.",
+"about.c2n":"100%","about.c2t":"Quellfabrik","about.c2d":"Eigene Produktionslinien. Direktpreise ab Werk, keine Handelsschichten.",
+"about.c3n":"3+","about.c3t":"Zertifizierungen","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 und ISO 9001.",
+"about.c4n":"20+","about.c4t":"Exportmärkte","about.c4d":"Belieferung von Zentralasien, Naher Osten, Russland, Europa und den Amerikas.",
+"product.title":"Kernprodukt — 35-kV-Kabel für Rechenzentren und Netze",
+"product.p1":"Unser Flaggschiff 26/35 kV XLPE Stromkabel ist für die anspruchsvollsten Mittelspannungsanwendungen entwickelt:",
+"product.li1":"Rechenzentren und Recheninfrastrukturen — zuverlässige Mittelspannungsversorgung für KI und Hochleistungsrechnen.",
+"product.li2":"Erneuerbare Energien — Sammelleitungen von Wind- und Solarparks, Trafostationsanschlüsse.",
+"product.li3":"Industrieanlagen — kontinuierliche Prozesslinien, Bergbau und Schwerindustrie.",
+"product.li4":"Netzinfrastruktur — städtische Verteilnetze, Umspannwerke und Energieversorger.",
+"product.p2":"Leiter, Panzerung, Mantel (PVC oder LSZH), Trommeltyp, Kennzeichnung und Privatlabel-Verpackung können alle an Ihre Projektspezifikationen, lokalen Normen und Marktanforderungen angepasst werden.",
+"product.th1":"Parameter","product.th2":"Spezifikation",
+"product.r1k":"Nennspannung","product.r2k":"Normen","product.r3k":"Leiter","product.r3v":"Kupfer oder Aluminium, kompakt verseilt",
+"product.r4k":"Isolierung","product.r5k":"Abschirmung","product.r5v":"Kupferdraht und Kupferband",
+"product.r6k":"Panzerung","product.r6v":"SWA oder Aluminium (optional)","product.r7k":"Mantel","product.r7v":"PVC oder LSZH (raucharm, halogenfrei)",
+"markets.title":"Globale Marktabdeckung",
+"markets.p":"Mit Hauptsitz in China exportiert OUZHI Cable an Kunden weltweit, mit starker Präsenz in den am schnellsten wachsenden und anspruchsvollsten Energiemärkten:",
+"markets.tags":["Usbekistan","Kasachstan","Zentralasien","Türkei","Naher Osten","Russland","Deutschland","Europa","Malaysia","Mexiko","Amerika"],
+"markets.why":"Warum Kunden OUZHI Cable wählen",
+"markets.w1":"Direktpreise ab Werk — Sie kaufen bei der Quelle, nicht bei einem Händler.",
+"markets.w2":"Zertifizierte Qualität — IEC-, GB- und GOST-konform mit vollständigen Prüfunterlagen.",
+"markets.w3":"Flexibler MOQ — von kleinen Projektrommeln bis zu vollen Containern und schlüsselfertigen Exportaufträgen.",
+"markets.w4":"Custom & OEM — Privatlabel, individuelle Längen, Trommeln und Verpackung.",
+"markets.w5":"Engagiertes Exportteam — mehrsprachige Unterstützung für internationale Projekte und Ausschreibungen.",
+"cta.title":"Angebot direkt ab Werk anfordern",
+"cta.p":"Kontaktieren Sie unser Export-Vertriebsteam für Spezifikationen, Zertifizierungen, Preise und Lieferung. Wir antworten auf jede Anfrage mit detaillierter technischer Dokumentation.",
+"cta.btn":"E-Mail: info@ouzcable.com",
+"cta.phone":"Telefon: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999",
+"cta.telegram":"Telegram: @H99G99",
+"cta.email":"E-Mail:","cta.hq":"Hauptsitz: China · Weltweiter Export",
+"footer.back":"← Zurück zur OUZHI Cable Startseite","footer.rights":"Alle Rechte vorbehalten."
+},
+uk:{
+"hero.eyebrow":"Завод-виробник · Прямі поставки · Глобальний експорт",
+"hero.title":"OUZHI Cable — Енергопостачання критичної інфраструктури світу",
+"hero.sub":"欧智电缆 · Завод кабелів середньої напруги 35 кВ XLPE",
+"hero.lead":"OUZHI Cable (欧智电缆) — справжній завод-виробник кабелів середньої напруги 26/35 кВ XLPE, а не торгова компанія. Ми проєктуємо, виробляємо, тестуємо та експортуємо сертифіковані за IEC кабельні системи 35 кВ безпосередньо з власних виробничих ліній клієнтам у Центральній Азії, на Близькому Сході, в Росії, Європі та Америці.",
+"about.title":"Про нас",
+"about.p1":"Засноване як виробниче підприємство, OUZHI Cable володіє повним виробничим циклом кабелів середньої напруги: мідні та алюмінієві жилки, ізоляція XLPE, мідний екран з дроту та стрічки, броня зі стального дроту або алюмінію, оболонка з ПВХ або LSZH. Будучи заводом, ми контролюємо якість, ціни та терміни поставки від першого креслення до порту — без посередників та торгових націнок.",
+"about.p2":"Наша лінія кабелів 35 кВ виробляється повністю на власному сучасному обладнанні для екструзії, екранування та бронювання, з наступним суворим внутрішнім високовольтним тестуванням. Кожен барабан, що залишає наш завод, відповідає стандартам IEC 60502-2, GB/T 12706.2 та GOST 31996, підтримуваним менеджментом якості ISO 9001.",
+"about.c1n":"35 кВ","about.c1t":"Основний продукт","about.c1d":"Кабельні системи середньої напруги 26/35 кВ XLPE для критичного енергопостачання.",
+"about.c2n":"100%","about.c2t":"Завод-виробник","about.c2d":"Власні виробничі лінії. Ціни заводу-виробника, без торгових посередників.",
+"about.c3n":"3+","about.c3t":"Сертифікати","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 та ISO 9001.",
+"about.c4n":"20+","about.c4t":"Ринки експорту","about.c4d":"Поставки в Центральну Азію, на Близький Схід, в Росію, Європу та Америку.",
+"product.title":"Основний продукт — Кабель 35 кВ для дата-центрів та мереж",
+"product.p1":"Наш флагманський кабель 26/35 кВ XLPE розроблений для найвимогливіших застосувань середньої напруги:",
+"product.li1":"Дата-центри та обчислювальні центри — надійне енергопостачання для ШІ та високопродуктивних обчислювальних інфраструктур.",
+"product.li2":"Відновлювана енергетика — збірні кола вітрових та сонячних електростанцій, підключення підстанцій.",
+"product.li3":"Промислові підприємства — безперервні технологічні лінії, шахти та важка промисловість.",
+"product.li4":"Електромережна інфраструктура — міські розподільні мережі, підстанції та енергокомпанії.",
+"product.p2":"Жилка, броня, оболонка (ПВХ або LSZH), тип барабана, маркування та упаковка під приватну марку можуть бути налаштовані відповідно до специфікацій вашого проєкту, місцевих стандартів та вимог ринку.",
+"product.th1":"Параметр","product.th2":"Специфікація",
+"product.r1k":"Номінальна напруга","product.r2k":"Стандарти","product.r3k":"Жилка","product.r3v":"Мідь або алюміній, ущільнена багатодротова",
+"product.r4k":"Ізоляція","product.r5k":"Екран","product.r5v":"Мідний дріт та мідна стрічка",
+"product.r6k":"Броня","product.r6v":"Стальний дріт або алюміній (опціонально)","product.r7k":"Оболонка","product.r7v":"ПВХ або LSZH (низьке димо- та газовиділення)",
+"markets.title":"Глобальне покриття ринків",
+"markets.p":"Зі штаб-квартирою в Китаї, OUZHI Cable експортує продукцію клієнтам по всьому світу, маючи сильну присутність на найшвидшорослих і найвимогливіших енергетичних ринках:",
+"markets.tags":["Узбекистан","Казахстан","Центральна Азія","Туреччина","Близький Схід","Росія","Німеччина","Європа","Малайзія","Мексика","Америка"],
+"markets.why":"Чому клієнти обирають OUZHI Cable",
+"markets.w1":"Ціни заводу-виробника — ви купуєте у джерела, а не у торговця.",
+"markets.w2":"Сертифікована якість — відповідність IEC, GB та GOST з повною документацією з випробувань.",
+"markets.w3":"Гнучкий мінімальний замовлення — від невеликих проєктних барабанів до повних контейнерів та експортних замовлень під ключ.",
+"markets.w4":"Кастомізація та OEM — приватна марка, індивідуальні довжини, барабани та упаковка.",
+"markets.w5":"Виділена експортна команда — багатомовна підтримка міжнародних проєктів та тендерів.",
+"cta.title":"Запитати ціну заводу-виробника",
+"cta.p":"Зв'яжіться з нашою експортною командою продажів для отримання специфікацій, сертифікатів, цін та термінів поставки. Ми відповідаємо на кожен запит детальною технічною документацією.",
+"cta.btn":"Email: info@ouzcable.com",
+"cta.phone":"Телефон: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999",
+"cta.telegram":"Telegram: @H99G99",
+"cta.email":"Email:","cta.hq":"Штаб: Китай · Експорт по всьому світу",
+"footer.back":"← Повернутися на головну OUZHI Cable","footer.rights":"Усі права захищені."
+},
+es:{
+"hero.eyebrow":"Fábrica de origen · Directo de fábrica · Exportación global",
+"hero.title":"OUZHI Cable — Alimentando la infraestructura crítica del mundo",
+"hero.sub":"欧智电缆 · Fábrica de cables de media tensión 35 kV XLPE",
+"hero.lead":"OUZHI Cable (欧智电缆) es una verdadera fábrica de origen de cables de media tensión 26/35 kV XLPE — no una empresa comercial. Diseñamos, producimos, probamos y exportamos sistemas de cables de 35 kV certificados por IEC directamente desde nuestras propias líneas de producción a clientes en Asia Central, Oriente Medio, Rusia, Europa y las Américas.",
+"about.title":"Quiénes somos",
+"about.p1":"Fundada como empresa manufacturera, OUZHI Cable posee la cadena de producción completa de cables de media tensión: conductores de cobre y aluminio, aislamiento XLPE, pantallas de hilo y cinta de cobre, armadura SWA o de aluminio, y cubierta PVC o LSZH. Como somos la fábrica, controlamos la calidad, los precios y la entrega desde el primer plano hasta el puerto — sin intermediarios ni márgenes comerciales.",
+"about.p2":"Nuestra línea de cables de 35 kV se produce de principio a fin en nuestros propios equipos modernos de extrusión, apantallamiento y armado, seguidos de rigurosas pruebas de alta tensión internas. Cada carrete que sale de nuestra fábrica cumple con las normas IEC 60502-2, GB/T 12706.2 y GOST 31996, respaldado por la gestión de calidad ISO 9001.",
+"about.c1n":"35 kV","about.c1t":"Producto principal","about.c1d":"Sistemas de cables de media tensión 26/35 kV XLPE para suministro eléctrico crítico.",
+"about.c2n":"100%","about.c2t":"Fábrica de origen","about.c2d":"Líneas de producción propias. Precios directos de fábrica, sin capas comerciales.",
+"about.c3n":"3+","about.c3t":"Certificaciones","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 e ISO 9001.",
+"about.c4n":"20+","about.c4t":"Mercados de exportación","about.c4d":"Atendemos Asia Central, Oriente Medio, Rusia, Europa y las Américas.",
+"product.title":"Producto principal — Cable de 35 kV para centros de datos y redes",
+"product.p1":"Nuestro cable insignia 26/35 kV XLPE está diseñado para las aplicaciones de media tensión más exigentes:",
+"product.li1":"Centros de datos e instalaciones de computación — suministro MV confiable para IA e infraestructura de computación de alto rendimiento.",
+"product.li2":"Energía renovable — circuitos colectores de parques eólicos y solares, conexiones de subestaciones.",
+"product.li3":"Plantas industriales — líneas de proceso continuo, minas e industria pesada.",
+"product.li4":"Infraestructura de red — redes de distribución urbana, subestaciones y empresas de servicios públicos.",
+"product.p2":"El conductor, la armadura, la cubierta (PVC o LSZH), el tipo de carrete, el etiquetado y el embalaje de marca privada pueden personalizarse según las especificaciones de su proyecto, las normas locales y los requisitos del mercado.",
+"product.th1":"Parámetro","product.th2":"Especificación",
+"product.r1k":"Tensión nominal","product.r2k":"Normas","product.r3k":"Conductor","product.r3v":"Cobre o aluminio, trenzado compacto",
+"product.r4k":"Aislamiento","product.r5k":"Pantalla","product.r5v":"Hilo y cinta de cobre",
+"product.r6k":"Armadura","product.r6v":"SWA o aluminio (opcional)","product.r7k":"Cubierta","product.r7v":"PVC o LSZH (bajo humo sin halógenos)",
+"markets.title":"Cobertura global de mercados",
+"markets.p":"Con sede en China, OUZHI Cable exporta a clientes de todo el mundo, con una fuerte presencia en los mercados energéticos de más rápido crecimiento y más exigentes:",
+"markets.tags":["Uzbekistán","Kazajistán","Asia Central","Turquía","Oriente Medio","Rusia","Alemania","Europa","Malasia","México","Américas"],
+"markets.why":"Por qué los clientes eligen OUZHI Cable",
+"markets.w1":"Precios directos de fábrica — compra en la fuente, no a un comerciante.",
+"markets.w2":"Calidad certificada — cumple con IEC, GB y GOST con documentación de prueba completa.",
+"markets.w3":"MOQ flexible — desde pequeños carretes de proyecto hasta contenedores completos y pedidos de exportación llave en mano.",
+"markets.w4":"Personalización y OEM — marca privada, longitudes personalizadas, carretes y embalaje.",
+"markets.w5":"Equipo de exportación dedicado — soporte multilingüe para proyectos y licitaciones internacionales.",
+"cta.title":"Solicitar presupuesto directo de fábrica",
+"cta.p":"Contacte con nuestro equipo de ventas de exportación para especificaciones, certificaciones, precios y entrega. Respondemos a cada consulta con documentación técnica detallada.",
+"cta.btn":"Email: info@ouzcable.com",
+"cta.phone":"Teléfono: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999",
+"cta.telegram":"Telegram: @H99G99",
+"cta.email":"Email:","cta.hq":"Sede: China · Exportación global",
+"footer.back":"← Volver a la página principal de OUZHI Cable","footer.rights":"Todos los derechos reservados."
+},
+tr:{
+"hero.eyebrow":"Kaynak Fabrika · Fabrikadan Doğrudan · Küresel İhracat",
+"hero.title":"OUZHI Cable — Dünyanın Kritik Altyapısına Güç",
+"hero.sub":"欧智电缆 · 35 kV XLPE Orta Gerilim Kablosu Fabrikası",
+"hero.lead":"OUZHI Cable (欧智电缆), 26/35 kV XLPE orta gerilim güç kablolarının gerçek bir kaynak fabrikasıdır — bir ticaret şirketi değildir. IEC sertifikalı 35 kV kablo sistemlerini kendi üretim hatlarımızdan doğrudan Orta Asya, Orta Doğu, Rusya, Avrupa ve Amerika'daki müşterilere tasarlıyor, üretiyor, test ediyor ve ihraç ediyoruz.",
+"about.title":"Hakkımızda",
+"about.p1":"Bir üretim kuruluşu olarak kurulan OUZHI Cable, orta gerilim güç kablolarının tam üretim zincirine sahiptir: bakır ve alüminyum iletkenler, XLPE yalıtımı, bakır tel ve bant ekranları, SWA veya alüminyum zırh ve PVC veya LSZH kılıf. Fabrika olduğumuz için kaliteyi, fiyatı ve teslimatı ilk çizimden limana kadar kontrol ediyoruz — aracı olmadan ve ticaret kârı olmadan.",
+"about.p2":"35 kV kablo hattımız, kendi modern ekstrüzyon, ekranlama ve zırhlama ekipmanlarımızda uçtan uca üretilir, ardından sıkı iç yüksek gerilim testleri yapılır. Fabrikamızdan çıkan her makara, ISO 9001 kalite yönetimi ile desteklenen IEC 60502-2, GB/T 12706.2 ve GOST 31996 standartlarına uygundur.",
+"about.c1n":"35 kV","about.c1t":"Temel Ürün","about.c1d":"Kritik güç iletimi için 26/35 kV XLPE orta gerilim kablo sistemleri.",
+"about.c2n":"100%","about.c2t":"Kaynak Fabrika","about.c2d":"Kendi üretim hatları. Fabrikadan doğrudan fiyat, ticaret katmanı yok.",
+"about.c3n":"3+","about.c3t":"Sertifikalar","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 ve ISO 9001.",
+"about.c4n":"20+","about.c4t":"İhracat Pazarları","about.c4d":"Orta Asya, Orta Doğu, Rusya, Avrupa ve Amerika'ya hizmet veriyoruz.",
+"product.title":"Temel Ürün — Veri Merkezleri ve Şebekeler için 35 kV Güç Kablosu",
+"product.p1":"Amiral gemimiz 26/35 kV XLPE güç kablosu, en zorlu orta gerilim uygulamaları için tasarlanmıştır:",
+"product.li1":"Veri merkezleri ve hesaplama gücü tesisleri — yapay zeka ve yüksek performanslı hesaplama altyapısı için güvenilir orta gerilim güç iletimi.",
+"product.li2":"Yenilenebilir enerji — rüzgar ve güneş enerjisi santrallerinin toplayıcı devreleri ve trafo merkezi bağlantıları.",
+"product.li3":"Endüstriyel tesisler — sürekli proses hatları, madenler ve ağır sanayi.",
+"product.li4":"Şebeke altyapısı — kentsel dağıtım ağları, trafo merkezleri ve elektrik dağıtım şirketleri.",
+"product.p2":"İletken, zırh, kılıf (PVC veya LSZH), makara tipi, etiketleme ve özel marka ambalajı, proje spesifikasyonlarınıza, yerel standartlara ve pazar gereksinimlerinize göre özelleştirilebilir.",
+"product.th1":"Parametre","product.th2":"Teknik Özellik",
+"product.r1k":"Anma Gerilimi","product.r2k":"Standartlar","product.r3k":"İletken","product.r3v":"Bakır veya alüminyum, sıkılmış telli",
+"product.r4k":"Yalıtım","product.r5k":"Ekran","product.r5v":"Bakır tel ve bakır bant",
+"product.r6k":"Zırh","product.r6v":"SWA veya alüminyum (isteğe bağlı)","product.r7k":"Kılıf","product.r7v":"PVC veya LSZH (düşük dumanlı halojen içermez)",
+"markets.title":"Küresel Pazar Kapsamı",
+"markets.p":"Çin'de merkezlenen OUZHI Cable, en hızlı büyüyen ve en zorlu enerji pazarlarında güçlü bir varlıkla dünya genelindeki müşterilere ihracat yapmaktadır:",
+"markets.tags":["Özbekistan","Kazakistan","Orta Asya","Türkiye","Orta Doğu","Rusya","Almanya","Avrupa","Malezya","Meksika","Amerika"],
+"markets.why":"Müşteriler Neden OUZHI Cable'ı Seçiyor",
+"markets.w1":"Fabrikadan doğrudan fiyat — kaynaktan satın alırsınız, tüccardan değil.",
+"markets.w2":"Sertifikalı kalite — tam test dokümantasyonu ile IEC, GB ve GOST uyumlu.",
+"markets.w3":"Esnek MOQ — küçük proje makaralarından tam konteyner ve anahtar teslim ihracat siparişlerine kadar.",
+"markets.w4":"Özel ve OEM — özel marka, özel uzunluklar, makaralar ve ambalaj.",
+"markets.w5":"Özel ihracat ekibi — uluslararası projeler ve ihaleler için çok dilli destek.",
+"cta.title":"Fabrikadan Doğrudan Teklif Alın",
+"cta.p":"Teknik özellikler, sertifikalar, fiyat ve teslimat için ihracat satış ekibimizle iletişime geçin. Her talebe detaylı teknik dokümantasyon ile yanıt veriyoruz.",
+"cta.btn":"E-posta: info@ouzcable.com",
+"cta.phone":"Telefon: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999",
+"cta.telegram":"Telegram: @H99G99",
+"cta.email":"E-posta:","cta.hq":"Merkez: Çin · Küresel İhracat",
+"footer.back":"← OUZHI Cable Ana Sayfasına Dön","footer.rights":"Tüm hakları saklıdır."
+},
+pt:{
+"hero.eyebrow":"Fábria de origem · Direto da fábrica · Exportação global",
+"hero.title":"OUZHI Cable — Alimentando a infraestrutura crítica do mundo",
+"hero.sub":"欧智电缆 · Fábrica de cabos de média tensão 35 kV XLPE",
+"hero.lead":"A OUZHI Cable (欧智电缆) é uma verdadeira fábrica de origem de cabos de média tensão 26/35 kV XLPE — não uma empresa comercial. Nós projetamos, produzimos, testamos e exportamos sistemas de cabos de 35 kV certificados pela IEC diretamente de nossas próprias linhas de produção para clientes na Ásia Central, Oriente Médio, Rússia, Europa e Américas.",
+"about.title":"Quem somos",
+"about.p1":"Fundada como empresa manufatureira, a OUZHI Cable possui a cadeia de produção completa de cabos de média tensão: condutores de cobre e alumínio, isolamento XLPE, telas de fio e fita de cobre, armadura SWA ou de alumínio, e capa PVC ou LSZH. Por sermos a fábrica, controlamos qualidade, preço e entrega do primeiro desenho ao porto — sem intermediários e sem margens comerciais.",
+"about.p2":"Nossa linha de cabos de 35 kV é produzida de ponta a ponta em nossos próprios equipamentos modernos de extrusão, blindagem e armação, seguidos de rigorosos testes internos de alta tensão. Cada carreto que sai de nossa fábrica atende às normas IEC 60502-2, GB/T 12706.2 e GOST 31996, com gestão de qualidade ISO 9001.",
+"about.c1n":"35 kV","about.c1t":"Produto principal","about.c1d":"Sistemas de cabos de média tensão 26/35 kV XLPE para fornecimento elétrico crítico.",
+"about.c2n":"100%","about.c2t":"Fábrica de origem","about.c2d":"Linhas de produção próprias. Preço direto da fábrica, sem camadas comerciais.",
+"about.c3n":"3+","about.c3t":"Certificações","about.c3d":"IEC 60502-2, GB/T 12706.2, GOST 31996 e ISO 9001.",
+"about.c4n":"20+","about.c4t":"Mercados de exportação","about.c4d":"Atendemos Ásia Central, Oriente Médio, Rússia, Europa e Américas.",
+"product.title":"Produto principal — Cabo de 35 kV para data centers e redes",
+"product.p1":"Nosso cabo carro-chefe 26/35 kV XLPE é projetado para as aplicações de média tensão mais exigentes:",
+"product.li1":"Data centers e instalações de computação — fornecimento MV confiável para IA e infraestrutura de computação de alto desempenho.",
+"product.li2":"Energia renovável — circuitos coletores de parques eólicos e solares, conexões de subestações.",
+"product.li3":"Plantas industriais — linhas de processo contínuo, minas e indústria pesada.",
+"product.li4":"Infraestrutura de rede — redes de distribuição urbana, subestações e concessionárias de energia.",
+"product.p2":"Condutor, armadura, capa (PVC ou LSZH), tipo de carreto, rotulagem e embalagem de marca privada podem ser personalizados conforme as especificações do seu projeto, normas locais e requisitos de mercado.",
+"product.th1":"Parâmetro","product.th2":"Especificação",
+"product.r1k":"Tensão nominal","product.r2k":"Normas","product.r3k":"Condutor","product.r3v":"Cobre ou alumínio, trançado compacto",
+"product.r4k":"Isolamento","product.r5k":"Tela","product.r5v":"Fio e fita de cobre",
+"product.r6k":"Armadura","product.r6v":"SWA ou alumínio (opcional)","product.r7k":"Capa","product.r7v":"PVC ou LSZH (baixa fumaça sem halogênio)",
+"markets.title":"Cobertura global de mercados",
+"markets.p":"Com sede na China, a OUZHI Cable exporta para clientes em todo o mundo, com forte presença nos mercados de energia de crescimento mais rápido e mais exigentes:",
+"markets.tags":["Uzbequistão","Cazaquistão","Ásia Central","Turquia","Oriente Médio","Rússia","Alemanha","Europa","Malásia","México","Américas"],
+"markets.why":"Por que os clientes escolhem a OUZHI Cable",
+"markets.w1":"Preço direto da fábrica — você compra da fonte, não de um comerciante.",
+"markets.w2":"Qualidade certificada — compatível com IEC, GB e GOST com documentação de teste completa.",
+"markets.w3":"MOQ flexível — desde pequenos carretos de projeto até contêineres completos e pedidos de exportação chave-na-mão.",
+"markets.w4":"Personalização e OEM — marca privada, comprimentos personalizados, carretos e embalagem.",
+"markets.w5":"Equipe de exportação dedicada — suporte multilíngue para projetos e licitações internacionais.",
+"cta.title":"Solicitar orçamento direto da fábrica",
+"cta.p":"Entre em contato com nossa equipe de vendas de exportação para especificações, certificações, preços e entrega. Respondemos a cada consulta com documentação técnica detalhada.",
+"cta.btn":"Email: info@ouzcable.com",
+"cta.phone":"Telefone: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999",
+"cta.telegram":"Telegram: @H99G99",
+"cta.email":"Email:","cta.hq":"Sede: China · Exportação global",
+"footer.back":"← Voltar para a página inicial da OUZHI Cable","footer.rights":"Todos os direitos reservados."
+}
+};
+
 function setLang(l){
-  document.documentElement.lang = l;
-  var en = document.querySelector('.lang-en');
-  var zh = document.querySelector('.lang-zh');
-  if(l==='zh'){en.style.display='none';zh.style.display='block'}
-  else{en.style.display='block';zh.style.display='none'}
+  if(!I18N[l]) l='en';
+  document.documentElement.lang=l;
+  document.documentElement.dir=(l==='ar')?'rtl':'ltr';
+  var els=document.querySelectorAll('[data-i18n]');
+  for(var i=0;i<els.length;i++){
+    var k=els[i].getAttribute('data-i18n');
+    if(I18N[l][k]!==undefined) els[i].innerHTML=I18N[l][k];
+  }
+  var tags=I18N[l]['markets.tags'];
+  var mt=document.getElementById('marketTags');
+  if(mt&&tags){mt.innerHTML='';for(var j=0;j<tags.length;j++){var s=document.createElement('span');s.textContent=tags[j];mt.appendChild(s);}}
+  var sel=document.getElementById('langSelect');
+  if(sel) sel.value=l;
   try{localStorage.setItem('ouzcable-lang',l)}catch(e){}
 }
 (function(){
-  var saved = null;
-  try{saved = localStorage.getItem('ouzcable-lang')}catch(e){}
-  if(saved==='zh'){setLang('zh')}
-  document.getElementById('year').textContent = new Date().getFullYear();
+  var saved=null;
+  try{saved=localStorage.getItem('ouzcable-lang')}catch(e){}
+  var urlLang=(new URLSearchParams(location.search)).get('lang');
+  var init=urlLang||saved||'en';
+  if(!I18N[init]) init='en';
+  setLang(init);
+  document.getElementById('year').textContent=new Date().getFullYear();
 })();
 </script>
 
-<!-- JSON-LD structured data for AI search engines -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "name": "About OUZHI Cable — 35kV Power Cable Source Factory",
-  "url": "https://ouzcable.com/about.html",
-  "mainEntity": {
-    "@type": "Organization",
-    "name": "OUZHI Cable",
-    "alternateName": "欧智电缆",
-    "url": "https://ouzcable.com/",
-    "logo": "https://ouzcable.com/logo-en.png",
-    "description": "OUZHI Cable (欧智电缆) is a 35kV power cable source factory. IEC 60502-2 &amp; GOST 31996 certified 26/35 kV XLPE medium-voltage power cables, factory-direct export to data centers, renewables, industry and grids across Central Asia, Middle East, Russia, Europe &amp; Americas.",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "sales",
-      "email": "info@ouzcable.com",
-      "telephone": "+998998516999",
-      "areaServed": ["Uzbekistan","Kazakhstan","Central Asia","Turkey","Middle East","Russia","Germany","Europe","Malaysia","Mexico","Americas"]
-    }
-  }
-}
+{"@context":"https://schema.org","@type":"AboutPage","name":"About OUZHI Cable — 35kV Power Cable Source Factory","url":"https://ouzcable.com/about.html","mainEntity":{"@type":"Organization","name":"OUZHI Cable","alternateName":"欧智电缆","url":"https://ouzcable.com/","logo":"https://ouzcable.com/logo-en.png","description":"OUZHI Cable (欧智电缆) is a 35kV power cable source factory. IEC 60502-2 & GOST 31996 certified 26/35 kV XLPE medium-voltage power cables, factory-direct export to data centers, renewables, industry and grids across Central Asia, Middle East, Russia, Europe & Americas.","contactPoint":{"@type":"ContactPoint","contactType":"sales","email":"info@ouzcable.com","telephone":"+998998516999","areaServed":["Uzbekistan","Kazakhstan","Central Asia","Turkey","Middle East","Russia","Germany","Europe","Malaysia","Mexico","Americas"]}}}
 </script>
 </body>
 </html>
