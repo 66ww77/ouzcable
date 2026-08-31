@@ -107,6 +107,16 @@ Allow: /
 
 User-agent: YouBot
 Allow: /
+User-agent: DeepSeekBot
+Allow: /
+User-agent: DeepSeek
+Allow: /
+User-agent: xai
+Allow: /
+User-agent: GrokBot
+Allow: /
+User-agent: xAI-SearchBot
+Allow: /
 
 # === 禁止恶意爬虫 ===
 User-agent: MJ12bot
