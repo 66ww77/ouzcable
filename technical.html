@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>35kV Cable Engineering: XLPE Materials, IEC/GOST Standards & Factory Testing | OUZHI Cable Source Factory | 35KV算力电缆技术规格与质量认证 — 欧智电缆源头工厂</title>
+<meta name="description" content="Technical deep-dive into 26/35 kV XLPE medium-voltage cable engineering by OUZHI Cable source factory: conductor, insulation, screening, armouring, LSZH sheath, IEC 60502-2 / GB/T 12706 / GOST 31996 / VDE standards, partial discharge and HV factory testing. Factory-direct from China. Contact: info@ouzcable.com | +998 99 851 6999.">
+<meta name="keywords" content="35kV cable technical specification, 35KV算力电缆技术规格, XLPE cable construction, medium voltage cable standards, IEC 60502-2, GOST 31996, GB/T 12706, VDE 0276, partial discharge test cable, HV cable factory test, LSZH sheath cable, copper wire screen cable, 35kV cable certification, OUZHI Cable, 欧智电缆, cable quality control, source factory China">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="OUZHI Cable">
+<link rel="canonical" href="https://ouzcable.com/technical.html">
+<link rel="alternate" hreflang="en" href="https://ouzcable.com/technical.html?lang=en">
+<link rel="alternate" hreflang="zh" href="https://ouzcable.com/technical.html?lang=zh">
+<link rel="alternate" hreflang="ru" href="https://ouzcable.com/technical.html?lang=ru">
+<link rel="alternate" hreflang="ar" href="https://ouzcable.com/technical.html?lang=ar">
+<link rel="alternate" hreflang="fr" href="https://ouzcable.com/technical.html?lang=fr">
+<link rel="alternate" hreflang="de" href="https://ouzcable.com/technical.html?lang=de">
+<link rel="alternate" hreflang="uk" href="https://ouzcable.com/technical.html?lang=uk">
+<link rel="alternate" hreflang="es" href="https://ouzcable.com/technical.html?lang=es">
+<link rel="alternate" hreflang="tr" href="https://ouzcable.com/technical.html?lang=tr">
+<link rel="alternate" hreflang="pt" href="https://ouzcable.com/technical.html?lang=pt">
+<link rel="alternate" hreflang="x-default" href="https://ouzcable.com/technical.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OUZHI Cable">
+<meta property="og:title" content="35kV Cable Engineering: Materials, Standards & Factory Testing | OUZHI Cable">
+<meta property="og:description" content="How 35 kV XLPE power cables are engineered, which international standards govern quality, and the factory tests every reel must pass. By OUZHI Cable source factory.">
+<meta property="og:url" content="https://ouzcable.com/technical.html">
+<meta property="og:image" content="https://ouzcable.com/logo-en.png">
+<link rel="preconnect" href="https://miaoda.feishu.cn" crossorigin>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap">
+<style>
+:root{--navy:#0a1628;--navy-2:#0e1e38;--navy-3:#13294d;--copper:#c8843d;--copper-2:#e0a45f;--text:#aab8cd;--white:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope','Noto Sans SC','Noto Sans Arabic',sans-serif;background:var(--navy);color:var(--text);line-height:1.75;font-size:16px}
+html[dir="rtl"] body{font-family:'Noto Sans Arabic','Manrope',sans-serif}
+.container{max-width:1080px;margin:0 auto;padding:0 28px}
+.topbar{background:var(--navy-2);border-bottom:1px solid rgba(200,132,61,.25);padding:14px 0;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px)}
+.topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.brand img{height:52px;width:auto}
+.lang-select select{background:var(--navy-3);color:var(--copper-2);border:1px solid rgba(200,132,61,.4);border-radius:20px;padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer;outline:none;font-family:inherit}
+.lang-select select option{background:var(--navy);color:var(--copper-2)}
+.hero{padding:80px 0 60px;text-align:center;background:radial-gradient(ellipse at top,rgba(19,41,77,.8),rgba(10,22,40,0) 70%)}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--copper-2);font-weight:700;letter-spacing:.22em;font-size:13px;text-transform:uppercase}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;color:#fff;margin:18px 0 14px;line-height:1.15}
+.hero h1 .accent{color:var(--copper-2)}
+.hero .sub{font-size:clamp(1rem,2vw,1.15rem);color:var(--copper-2);font-weight:600;margin-bottom:12px}
+.hero p.lead{max-width:820px;margin:0 auto;font-size:1.05rem}
+.hero-cta{margin-top:28px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--copper);color:#fff;font-weight:700;padding:14px 34px;border-radius:30px;text-decoration:none;font-size:1rem;letter-spacing:.04em;transition:.3s}
+.btn:hover{background:var(--copper-2);transform:translateY(-2px)}
+.btn-outline{background:transparent;border:2px solid var(--copper-2);color:var(--copper-2)}
+.btn-outline:hover{background:var(--copper-2);color:var(--navy)}
+.section{padding:56px 0;border-top:1px solid rgba(255,255,255,.06)}
+.section h2{color:#fff;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;margin-bottom:18px}
+.section h2 .accent{color:var(--copper-2)}
+.section h3{color:var(--copper-2);font-size:1.1rem;font-weight:700;margin:22px 0 10px}
+.section p{margin-bottom:16px}
+.section ul{margin:0 0 18px 20px}
+.section li{margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:14px}
+.card{background:var(--navy-2);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:26px;transition:.3s}
+.card:hover{border-color:rgba(200,132,61,.4);transform:translateY(-3px)}
+.card .num{color:var(--copper);font-size:1.8rem;font-weight:800;margin-bottom:8px}
+.card .t{color:#fff;font-weight:700;font-size:1.05rem;margin-bottom:8px}
+.card .d{font-size:.92rem}
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:14px}
+.step{background:var(--navy-2);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:24px;position:relative}
+.step::before{counter-increment:step;content:counter(step);position:absolute;top:-14px;left:20px;background:var(--copper);color:#fff;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem}
+html[dir="rtl"] .step::before{left:auto;right:20px}
+.step .t{color:#fff;font-weight:700;margin:8px 0 6px}
+.step .d{font-size:.9rem}
+.faq-item{background:var(--navy-2);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:18px 22px;margin-bottom:12px}
+.faq-item .q{color:#fff;font-weight:700;margin-bottom:8px;font-size:1rem}
+.faq-item .a{font-size:.93rem}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.93rem}
+th{background:var(--navy-3);color:var(--copper-2);text-align:left;padding:12px 14px;font-weight:700}
+td{padding:11px 14px;border-bottom:1px solid rgba(255,255,255,.08)}
+html[dir="rtl"] th,html[dir="rtl"] td{text-align:right}
+.highlight-box{background:rgba(200,132,61,.08);border-left:4px solid var(--copper);border-radius:0 10px 10px 0;padding:18px 22px;margin:18px 0}
+html[dir="rtl"] .highlight-box{border-left:none;border-right:4px solid var(--copper);border-radius:10px 0 0 10px}
+.highlight-box p{margin-bottom:0;font-weight:600;color:#fff}
+.cta-section{background:linear-gradient(135deg,var(--navy-3),var(--navy-2));border:1px solid rgba(200,132,61,.3);border-radius:16px;padding:36px;margin-top:28px}
+.cta-section h2{color:#fff;margin-bottom:12px}
+.contact-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.contact-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 22px;border-radius:30px;font-weight:700;font-size:.93rem;text-decoration:none;transition:.3s;border:1px solid transparent}
+.contact-btn svg{width:18px;height:18px;flex-shrink:0}
+.contact-btn:hover{transform:translateY(-2px)}
+.cb-phone{background:rgba(200,132,61,.15);border-color:rgba(200,132,61,.45);color:var(--copper-2)}
+.cb-phone:hover{background:var(--copper);color:#fff}
+.cb-wa{background:rgba(37,211,102,.12);border-color:rgba(37,211,102,.45);color:#4ade80}
+.cb-wa:hover{background:#25d366;color:#062b12}
+.cb-tg{background:rgba(42,171,238,.12);border-color:rgba(42,171,238,.45);color:#4dc3f6}
+.cb-tg:hover{background:#2aabee;color:#06233a}
+.cb-mail{background:rgba(168,85,247,.12);border-color:rgba(168,85,247,.45);color:#c084fc}
+.cb-mail:hover{background:#a855f7;color:#1a0a2e}
+.contact-lines{margin-top:20px;font-size:.95rem;line-height:2}
+.contact-lines a{color:var(--copper-2);text-decoration:none;font-weight:600}
+.contact-lines a:hover{text-decoration:underline}
+.contact-lines .label{color:var(--text);font-weight:500;display:inline-block;min-width:95px}
+footer{padding:28px 0;border-top:1px solid rgba(255,255,255,.08);text-align:center;font-size:.85rem}
+footer a{color:var(--copper-2);text-decoration:none}
+.back{display:inline-block;margin:14px 0 0;color:var(--copper-2);text-decoration:none;font-weight:700}
+@media(max-width:640px){.hero{padding:56px 0 40px}.section{padding:40px 0}.cta-section{padding:26px 20px}.brand img{height:42px}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="https://ouzcable.com/"><img src="logo-en.png" alt="OUZHI Cable"></a>
+    <div class="lang-select">
+      <select id="langSelect" onchange="setLang(this.value)">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+        <option value="ru">Русский</option>
+        <option value="ar">العربية</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="uk">Українська</option>
+        <option value="es">Español</option>
+        <option value="tr">Türkçe</option>
+        <option value="pt">Português</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow" data-i18n="hero.eyebrow">Technical Deep-Dive · Quality Certification · 2026</span>
+    <h1 data-i18n="hero.title">35 kV Power Cable Engineering: <span class="accent">Materials, Standards &amp; Testing</span> Explained</h1>
+    <div class="sub" data-i18n="hero.sub">OUZHI Cable (欧智电缆) — 26/35 kV XLPE Medium-Voltage Cable Manufacturer</div>
+    <p class="lead" data-i18n="hero.lead">How a 35 kV XLPE cable is actually engineered layer by layer, which international standards govern its quality, and the factory tests every reel must pass before it leaves our plant. Written by the engineers of the source factory.</p>
+    <div class="hero-cta">
+      <a class="btn" href="#contact" data-i18n="hero.cta1">Request Technical Documentation</a>
+      <a class="btn btn-outline" href="https://ouzcable.com/promotion.html" data-i18n="hero.cta2">View Procurement Guide</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 data-i18n="layer.title">Anatomy of a 35 kV Cable — Every Layer Has a Job</h2>
+    <p data-i18n="layer.p">A 26/35 kV XLPE power cable is a precision assembly of eight functional layers. Knowing what each layer does helps you specify the right cable and verify the quality of what you receive.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="num">01</div>
+        <div class="t" data-i18n="layer.c1t">Copper / Aluminium Conductor</div>
+        <div class="d" data-i18n="layer.c1d">Class 2 compact stranded copper or aluminium. Copper gives the highest conductivity; aluminium is lighter and more economical for long overhead-to-ground runs.</div>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <div class="t" data-i18n="layer.c2t">Conductor Screen</div>
+        <div class="d" data-i18n="layer.c2d">A smooth semi-conductive layer over the conductor that eliminates air gaps and equalizes the electric field at the conductor surface.</div>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <div class="t" data-i18n="layer.c3t">XLPE Insulation</div>
+        <div class="d" data-i18n="layer.c3d">Cross-linked polyethylene rated for 90 °C continuous conductor temperature. Dry-cured, degassed insulation resists partial discharge and thermal ageing.</div>
+      </div>
+      <div class="card">
+        <div class="num">04</div>
+        <div class="t" data-i18n="layer.c4t">Insulation Screen</div>
+        <div class="d" data-i18n="layer.c4d">Semi-conductive layer over the insulation, firmly bonded, keeping the electric field radial and preventing surface discharges.</div>
+      </div>
+      <div class="card">
+        <div class="num">05</div>
+        <div class="t" data-i18n="layer.c5t">Metallic Screen</div>
+        <div class="d" data-i18n="layer.c5d">Copper wires plus copper tape. Carries fault current, provides shielding and guarantees a defined electric field around the insulation.</div>
+      </div>
+      <div class="card">
+        <div class="num">06</div>
+        <div class="t" data-i18n="layer.c6t">Fillers &amp; Binder</div>
+        <div class="d" data-i18n="layer.c6d">For three-core cables, non-hygroscopic fillers and binder tapes make the cross-section circular and stable under load cycling.</div>
+      </div>
+      <div class="card">
+        <div class="num">07</div>
+        <div class="t" data-i18n="layer.c7t">Armour (SWA)</div>
+        <div class="d" data-i18n="layer.c7d">Galvanized steel wire armour for direct burial, or aluminium wire for lighter installations. Protects against mechanical impact and rodent damage.</div>
+      </div>
+      <div class="card">
+        <div class="num">08</div>
+        <div class="t" data-i18n="layer.c8t">Outer Sheath</div>
+        <div class="d" data-i18n="layer.c8d">PVC for general use or LSZH (low smoke zero halogen) for indoor and data center installations where fire safety is critical.</div>
+      </div>
+    </div>
+    <div class="highlight-box">
+      <p data-i18n="layer.highlight">OUZHI Cable produces every layer in-house: copper drawing, stranding, triple-extrusion insulation, screening, armouring and sheathing on one integrated production line — that is what "source factory" really means.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 data-i18n="std.title">International Standards — One Cable, Many Compliance Routes</h2>
+    <p data-i18n="std.p">35 kV cables are accepted across markets under different standards. OUZHI Cable manufactures to the standard required by your destination country and provides full type-test documentation.</p>
+    <table>
+      <tr><th data-i18n="std.th1">Standard</th><th data-i18n="std.th2">Market</th><th data-i18n="std.th3">Scope for 35 kV</th></tr>
+      <tr><td>IEC 60502-2</td><td data-i18n="std.r1m">Global / International</td><td data-i18n="std.r1s">Extruded insulation power cables from 6 kV to 30 kV (U), with 36 kV maximum system voltage</td></tr>
+      <tr><td>GB/T 12706.2</td><td data-i18n="std.r2m">China</td><td data-i18n="std.r2s">Chinese national standard aligned with IEC, covering 35 kV XLPE cables</td></tr>
+      <tr><td>GOST 31996</td><td data-i18n="std.r3m">Russia / CIS</td><td data-i18n="std.r3s">Russian standard for power cables up to 35 kV with XLPE insulation; required for EAC certification</td></tr>
+      <tr><td>BS 6622</td><td data-i18n="std.r4m">United Kingdom</td><td data-i18n="std.r4s">British standard for 36 kV armoured XLPE cables with metallic screens</td></tr>
+      <tr><td>VDE 0276</td><td data-i18n="std.r5m">Germany / EU</td><td data-i18n="std.r5s">German series harmonized with IEC for MV cables</td></tr>
+      <tr><td>ICEA / AEIC</td><td data-i18n="std.r6m">North America</td><td data-i18n="std.r6s">Insulated Cable Engineers Association standards used across the US and Canada</td></tr>
+    </table>
+    <div class="highlight-box">
+      <p data-i18n="std.highlight">Beyond cable standards, every OUZHI Cable production site operates under ISO 9001 quality management, and export batches carry test certificates, certificates of conformity and, where required, EAC / CE documentation.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 data-i18n="test.title">Factory Testing — What Every Reel Must Pass</h2>
+    <p data-i18n="test.p">Routine tests are performed on 100% of production length. These are the checks a serious 35 kV buyer should ask for in the test report:</p>
+    <div class="steps">
+      <div class="step">
+        <div class="t" data-i18n="test.s1t">Partial Discharge Test</div>
+        <div class="d" data-i18n="test.s1d">Cable is energized and scanned for internal discharges. Zero-discharge screening at specified sensitivity is the core guarantee of insulation quality.</div>
+      </div>
+      <div class="step">
+        <div class="t" data-i18n="test.s2t">High-Voltage Withstand</div>
+        <div class="d" data-i18n="test.s2d">Full cable length withstands test voltage (e.g. 3.5 U0 AC for 30 minutes) proving insulation integrity under stress.</div>
+      </div>
+      <div class="step">
+        <div class="t" data-i18n="test.s3t">Conductor Resistance</div>
+        <div class="d" data-i18n="test.s3d">DC resistance measured and verified against the standard, confirming conductor material and cross-section.</div>
+      </div>
+      <div class="step">
+        <div class="t" data-i18n="test.s4t">Insulation Resistance</div>
+        <div class="d" data-i18n="test.s4d">Measured after water immersion, proving the insulation is free of moisture and contaminants.</div>
+      </div>
+      <div class="step">
+        <div class="t" data-i18n="test.s5t">Sheath Spark Test</div>
+        <div class="d" data-i18n="test.s5d">Outer sheath scanned at high frequency to detect pinholes and mechanical damage along the full length.</div>
+      </div>
+      <div class="step">
+        <div class="t" data-i18n="test.s6t">Mechanical &amp; Dimensional</div>
+        <div class="d" data-i18n="test.s6d">Thickness, diameter, tensile and elongation checks on insulation, screen and sheath samples from every batch.</div>
+      </div>
+    </div>
+    <div class="highlight-box">
+      <p data-i18n="test.highlight">Need proof? We welcome any third-party inspector — SGS, Bureau Veritas, TUV, Intertek — to witness tests at our factory before your shipment leaves.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 data-i18n="qual.title">Why Buyers Trust OUZHI Cable's Quality System</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="num">✓</div>
+        <div class="t" data-i18n="qual.c1t">Integrated Production</div>
+        <div class="d" data-i18n="qual.c1d">Copper rod to finished drum in one plant. No outsourcing of critical processes, no hidden subcontracting.</div>
+      </div>
+      <div class="card">
+        <div class="num">✓</div>
+        <div class="t" data-i18n="qual.c2t">Virgin Materials Only</div>
+        <div class="d" data-i18n="qual.c2d">High-grade copper cathodes and prime XLPE compounds. Material certificates accompany every batch.</div>
+      </div>
+      <div class="card">
+        <div class="num">✓</div>
+        <div class="t" data-i18n="qual.c3t">Triple-Extrusion Line</div>
+        <div class="d" data-i18n="qual.c3d">Modern CCV triple-extrusion dry-cure line for flawless conductor screen, insulation and insulation screen layers.</div>
+      </div>
+      <div class="card">
+        <div class="num">✓</div>
+        <div class="t" data-i18n="qual.c4t">100% Routine Testing</div>
+        <div class="d" data-i18n="qual.c4d">Every meter is tested, not sampled. Full reports archived and shipped with the goods.</div>
+      </div>
+      <div class="card">
+        <div class="num">✓</div>
+        <div class="t" data-i18n="qual.c5t">Traceable Lot Numbers</div>
+        <div class="d" data-i18n="qual.c5d">Drum numbers, lot records and test data are linked, so any issue can be traced to the exact production day and machine.</div>
+      </div>
+      <div class="card">
+        <div class="num">✓</div>
+        <div class="t" data-i18n="qual.c6t">Global Certification</div>
+        <div class="d" data-i18n="qual.c6d">IEC 60502-2 type tests, GOST 31996 / EAC for CIS, CE where applicable — documentation prepared for customs and project acceptance.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 data-i18n="faq.title">Technical Questions Buyers Ask Us Most</h2>
+    <div class="faq-item">
+      <div class="q" data-i18n="faq.q1">Q: Copper or aluminium conductor — which should I choose?</div>
+      <div class="a" data-i18n="faq.a1">A: Copper for higher current rating, lower losses and smaller size; aluminium when weight and cost matter more over long distances. We manufacture both from certified material.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" data-i18n="faq.q2">Q: Why is LSZH sheath mandatory in data centers?</div>
+      <div class="a" data-i18n="faq.a2">A: PVC releases dense toxic smoke when burning. LSZH (low smoke zero halogen) emits minimal smoke and no halogen gases, giving people time to evacuate and protecting sensitive electronics.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" data-i18n="faq.q3">Q: Single-core or three-core for my project?</div>
+      <div class="a" data-i18n="faq.a3">A: Three-core saves installation space and cost for shorter runs and grids. Single-core is preferred for very large cross-sections and long circuits where jointing flexibility matters.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" data-i18n="faq.q4">Q: Do I always need armour?</div>
+      <div class="a" data-i18n="faq.a4">A: Armour is required for direct burial, areas with heavy traffic, rocky ground or rodent activity. For protected indoor trays, unarmoured with LSZH is usually sufficient.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" data-i18n="faq.q5">Q: What does a partial discharge test actually prove?</div>
+      <div class="a" data-i18n="faq.a5">A: It detects microscopic voids in insulation that would grow into failure points over years of service. A zero-discharge result at specified sensitivity is the strongest quality signal a 35 kV cable can carry.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" data-i18n="faq.q6">Q: How should 35 kV cables be stored on site?</div>
+      <div class="a" data-i18n="faq.a6">A: Store drums upright on hard ground, sealed ends kept moisture-free, temperature between -5 °C and +50 °C, and away from direct sunlight for LSZH types. We provide handling instructions with every shipment.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="cta-section">
+      <h2 data-i18n="cta.title">Need Technical Documentation or a Factory Audit?</h2>
+      <p data-i18n="cta.p">Send us your project voltage, cable schedule or the standard you need to comply with. Our engineers will reply within 24 hours with datasheets, test reports and a factory-direct quotation.</p>
+      <div class="contact-row">
+        <a class="contact-btn cb-mail" href="mailto:info@ouzcable.com">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <span data-i18n="cta.email">Email: info@ouzcable.com</span>
+        </a>
+        <a class="contact-btn cb-phone" href="tel:+998998516999">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <span data-i18n="cta.phone">Phone: +998 99 851 6999</span>
+        </a>
+        <a class="contact-btn cb-wa" href="https://wa.me/998998516999" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span data-i18n="cta.whatsapp">WhatsApp: +998 99 851 6999</span>
+        </a>
+        <a class="contact-btn cb-tg" href="https://t.me/H99G99" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+          <span data-i18n="cta.telegram">Telegram: @H99G99</span>
+        </a>
+      </div>
+      <div class="contact-lines">
+        <div><span class="label" data-i18n="contact.email">Email:</span> <a href="mailto:info@ouzcable.com">info@ouzcable.com</a></div>
+        <div><span class="label" data-i18n="contact.phone">Phone:</span> <a href="tel:+998998516999">+998 99 851 6999</a></div>
+        <div><span class="label" data-i18n="contact.whatsapp">WhatsApp:</span> <a href="https://wa.me/998998516999" target="_blank" rel="noopener">+998 99 851 6999</a></div>
+        <div><span class="label" data-i18n="contact.telegram">Telegram:</span> <a href="https://t.me/H99G99" target="_blank" rel="noopener">@H99G99</a></div>
+        <div><span class="label" data-i18n="contact.hq">HQ:</span> <span data-i18n="contact.hqval">China · Export Worldwide</span></div>
+        <div><span class="label" data-i18n="contact.web">Website:</span> <a href="https://ouzcable.com/" target="_blank" rel="noopener">www.ouzcable.com</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <a class="back" href="https://ouzcable.com/" data-i18n="footer.back">← Back to OUZHI Cable Home</a>
+    <p>© <span id="year">2026</span> OUZHI Cable (欧智电缆). <span data-i18n="footer.rights">All rights reserved.</span> · <a href="mailto:info@ouzcable.com">info@ouzcable.com</a> · +998 99 851 6999</p>
+  </div>
+</footer>
+
+<script>
+var I18N={
+en:{
+"hero.eyebrow":"Technical Deep-Dive · Quality Certification · 2026",
+"hero.title":"35 kV Power Cable Engineering: <span class=\"accent\">Materials, Standards &amp; Testing</span> Explained",
+"hero.sub":"OUZHI Cable (欧智电缆) — 26/35 kV XLPE Medium-Voltage Cable Manufacturer",
+"hero.lead":"How a 35 kV XLPE cable is actually engineered layer by layer, which international standards govern its quality, and the factory tests every reel must pass before it leaves our plant. Written by the engineers of the source factory.",
+"hero.cta1":"Request Technical Documentation","hero.cta2":"View Procurement Guide",
+"layer.title":"Anatomy of a 35 kV Cable — Every Layer Has a Job",
+"layer.p":"A 26/35 kV XLPE power cable is a precision assembly of eight functional layers. Knowing what each layer does helps you specify the right cable and verify the quality of what you receive.",
+"layer.c1t":"Copper / Aluminium Conductor","layer.c1d":"Class 2 compact stranded copper or aluminium. Copper gives the highest conductivity; aluminium is lighter and more economical for long runs.",
+"layer.c2t":"Conductor Screen","layer.c2d":"A smooth semi-conductive layer over the conductor that eliminates air gaps and equalizes the electric field at the conductor surface.",
+"layer.c3t":"XLPE Insulation","layer.c3d":"Cross-linked polyethylene rated for 90 °C continuous conductor temperature. Dry-cured, degassed insulation resists partial discharge and thermal ageing.",
+"layer.c4t":"Insulation Screen","layer.c4d":"Semi-conductive layer over the insulation, firmly bonded, keeping the electric field radial and preventing surface discharges.",
+"layer.c5t":"Metallic Screen","layer.c5d":"Copper wires plus copper tape. Carries fault current, provides shielding and guarantees a defined electric field around the insulation.",
+"layer.c6t":"Fillers & Binder","layer.c6d":"For three-core cables, non-hygroscopic fillers and binder tapes make the cross-section circular and stable under load cycling.",
+"layer.c7t":"Armour (SWA)","layer.c7d":"Galvanized steel wire armour for direct burial, or aluminium wire for lighter installations. Protects against mechanical impact and rodent damage.",
+"layer.c8t":"Outer Sheath","layer.c8d":"PVC for general use or LSZH (low smoke zero halogen) for indoor and data center installations where fire safety is critical.",
+"layer.highlight":"OUZHI Cable produces every layer in-house: copper drawing, stranding, triple-extrusion insulation, screening, armouring and sheathing on one integrated production line — that is what \"source factory\" really means.",
+"std.title":"International Standards — One Cable, Many Compliance Routes",
+"std.p":"35 kV cables are accepted across markets under different standards. OUZHI Cable manufactures to the standard required by your destination country and provides full type-test documentation.",
+"std.th1":"Standard","std.th2":"Market","std.th3":"Scope for 35 kV",
+"std.r1m":"Global / International","std.r1s":"Extruded insulation power cables from 6 kV to 30 kV (U), with 36 kV maximum system voltage",
+"std.r2m":"China","std.r2s":"Chinese national standard aligned with IEC, covering 35 kV XLPE cables",
+"std.r3m":"Russia / CIS","std.r3s":"Russian standard for power cables up to 35 kV with XLPE insulation; required for EAC certification",
+"std.r4m":"United Kingdom","std.r4s":"British standard for 36 kV armoured XLPE cables with metallic screens",
+"std.r5m":"Germany / EU","std.r5s":"German series harmonized with IEC for MV cables",
+"std.r6m":"North America","std.r6s":"Insulated Cable Engineers Association standards used across the US and Canada",
+"std.highlight":"Beyond cable standards, every OUZHI Cable production site operates under ISO 9001 quality management, and export batches carry test certificates, certificates of conformity and, where required, EAC / CE documentation.",
+"test.title":"Factory Testing — What Every Reel Must Pass",
+"test.p":"Routine tests are performed on 100% of production length. These are the checks a serious 35 kV buyer should ask for in the test report:",
+"test.s1t":"Partial Discharge Test","test.s1d":"Cable is energized and scanned for internal discharges. Zero-discharge screening at specified sensitivity is the core guarantee of insulation quality.",
+"test.s2t":"High-Voltage Withstand","test.s2d":"Full cable length withstands test voltage (e.g. 3.5 U0 AC for 30 minutes) proving insulation integrity under stress.",
+"test.s3t":"Conductor Resistance","test.s3d":"DC resistance measured and verified against the standard, confirming conductor material and cross-section.",
+"test.s4t":"Insulation Resistance","test.s4d":"Measured after water immersion, proving the insulation is free of moisture and contaminants.",
+"test.s5t":"Sheath Spark Test","test.s5d":"Outer sheath scanned at high frequency to detect pinholes and mechanical damage along the full length.",
+"test.s6t":"Mechanical & Dimensional","test.s6d":"Thickness, diameter, tensile and elongation checks on insulation, screen and sheath samples from every batch.",
+"test.highlight":"Need proof? We welcome any third-party inspector — SGS, Bureau Veritas, TUV, Intertek — to witness tests at our factory before your shipment leaves.",
+"qual.title":"Why Buyers Trust OUZHI Cable's Quality System",
+"qual.c1t":"Integrated Production","qual.c1d":"Copper rod to finished drum in one plant. No outsourcing of critical processes, no hidden subcontracting.",
+"qual.c2t":"Virgin Materials Only","qual.c2d":"High-grade copper cathodes and prime XLPE compounds. Material certificates accompany every batch.",
+"qual.c3t":"Triple-Extrusion Line","qual.c3d":"Modern CCV triple-extrusion dry-cure line for flawless conductor screen, insulation and insulation screen layers.",
+"qual.c4t":"100% Routine Testing","qual.c4d":"Every meter is tested, not sampled. Full reports archived and shipped with the goods.",
+"qual.c5t":"Traceable Lot Numbers","qual.c5d":"Drum numbers, lot records and test data are linked, so any issue can be traced to the exact production day and machine.",
+"qual.c6t":"Global Certification","qual.c6d":"IEC 60502-2 type tests, GOST 31996 / EAC for CIS, CE where applicable — documentation prepared for customs and project acceptance.",
+"faq.title":"Technical Questions Buyers Ask Us Most",
+"faq.q1":"Q: Copper or aluminium conductor — which should I choose?","faq.a1":"A: Copper for higher current rating, lower losses and smaller size; aluminium when weight and cost matter more over long distances. We manufacture both from certified material.",
+"faq.q2":"Q: Why is LSZH sheath mandatory in data centers?","faq.a2":"A: PVC releases dense toxic smoke when burning. LSZH (low smoke zero halogen) emits minimal smoke and no halogen gases, giving people time to evacuate and protecting sensitive electronics.",
+"faq.q3":"Q: Single-core or three-core for my project?","faq.a3":"A: Three-core saves installation space and cost for shorter runs and grids. Single-core is preferred for very large cross-sections and long circuits where jointing flexibility matters.",
+"faq.q4":"Q: Do I always need armour?","faq.a4":"A: Armour is required for direct burial, areas with heavy traffic, rocky ground or rodent activity. For protected indoor trays, unarmoured with LSZH is usually sufficient.",
+"faq.q5":"Q: What does a partial discharge test actually prove?","faq.a5":"A: It detects microscopic voids in insulation that would grow into failure points over years of service. A zero-discharge result at specified sensitivity is the strongest quality signal a 35 kV cable can carry.",
+"faq.q6":"Q: How should 35 kV cables be stored on site?","faq.a6":"A: Store drums upright on hard ground, sealed ends kept moisture-free, temperature between -5 °C and +50 °C, and away from direct sunlight for LSZH types. We provide handling instructions with every shipment.",
+"cta.title":"Need Technical Documentation or a Factory Audit?",
+"cta.p":"Send us your project voltage, cable schedule or the standard you need to comply with. Our engineers will reply within 24 hours with datasheets, test reports and a factory-direct quotation.",
+"cta.email":"Email: info@ouzcable.com","cta.phone":"Phone: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999","cta.telegram":"Telegram: @H99G99",
+"contact.email":"Email:","contact.phone":"Phone:","contact.whatsapp":"WhatsApp:","contact.telegram":"Telegram:",
+"contact.hq":"HQ:","contact.hqval":"China · Export Worldwide","contact.web":"Website:",
+"footer.back":"← Back to OUZHI Cable Home","footer.rights":"All rights reserved."
+},
+zh:{
+"hero.eyebrow":"技术深度解析 · 质量认证 · 2026",
+"hero.title":"35KV电力电缆工程：<span class=\"accent\">材料、标准与检测</span>全解析",
+"hero.sub":"OUZHI Cable (欧智电缆) — 26/35 kV XLPE 中压电缆制造商",
+"hero.lead":"35KV XLPE电缆是如何逐层精密制造的？哪些国际标准决定其质量？每一盘电缆在出厂前必须通过哪些检测？本文由源头工厂的工程师亲自撰写。",
+"hero.cta1":"获取技术资料","hero.cta2":"查看采购指南",
+"layer.title":"35KV电缆结构解剖——每一层都有它的使命",
+"layer.p":"一条26/35 kV XLPE电力电缆是八层功能结构的精密组合。了解每一层的作用，能帮助您正确选型并核验到货质量。",
+"layer.c1t":"铜 / 铝导体","layer.c1d":"2类紧压绞合铜或铝导体。铜导电率最高；铝更轻，长距离敷设更经济。",
+"layer.c2t":"导体屏蔽层","layer.c2d":"覆盖在导体表面的光滑半导电层，消除空气间隙，均匀导体表面电场。",
+"layer.c3t":"XLPE绝缘层","layer.c3d":"交联聚乙烯，允许导体长期运行温度90°C。干法交联、充分脱气，抗局部放电和热老化。",
+"layer.c4t":"绝缘屏蔽层","layer.c4d":"与绝缘紧密粘结的半导电层，使电场保持径向分布，防止表面放电。",
+"layer.c5t":"金属屏蔽层","layer.c5d":"铜丝加铜带，承载故障电流、提供屏蔽，保证绝缘周围电场分布确定。",
+"layer.c6t":"填充与包带","layer.c6d":"三芯电缆采用非吸湿性填充料和包带，使截面呈圆形并在负载循环下保持稳定。",
+"layer.c7t":"铠装层（SWA）","layer.c7d":"直埋用镀锌钢丝铠装，轻型场合用铝丝铠装。抵御机械冲击和鼠害。",
+"layer.c8t":"外护套","layer.c8d":"普通场合用PVC；室内和数据中心等消防关键场合必须用低烟无卤（LSZH）。",
+"layer.highlight":"欧智电缆所有生产环节均在厂内完成：铜杆拉丝、绞合、三层共挤绝缘、屏蔽、铠装、护套在同一条一体化生产线上完成——这就是“源头工厂”的真正含义。",
+"std.title":"国际标准——一条电缆，多种合规路径",
+"std.p":"不同市场对35KV电缆采用不同标准。欧智电缆按您目的国要求的标准组织生产，并提供完整的型式试验文件。",
+"std.th1":"标准","std.th2":"适用市场","std.th3":"35KV适用范围",
+"std.r1m":"全球 / 国际","std.r1s":"挤包绝缘电力电缆，U=6kV至30kV，最高系统电压36kV",
+"std.r2m":"中国","std.r2s":"与IEC对标的国家标准，覆盖35KV XLPE电缆",
+"std.r3m":"俄罗斯 / 独联体","std.r3s":"俄罗斯XLPE绝缘电力电缆标准（至35KV），EAC认证必需",
+"std.r4m":"英国","std.r4s":"36KV铠装XLPE金属屏蔽电缆英国标准",
+"std.r5m":"德国 / 欧盟","std.r5s":"与IEC协调的德国中压电缆系列标准",
+"std.r6m":"北美","std.r6s":"美国、加拿大广泛采用的绝缘电缆工程师协会标准",
+"std.highlight":"除电缆标准外，欧智电缆各生产基地均运行ISO 9001质量管理体系，出口批次随附检测证书、符合性证书，并按需提供EAC/CE文件。",
+"test.title":"出厂检测——每一盘电缆必须通过的关卡",
+"test.p":"例行试验覆盖全部生产长度（100%检测）。以下是一份负责任的35KV买家应在检测报告中要求看到的项目：",
+"test.s1t":"局部放电试验","test.s1d":"对电缆施加电压并扫描内部放电。在规定灵敏度下零放电，是绝缘质量的核心里程碑。",
+"test.s2t":"高压耐压试验","test.s2d":"整盘电缆耐受试验电压（如3.5 U0交流30分钟），验证绝缘在应力下的完整性。",
+"test.s3t":"导体电阻测量","test.s3d":"直流电阻实测并对照标准，确认导体材质与截面。",
+"test.s4t":"绝缘电阻测量","test.s4d":"浸水后测量，证明绝缘无潮气、无污染。",
+"test.s5t":"护套火花试验","test.s5d":"高频扫描外护套全长，检出针孔与机械损伤。",
+"test.s6t":"机械与尺寸检查","test.s6d":"每批次抽样检测绝缘、屏蔽、护套的厚度、外径、拉伸与伸长率。",
+"test.highlight":"需要证据？我们欢迎SGS、BV、TUV、Intertek等任何第三方检验机构在发货前到厂见证测试。",
+"qual.title":"为什么买家信任欧智电缆的质量体系",
+"qual.c1t":"一体化生产","qual.c1d":"从铜杆到成品盘具在同一工厂完成。关键工序不外协、无隐性转包。",
+"qual.c2t":"只使用全新材料","qual.c2d":"高纯铜阴极和优质XLPE料，每批次随附材料质保书。",
+"qual.c3t":"三层共挤生产线","qual.c3d":"现代化CCV三层共挤干法交联生产线，导体屏蔽、绝缘、绝缘屏蔽一次成型无瑕疵。",
+"qual.c4t":"100%例行检测","qual.c4d":"每一米电缆都检测，而非抽样。完整报告归档并随货发运。",
+"qual.c5t":"批次可追溯","qual.c5d":"盘号、批次记录与检测数据关联，任何问题都能追溯到具体生产日期和机台。",
+"qual.c6t":"全球认证能力","qual.c6d":"IEC 60502-2型式试验、独联体GOST 31996/EAC、适用时CE——为清关和项目验收备齐文件。",
+"faq.title":"买家最常问的技术问题",
+"faq.q1":"问：铜导体还是铝导体，该怎么选？","faq.a1":"答：铜用于高载流量、低损耗、小尺寸场景；长距离且重量、成本敏感时选铝。我们使用认证材料生产两种导体。",
+"faq.q2":"问：为什么数据中心必须用LSZH护套？","faq.a2":"答：PVC燃烧时释放大量有毒浓烟。LSZH（低烟无卤）燃烧时烟量极少、无卤素气体，为人员疏散争取时间并保护敏感电子设备。",
+"faq.q3":"问：单芯还是三芯？","faq.a3":"答：较短线路和电网场景，三芯节省安装空间和成本；超大截面和长线路（接头灵活性重要）优选单芯。",
+"faq.q4":"问：是否必须铠装？","faq.a4":"答：直埋、重载交通、岩石地质或鼠害区域必须铠装。有保护的室内桥架场合，非铠装LSZH通常足够。",
+"faq.q5":"问：局部放电试验到底能证明什么？","faq.a5":"答：它能检出绝缘中的微观空隙——这些空隙会在多年运行中发展成故障点。规定灵敏度下零放电是35KV电缆最强的质量信号。",
+"faq.q6":"问：现场如何存放35KV电缆？","faq.a6":"答：盘具直立放置于硬质地面，端头密封防潮，温度-5°C至+50°C，LSZH型避免阳光直射。每批随货附搬运说明。",
+"cta.title":"需要技术文件或工厂审核？",
+"cta.p":"告诉我们您的项目电压、电缆清册或需要满足的标准。工程师将在24小时内回复数据表、检测报告和工厂直供报价。",
+"cta.email":"邮箱：info@ouzcable.com","cta.phone":"电话：+998 99 851 6999",
+"cta.whatsapp":"WhatsApp：+998 99 851 6999","cta.telegram":"Telegram：@H99G99",
+"contact.email":"邮箱：","contact.phone":"电话：","contact.whatsapp":"WhatsApp：","contact.telegram":"Telegram：",
+"contact.hq":"总部：","contact.hqval":"中国 · 出口全球","contact.web":"网站：",
+"footer.back":"← 返回欧智电缆首页","footer.rights":"版权所有。"
+},
+ru:{
+"hero.eyebrow":"Технический разбор · Сертификация качества · 2026",
+"hero.title":"Инженерия кабеля 35 кВ: <span class=\"accent\">материалы, стандарты и испытания</span>",
+"hero.sub":"OUZHI Cable (欧智电缆) — производитель кабелей 26/35 кВ с изоляцией из СПЭ",
+"hero.lead":"Как кабель 35 кВ с изоляцией из СПЭ устроен слой за слоем, какие международные стандарты определяют его качество и какие заводские испытания проходит каждая бухта перед отгрузкой. Написано инженерами завода-изготовителя.",
+"hero.cta1":"Запросить техническую документацию","hero.cta2":"Смотреть руководство по закупке",
+"layer.title":"Анатомия кабеля 35 кВ — у каждого слоя своя задача",
+"layer.p":"Кабель 26/35 кВ с изоляцией из СПЭ — это точная сборка из восьми функциональных слоёв. Понимание каждого слоя помогает правильно выбрать кабель и проверить качество поставки.",
+"layer.c1t":"Медная / алюминиевая жила","layer.c1d":"Секторные или круглые уплотнённые медные или алюминиевые жилы класса 2. Медь даёт максимальную проводимость; алюминий легче и экономичнее на больших дистанциях.",
+"layer.c2t":"Экран по жиле","layer.c2d":"Гладкий полупроводящий слой поверх жилы, устраняющий воздушные зазоры и выравнивающий электрическое поле.",
+"layer.c3t":"Изоляция из СПЭ","layer.c3d":"Сшитый полиэтилен с допустимой температурой жилы 90 °C. Сухая вулканизация и дегазация обеспечивают стойкость к частичным разрядам и тепловому старению.",
+"layer.c4t":"Экран по изоляции","layer.c4d":"Полупроводящий слой, прочно соединённый с изоляцией, удерживает поле радиальным и предотвращает поверхностные разряды.",
+"layer.c5t":"Металлический экран","layer.c5d":"Медные проволоки плюс медная лента. Отводит ток короткого замыкания, экранирует и задаёт определённое электрическое поле.",
+"layer.c6t":"Заполнение и обмотка","layer.c6d":"Для трёхжильных кабелей негигроскопичное заполнение и бандажные ленты придают сечению круглую форму и стабильность при циклических нагрузках.",
+"layer.c7t":"Броня (SWA)","layer.c7d":"Оцинкованная стальная проволочная броня для прокладки в земле или алюминиевая для лёгких установок. Защищает от ударов и грызунов.",
+"layer.c8t":"Наружная оболочка","layer.c8d":"ПВХ для общего применения или LSZH (малодымная безгалогенная) для помещений и ЦОД, где критична пожарная безопасность.",
+"layer.highlight":"OUZHI Cable производит каждый слой на собственном заводе: волочение меди, скрутка, тройная экструзия изоляции, экранирование, бронирование и оболочка на единой производственной линии — вот что значит \"завод-изготовитель\".",
+"std.title":"Международные стандарты — один кабель, разные пути соответствия",
+"std.p":"Кабели 35 кВ принимаются на разных рынках по разным стандартам. OUZHI Cable производит по стандарту страны назначения и предоставляет полную документацию типовых испытаний.",
+"std.th1":"Стандарт","std.th2":"Рынок","std.th3":"Применение для 35 кВ",
+"std.r1m":"Мир / Международный","std.r1s":"Силовые кабели с экструдированной изоляцией от 6 до 30 кВ (U), макс. напряжение системы 36 кВ",
+"std.r2m":"Китай","std.r2s":"Национальный стандарт КНР, гармонизированный с IEC, для кабелей 35 кВ",
+"std.r3m":"Россия / СНГ","std.r3s":"Российский стандарт для кабелей до 35 кВ с изоляцией из СПЭ; обязателен для сертификации EAC",
+"std.r4m":"Великобритания","std.r4s":"Британский стандарт для бронированных кабелей 36 кВ из СПЭ с металлическими экранами",
+"std.r5m":"Германия / ЕС","std.r5s":"Немецкая серия, гармонизированная с IEC для кабелей среднего напряжения",
+"std.r6m":"Северная Америка","std.r6s":"Стандарты ассоциации ICEA, применяемые в США и Канаде",
+"std.highlight":"Помимо кабельных стандартов, все площадки OUZHI Cable работают по системе менеджмента качества ISO 9001; экспортные партии сопровождаются протоколами испытаний, сертификатами соответствия и, при необходимости, документами EAC / CE.",
+"test.title":"Заводские испытания — что должна пройти каждая бухта",
+"test.p":"Приёмо-сдаточные испытания проводятся на 100% производственной длины. Вот проверки, которые серьёзный покупатель кабеля 35 кВ должен требовать в протоколе:",
+"test.s1t":"Испытание частичными разрядами","test.s1d":"Кабель под напряжением сканируется на внутренние разряды. Нулевой уровень разрядов при заданной чувствительности — главная гарантия качества изоляции.",
+"test.s2t":"Высоковольтное испытание","test.s2d":"Вся длина выдерживает испытательное напряжение (например, 3,5 U0 AC в течение 30 минут), подтверждая целостность изоляции.",
+"test.s3t":"Сопротивление жилы","test.s3d":"Измеряется и сверяется со стандартом, подтверждая материал и сечение жилы.",
+"test.s4t":"Сопротивление изоляции","test.s4d":"Измеряется после выдержки в воде, доказывая отсутствие влаги и загрязнений.",
+"test.s5t":"Искровое испытание оболочки","test.s5d":"Оболочка сканируется высокой частотой для выявления проколов и механических повреждений по всей длине.",
+"test.s6t":"Механические и размерные","test.s6d":"Проверка толщины, диаметра, прочности на разрыв и удлинения образцов изоляции, экрана и оболочки каждой партии.",
+"test.highlight":"Нужны доказательства? Мы приглашаем любого независимого инспектора — SGS, Bureau Veritas, TUV, Intertek — присутствовать на испытаниях до отгрузки.",
+"qual.title":"Почему покупатели доверяют системе качества OUZHI Cable",
+"qual.c1t":"Интегрированное производство","qual.c1d":"От медного прутка до готовой бухты — на одном заводе. Без аутсорсинга критических процессов и скрытого субподряда.",
+"qual.c2t":"Только первичные материалы","qual.c2d":"Медь высокой чистоты и первичные СПЭ-компаунды. Сертификаты материалов прилагаются к каждой партии.",
+"qual.c3t":"Линия тройной экструзии","qual.c3d":"Современная линия CCV с тройной экструзией и сухой вулканизацией для безупречных слоёв экрана и изоляции.",
+"qual.c4t":"100% приёмо-сдаточные испытания","qual.c4d":"Испытывается каждый метр, а не выборка. Полные протоколы архивируются и отправляются вместе с грузом.",
+"qual.c5t":"Прослеживаемость партий","qual.c5d":"Номера бухт, записи партий и данные испытаний связаны: любая проблема прослеживается до дня и станка производства.",
+"qual.c6t":"Глобальная сертификация","qual.c6d":"Типовые испытания IEC 60502-2, GOST 31996 / EAC для СНГ, CE там, где требуется — документация готова для таможни и приёмки проекта.",
+"faq.title":"Технические вопросы покупателей",
+"faq.q1":"В: Медь или алюминий — что выбрать?","faq.a1":"О: Медь для большей токовой нагрузки, меньших потерь и размеров; алюминий — когда важнее вес и стоимость на больших дистанциях. Производим оба варианта из сертифицированного материала.",
+"faq.q2":"В: Почему оболочка LSZH обязательна в ЦОД?","faq.a2":"О: ПВХ при горении выделяет плотный токсичный дым. LSZH даёт минимум дыма и без галогенов, давая время на эвакуацию и защищая электронику.",
+"faq.q3":"В: Одна или три жилы для моего проекта?","faq.a3":"О: Три жилы экономят место и стоимость на коротких трассах. Одна жила предпочтительна для очень больших сечений и длинных линий, где важна гибкость соединений.",
+"faq.q4":"В: Всегда ли нужна броня?","faq.a4":"О: Броня обязательна при прокладке в земле, в местах с тяжёлым трафиком, скальным грунтом или грызунами. В защищённых лотках обычно достаточно небронированного кабеля LSZH.",
+"faq.q5":"В: Что доказывает испытание частичными разрядами?","faq.a5":"О: Оно выявляет микроскопические пустоты в изоляции, которые за годы эксплуатации превращаются в точки отказа. Нулевой уровень разрядов — сильнейший сигнал качества кабеля 35 кВ.",
+"faq.q6":"В: Как хранить кабели 35 кВ на площадке?","faq.a6":"О: Барабаны вертикально на твёрдом основании, концы герметизированы, температура от -5 °C до +50 °C, LSZH — без прямого солнца. Инструкции прилагаются к каждой поставке.",
+"cta.title":"Нужна техническая документация или аудит завода?",
+"cta.p":"Пришлите напряжение проекта, кабельную ведомость или требуемый стандарт. Инженеры ответят в течение 24 часов с техническими данными, протоколами и ценой напрямую от завода.",
+"cta.email":"Email: info@ouzcable.com","cta.phone":"Тел.: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999","cta.telegram":"Telegram: @H99G99",
+"contact.email":"Email:","contact.phone":"Телефон:","contact.whatsapp":"WhatsApp:","contact.telegram":"Telegram:",
+"contact.hq":"Штаб:","contact.hqval":"Китай · Экспорт по всему миру","contact.web":"Сайт:",
+"footer.back":"← Назад на главную OUZHI Cable","footer.rights":"Все права защищены."
+},
+ar:{
+"hero.eyebrow":"تحليل فني · شهادات الجودة · 2026",
+"hero.title":"هندسة كابلات 35 ك.ف: <span class=\"accent\">المواد والمعايير والاختبارات</span>",
+"hero.sub":"OUZHI Cable (欧智电缆) — مصنع كابلات الجهد المتوسط 26/35 ك.ف من البولي إيثيلين المتشابك XLPE",
+"hero.lead":"كيف يُصنع كابل 35 ك.ف من XLPE طبقة بطبقة، وما المعايير الدولية التي تحكم جودته، وما اختبارات المصنع التي يجب أن يجتازها كل بكرة قبل الشحن. كتبه مهندسو المصنع الأم.",
+"hero.cta1":"اطلب الوثائق الفنية","hero.cta2":"عرض دليل الشراء",
+"layer.title":"تشريح كابل 35 ك.ف — لكل طبقة وظيفة",
+"layer.p":"كابل 26/35 ك.ف من XLPE هو تجميع دقيق لثماني طبقات وظيفية. معرفة وظيفة كل طبقة يساعدك على اختيار الكابل الصحيح والتحقق من جودة ما تستلمه.",
+"layer.c1t":"الموصل النحاسي / الألومنيومي","layer.c1d":"موصل نحاسي أو ألومنيومي مجدول مضغوط من الصنف 2. النحاس يعطي أعلى موصلية؛ الألومنيوم أخف وأكثر اقتصادية للمسافات الطويلة.",
+"layer.c2t":"درع الموصل","layer.c2d":"طبقة شبه موصلة ناعمة فوق الموصل تزيل الفجوات الهوائية وتوازن المجال الكهربائي على سطح الموصل.",
+"layer.c3t":"عزل XLPE","layer.c3d":"بولي إيثيلين متشابك مصمم لدرجة حرارة موصل مستمرة 90 درجة مئوية. العزل المعالج جافاً والمفرغ من الغازات يقاوم التفريغ الجزئي والشيخوخة الحرارية.",
+"layer.c4t":"درع العزل","layer.c4d":"طبقة شبه موصلة فوق العزل مترابطة بإحكام، تُبقي المجال الكهربائي شعاعياً وتمنع التفريغ السطحي.",
+"layer.c5t":"الدرع المعدني","layer.c5d":"أسلاك نحاسية بالإضافة إلى شريط نحاسي. يحمل تيار العطل ويوفر الحجب ويضمن مجالاً كهربائياً محدداً حول العزل.",
+"layer.c6t":"الحشو واللف","layer.c6d":"للكابلات ثلاثية النواة، مواد حشو غير رطبة وأشرطة ربط تجعل المقطع دائرياً وثابتاً تحت دورات التحميل.",
+"layer.c7t":"التدريع الفولاذي (SWA)","layer.c7d":"تدريع بأسلاك فولاذية مجلفنة للدفن المباشر، أو أسلاك ألومنيوم للتركيبات الأخف. يحمي من الصدمات الميكانيكية والقوارض.",
+"layer.c8t":"الغلاف الخارجي","layer.c8d":"PVC للاستخدام العام أو LSZH (قليل الدخان خالٍ من الهالوجين) للتركيبات الداخلية ومراكز البيانات حيث السلامة من الحرائق حرجة.",
+"layer.highlight":"تنتج OUZHI Cable كل طبقة داخل مصنعها: سحب النحاس، والتجديل، والبثق الثلاثي للعزل، والحجب، والتدريع والغلاف على خط إنتاج متكامل واحد — هذا هو المعنى الحقيقي لـ \"المصنع الأم\".",
+"std.title":"المعايير الدولية — كابل واحد، مسارات امتثال متعددة",
+"std.p":"تُقبل كابلات 35 ك.ف في الأسواق المختلفة وفق معايير مختلفة. تصنع OUZHI Cable وفق المعيار المطلوب في بلد الوجهة وتوفر وثائق الاختبارات النوعية الكاملة.",
+"std.th1":"المعيار","std.th2":"السوق","std.th3":"النطاق لكابلات 35 ك.ف",
+"std.r1m":"عالمي / دولي","std.r1s":"كابلات الطاقة ذات العزل المبثوق من 6 ك.ف إلى 30 ك.ف (U) وبأقصى جهد نظام 36 ك.ف",
+"std.r2m":"الصين","std.r2s":"المعيار الوطني الصيني المنسجم مع IEC ويغطي كابلات 35 ك.ف XLPE",
+"std.r3m":"روسيا / رابطة الدول المستقلة","std.r3s":"المعيار الروسي لكابلات الطاقة حتى 35 ك.ف بعزل XLPE؛ مطلوب لشهادة EAC",
+"std.r4m":"المملكة المتحدة","std.r4s":"المعيار البريطاني لكابلات 36 ك.ف XLPE المدرعة ذات الحجب المعدني",
+"std.r5m":"ألمانيا / الاتحاد الأوروبي","std.r5s":"السلسلة الألمانية المنسجمة مع IEC لكابلات الجهد المتوسط",
+"std.r6m":"أمريكا الشمالية","std.r6s":"معايير ICEA المستخدمة في الولايات المتحدة وكندا",
+"std.highlight":"إلى جانب معايير الكابلات، تعمل جميع مواقع OUZHI Cable وفق نظام إدارة الجودة ISO 9001، وتُرفق كل دفعة تصدير بشهادات اختبار وشهادات مطابقة ووثائق EAC / CE عند الحاجة.",
+"test.title":"اختبارات المصنع — ما يجب أن يجتازه كل بكرة",
+"test.p":"تُجرى الاختبارات الروتينية على 100% من طول الإنتاج. هذه هي الفحوصات التي يجب على مشتري كابلات 35 ك.ف الجاد أن يطلبها في تقرير الاختبار:",
+"test.s1t":"اختبار التفريغ الجزئي","test.s1d":"يُغذى الكابل بالطاقة ويُمسح بحثاً عن تفريغات داخلية. الفحص صفر التفريغ عند الحساسية المحددة هو الضمان الأساسي لجودة العزل.",
+"test.s2t":"اختبار تحمل الجهد العالي","test.s2d":"يتحمل طول الكابل الكامل جهد الاختبار (مثل 3.5 U0 تيار متردد لمدة 30 دقيقة) لإثبات سلامة العزل تحت الإجهاد.",
+"test.s3t":"مقاومة الموصل","test.s3d":"تُقاس مقاومة التيار المستمر وتُتحقق مقابل المعيار لتأكيد مادة الموصل ومقطعه.",
+"test.s4t":"مقاومة العزل","test.s4d":"تُقاس بعد الغمر في الماء لإثبات خلو العزل من الرطوبة والملوثات.",
+"test.s5t":"اختبار الشرر للغلاف","test.s5d":"يُمسح الغلاف الخارجي بتردد عالٍ لاكتشاف الثقوب والأضرار الميكانيكية على طول الكابل كاملاً.",
+"test.s6t":"الفحص الميكانيكي والأبعادي","test.s6d":"فحص السماكة والقطر والشد والاستطالة لعينات العزل والدرع والغلاف من كل دفعة.",
+"test.highlight":"تحتاج دليلاً؟ نرحب بأي مفتش طرف ثالث — SGS أو Bureau Veritas أو TUV أو Intertek — لمشاهدة الاختبارات في مصنعنا قبل مغادرة الشحنة.",
+"qual.title":"لماذا يثق المشترون بنظام الجودة في OUZHI Cable",
+"qual.c1t":"إنتاج متكامل","qual.c1d":"من قضيب النحاس إلى البكرة النهائية في مصنع واحد. لا استعانة خارجية بالعمليات الحرجة ولا مقاولة فرعية خفية.",
+"qual.c2t":"مواد خام فقط","qual.c2d":"كاثودات نحاس عالية النقاء ومركبات XLPE ممتازة. شهادات المواد ترافق كل دفعة.",
+"qual.c3t":"خط بثق ثلاثي","qual.c3d":"خط CCV حديث ببثق ثلاثي ومعالجة جافة لطبقات درع الموصل والعزل ودرع العزل بشكل مثالي.",
+"qual.c4t":"اختبار روتيني 100%","qual.c4d":"يُختبر كل متر وليس عينة. تُؤرشف التقارير الكاملة وتُشحن مع البضاعة.",
+"qual.c5t":"أرقام دفعات قابلة للتتبع","qual.c5d":"ترتبط أرقام البكرات وسجلات الدفعات وبيانات الاختبار، بحيث يمكن تتبع أي مشكلة إلى يوم الإنتاج والآلة بدقة.",
+"qual.c6t":"شهادات عالمية","qual.c6d":"اختبارات نوعية IEC 60502-2 وGOST 31996 / EAC لدول رابطة الدول المستقلة وCE عند الاقتضاء — وثائق جاهزة للجمارك وقبول المشروع.",
+"faq.title":"الأسئلة الفنية الأكثر شيوعاً من المشترين",
+"faq.q1":"س: الموصل النحاسي أم الألومنيومي — أيهما أختار؟","faq.a1":"ج: النحاس لتصنيف تيار أعلى وفقد أقل وحجم أصغر؛ والألومنيوم عندما تكون الوزن والتكلفة أهم عبر المسافات الطويلة. نصنع كليهما من مواد معتمدة.",
+"faq.q2":"س: لماذا غلاف LSZH إلزامي في مراكز البيانات؟","faq.a2":"ج: PVC يطلق دخاناً كثيفاً ساماً عند الاحتراق. LSZH ينبعث منه دخان ضئيل وبدون غازات هالوجين، مما يمنح الناس وقتاً للإخلاء ويحمي الإلكترونيات الحساسة.",
+"faq.q3":"س: نواة واحدة أم ثلاث نوى لمشروعي؟","faq.a3":"ج: الثلاث نوى توفر مساحة التركيب والتكلفة للمسارات والشبكات الأقصر. النواة الواحدة مفضلة للمقاطع الكبيرة جداً والدوائر الطويلة حيث تهم مرونة الوصلات.",
+"faq.q4":"س: هل أحتاج دائماً إلى التدريع؟","faq.a4":"ج: التدريع مطلوب للدفن المباشر والمناطق ذات الحركة المرورية الكثيفة والتربة الصخرية أو نشاط القوارض. للأرفف الداخلية المحمية عادة ما يكفي كابل غير مدرع بغلاف LSZH.",
+"faq.q5":"س: ماذا يثبت اختبار التفريغ الجزئي فعلياً؟","faq.a5":"ج: يكشف الفراغات المجهرية في العزل التي قد تتحول إلى نقاط عطل بعد سنوات من الخدمة. نتيجة التفريغ الصفري عند الحساسية المحددة هي أقوى إشارة جودة يمكن أن يحملها كابل 35 ك.ف.",
+"faq.q6":"س: كيف تُخزن كابلات 35 ك.ف في الموقع؟","faq.a6":"ج: خزّن البكرات عمودياً على أرض صلبة، مع إبقاء الأطراف مغلقة بعيداً عن الرطوبة، ودرجة حرارة بين -5 و+50 درجة مئوية، وبعيداً عن أشعة الشمس المباشرة لأنواع LSZH. نوفر تعليمات المناولة مع كل شحنة.",
+"cta.title":"تحتاج وثائق فنية أو تدقيقاً للمصنع؟",
+"cta.p":"أرسل لنا جهد مشروعك أو جدول الكابلات أو المعيار الذي تحتاج للامتثال له. سيرد مهندسونا خلال 24 ساعة بجداول البيانات وتقارير الاختبار وعرض سعر مباشر من المصنع.",
+"cta.email":"البريد: info@ouzcable.com","cta.phone":"الهاتف: +998 99 851 6999",
+"cta.whatsapp":"واتساب: +998 99 851 6999","cta.telegram":"تيليجرام: @H99G99",
+"contact.email":"البريد:","contact.phone":"الهاتف:","contact.whatsapp":"واتساب:","contact.telegram":"تيليجرام:",
+"contact.hq":"المقر:","contact.hqval":"الصين · تصدير عالمي","contact.web":"الموقع:",
+"footer.back":"← العودة إلى الصفحة الرئيسية OUZHI Cable","footer.rights":"جميع الحقوق محفوظة."
+},
+fr:{
+"hero.eyebrow":"Analyse technique · Certification qualité · 2026",
+"hero.title":"Ingénierie des câbles 35 kV : <span class=\"accent\">matériaux, normes et essais</span>",
+"hero.sub":"OUZHI Cable (欧智电缆) — Fabricant de câbles moyenne tension 26/35 kV à isolation XLPE",
+"hero.lead":"Comment un câble 35 kV en XLPE est réellement fabriqué couche par couche, quelles normes internationales régissent sa qualité et quels essais d'usine chaque touret doit réussir avant expédition. Rédigé par les ingénieurs de l'usine d'origine.",
+"hero.cta1":"Demander la documentation technique","hero.cta2":"Voir le guide d'achat",
+"layer.title":"Anatomie d'un câble 35 kV — chaque couche a un rôle",
+"layer.p":"Un câble d'énergie 26/35 kV en XLPE est un assemblage précis de huit couches fonctionnelles. Connaître le rôle de chaque couche aide à spécifier le bon câble et à vérifier la qualité de la livraison.",
+"layer.c1t":"Âme cuivre / aluminium","layer.c1d":"Âme cuivre ou aluminium compactée toronnée de classe 2. Le cuivre offre la meilleure conductivité ; l'aluminium est plus léger et plus économique sur les longues distances.",
+"layer.c2t":"Écran sur l'âme","layer.c2d":"Couche semi-conductrice lisse sur l'âme qui élimine les vides d'air et égalise le champ électrique en surface.",
+"layer.c3t":"Isolation XLPE","layer.c3d":"Polyéthylène réticulé conçu pour 90 °C en continu. L'isolation à vulcanisation sèche et dégazée résiste aux décharges partielles et au vieillissement thermique.",
+"layer.c4t":"Écran sur l'isolation","layer.c4d":"Couche semi-conductrice fermement liée à l'isolation, qui maintient le champ radial et empêche les décharges de surface.",
+"layer.c5t":"Écran métallique","layer.c5d":"Fils de cuivre plus ruban de cuivre. Achemine le courant de défaut, assure le blindage et définit le champ électrique autour de l'isolation.",
+"layer.c6t":"Bourrage et ceinture","layer.c6d":"Pour les câbles tripolaires, bourrage non hygroscopique et rubans de maintien rendent la section circulaire et stable en cyclage de charge.",
+"layer.c7t":"Armure (SWA)","layer.c7d":"Armure de fils d'acier galvanisé pour enfouissement direct, ou fils d'aluminium pour installations légères. Protège des chocs mécaniques et des rongeurs.",
+"layer.c8t":"Gaine extérieure","layer.c8d":"PVC pour usage général ou LSZH (faible fumée sans halogène) pour les locaux et data centers où la sécurité incendie est critique.",
+"layer.highlight":"OUZHI Cable produit chaque couche en interne : tréfilage du cuivre, câblage, triple extrusion d'isolation, écrans, armure et gainage sur une ligne intégrée — c'est cela, une véritable usine d'origine.",
+"std.title":"Normes internationales — un câble, plusieurs voies de conformité",
+"std.p":"Les câbles 35 kV sont acceptés sur les marchés selon différentes normes. OUZHI Cable fabrique selon la norme requise par le pays de destination et fournit la documentation d'essais de type complète.",
+"std.th1":"Norme","std.th2":"Marché","std.th3":"Portée pour le 35 kV",
+"std.r1m":"Monde / International","std.r1s":"Câbles à isolation extrudée de 6 kV à 30 kV (U), tension système max. 36 kV",
+"std.r2m":"Chine","std.r2s":"Norme nationale chinoise alignée sur l'IEC, couvrant les câbles 35 kV XLPE",
+"std.r3m":"Russie / CEI","std.r3s":"Norme russe pour câbles jusqu'à 35 kV à isolation XLPE ; exigée pour la certification EAC",
+"std.r4m":"Royaume-Uni","std.r4s":"Norme britannique pour câbles XLPE armés 36 kV à écrans métalliques",
+"std.r5m":"Allemagne / UE","std.r5s":"Série allemande harmonisée avec l'IEC pour la moyenne tension",
+"std.r6m":"Amérique du Nord","std.r6s":"Normes ICEA utilisées aux États-Unis et au Canada",
+"std.highlight":"Au-delà des normes câbles, chaque site OUZHI Cable fonctionne sous management qualité ISO 9001, et les lots exportés sont accompagnés de certificats d'essai, certificats de conformité et, selon les cas, documents EAC / CE.",
+"test.title":"Essais d'usine — ce que chaque touret doit réussir",
+"test.p":"Les essais de routine sont réalisés sur 100 % de la longueur produite. Voici les contrôles qu'un acheteur sérieux doit exiger dans le rapport d'essai :",
+"test.s1t":"Essai de décharges partielles","test.s1d":"Le câble est mis sous tension et scanné pour détecter les décharges internes. Un niveau zéro à la sensibilité spécifiée est la garantie centrale de la qualité d'isolation.",
+"test.s2t":"Essai de tenue en haute tension","test.s2d":"Toute la longueur supporte la tension d'essai (ex. 3,5 U0 AC pendant 30 minutes), prouvant l'intégrité de l'isolation.",
+"test.s3t":"Résistance de l'âme","test.s3d":"Mesurée en continu et vérifiée contre la norme, confirmant le matériau et la section de l'âme.",
+"test.s4t":"Résistance d'isolation","test.s4d":"Mesurée après immersion dans l'eau, prouvant l'absence d'humidité et de contaminants.",
+"test.s5t":"Essai d'étincelage de la gaine","test.s5d":"La gaine est scannée à haute fréquence pour détecter micro-perforations et dommages mécaniques sur toute la longueur.",
+"test.s6t":"Contrôles mécaniques et dimensionnels","test.s6d":"Épaisseur, diamètre, résistance à la traction et allongement sur échantillons d'isolation, écran et gaine de chaque lot.",
+"test.highlight":"Besoin de preuves ? Nous accueillons tout inspecteur tiers — SGS, Bureau Veritas, TUV, Intertek — pour assister aux essais avant l'expédition.",
+"qual.title":"Pourquoi les acheteurs font confiance au système qualité OUZHI Cable",
+"qual.c1t":"Production intégrée","qual.c1d":"De la barre de cuivre au touret fini dans une seule usine. Pas d'externalisation des processus critiques ni de sous-traitance cachée.",
+"qual.c2t":"Matériaux vierges uniquement","qual.c2d":"Cathodes de cuivre haute pureté et compounds XLPE de premier choix. Les certificats matière accompagnent chaque lot.",
+"qual.c3t":"Ligne de triple extrusion","qual.c3d":"Ligne moderne CCV à triple extrusion et vulcanisation sèche pour des couches d'écran et d'isolation impeccables.",
+"qual.c4t":"Essais de routine 100 %","qual.c4d":"Chaque mètre est testé, pas seulement un échantillon. Rapports complets archivés et expédiés avec la marchandise.",
+"qual.c5t":"N° de lots traçables","qual.c5d":"N° de tourets, registres de lots et données d'essai sont reliés : tout problème se trace jusqu'au jour et à la machine de production.",
+"qual.c6t":"Certification mondiale","qual.c6d":"Essais de type IEC 60502-2, GOST 31996 / EAC pour la CEI, CE le cas échéant — documentation prête pour la douane et la réception.",
+"faq.title":"Les questions techniques les plus posées",
+"faq.q1":"Q : Âme cuivre ou aluminium — que choisir ?","faq.a1":"R : Le cuivre pour un courant admissible plus élevé, moins de pertes et un format réduit ; l'aluminium quand le poids et le coût comptent sur les longues distances. Nous fabriquons les deux.",
+"faq.q2":"Q : Pourquoi la gaine LSZH est-elle obligatoire dans les data centers ?","faq.a2":"R : Le PVC dégage une fumée toxique dense en brûlant. Le LSZH émet un minimum de fumée et aucun gaz halogène, laissant le temps d'évacuer et protégeant l'électronique sensible.",
+"faq.q3":"Q : Tripolaire ou unipolaire pour mon projet ?","faq.a3":"R : Le tripolaire économise l'espace et le coût sur les trajets courts. L'unipolaire est préféré pour les très grandes sections et les longs circuits où la souplesse de jonction compte.",
+"faq.q4":"Q : L'armure est-elle toujours nécessaire ?","faq.a4":"R : L'armure est requise pour l'enfouissement direct, zones à fort trafic, sol rocheux ou activité des rongeurs. En chemin de câbles protégé, un câble non armé en LSZH suffit généralement.",
+"faq.q5":"Q : Que prouve réellement l'essai de décharges partielles ?","faq.a5":"R : Il détecte les vides microscopiques de l'isolation qui deviendraient des points de défaut après des années de service. Un résultat zéro à la sensibilité spécifiée est le plus fort signal de qualité d'un câble 35 kV.",
+"faq.q6":"Q : Comment stocker les câbles 35 kV sur site ?","faq.a6":"R : Tourets debout sur sol dur, extrémités scellées à l'abri de l'humidité, température entre -5 °C et +50 °C, à l'abri du soleil direct pour les types LSZH. Instructions fournies avec chaque envoi.",
+"cta.title":"Besoin de documentation technique ou d'un audit d'usine ?",
+"cta.p":"Envoyez-nous la tension de votre projet, votre chemin de câbles ou la norme à respecter. Nos ingénieurs répondent sous 24 h avec fiches techniques, rapports d'essai et devis direct usine.",
+"cta.email":"Email : info@ouzcable.com","cta.phone":"Tél : +998 99 851 6999",
+"cta.whatsapp":"WhatsApp : +998 99 851 6999","cta.telegram":"Telegram : @H99G99",
+"contact.email":"Email :","contact.phone":"Téléphone :","contact.whatsapp":"WhatsApp :","contact.telegram":"Telegram :",
+"contact.hq":"Siège :","contact.hqval":"Chine · Exportation mondiale","contact.web":"Site :",
+"footer.back":"← Retour à l'accueil OUZHI Cable","footer.rights":"Tous droits réservés."
+},
+de:{
+"hero.eyebrow":"Technische Analyse · Qualitätszertifizierung · 2026",
+"hero.title":"35-kV-Kabeltechnik: <span class=\"accent\">Werkstoffe, Normen und Prüfung</span> erklärt",
+"hero.sub":"OUZHI Cable (欧智电缆) — Hersteller von 26/35-kV-Mittelspannungskabeln mit XLPE-Isolation",
+"hero.lead":"Wie ein 35-kV-XLPE-Kabel tatsächlich Schicht für Schicht gefertigt wird, welche internationalen Normen seine Qualität bestimmen und welche Werksprüfungen jede Trommel vor dem Versand bestehen muss. Geschrieben von den Ingenieuren des Stammwerks.",
+"hero.cta1":"Technische Unterlagen anfordern","hero.cta2":"Einkaufsleitfaden ansehen",
+"layer.title":"Anatomie eines 35-kV-Kabels — jede Schicht hat eine Aufgabe",
+"layer.p":"Ein 26/35-kV-XLPE-Energiekabel ist eine präzise Montage aus acht funktionalen Schichten. Zu wissen, was jede Schicht leistet, hilft beim Spezifizieren und bei der Qualitätsprüfung der Lieferung.",
+"layer.c1t":"Kupfer-/Aluminiumleiter","layer.c1d":"Kupfer- oder Aluminiumleiter, Klasse 2, kompakt verseilt. Kupfer hat die höchste Leitfähigkeit; Aluminium ist leichter und auf langen Strecken wirtschaftlicher.",
+"layer.c2t":"Leiterschirm","layer.c2d":"Glatte halbleitende Schicht über dem Leiter, die Luftspalte beseitigt und das elektrische Feld an der Leiteroberfläche gleichmäßig macht.",
+"layer.c3t":"XLPE-Isolation","layer.c3d":"Vernetztes Polyethylen für 90 °C Dauerbetriebstemperatur. Trocken vernetzte, degasierte Isolierung widersteht Teilentladungen und thermischer Alterung.",
+"layer.c4t":"Isolationsschirm","layer.c4d":"Halbleitende, fest verbundene Schicht über der Isolierung, die das Feld radial hält und Oberflächenentladungen verhindert.",
+"layer.c5t":"Metallschirm","layer.c5d":"Kupferdrähte plus Kupferband. Führt Fehlerströme, schirmt ab und definiert das elektrische Feld um die Isolierung.",
+"layer.c6t":"Füllung und Umwicklung","layer.c6d":"Bei Dreileiterkabeln machen nicht hygroskopische Füllungen und Binderbänder den Querschnitt rund und stabil unter Lastzyklen.",
+"layer.c7t":"Bewehrung (SWA)","layer.c7d":"Verzinkte Stahldrahtbewehrung für direkte Erdverlegung oder Aluminiumdraht für leichtere Anlagen. Schützt vor mechanischen Einwirkungen und Nagetieren.",
+"layer.c8t":"Außenmantel","layer.c8d":"PVC für allgemeine Anwendung oder LSZH (raucharm, halogenfrei) für Innenräume und Rechenzentren, wo Brandschutz kritisch ist.",
+"layer.highlight":"OUZHI Cable fertigt jede Schicht im eigenen Werk: Kupferziehen, Verseilen, Dreifach-Extrusion der Isolierung, Schirmung, Bewehrung und Mantel auf einer integrierten Linie — das bedeutet wirklich \"Stammwerk\".",
+"std.title":"Internationale Normen — ein Kabel, viele Konformitätswege",
+"std.p":"35-kV-Kabel werden auf verschiedenen Märkten nach unterschiedlichen Normen akzeptiert. OUZHI Cable fertigt nach der Norm des Ziellandes und liefert vollständige Typprüfdokumentation.",
+"std.th1":"Norm","std.th2":"Markt","std.th3":"Anwendung für 35 kV",
+"std.r1m":"Weltweit / International","std.r1s":"Energiekabel mit extrudierter Isolation von 6 kV bis 30 kV (U), max. Systemspannung 36 kV",
+"std.r2m":"China","std.r2s":"Chinesische nationale Norm, an IEC angeglichen, für 35-kV-XLPE-Kabel",
+"std.r3m":"Russland / GUS","std.r3s":"Russische Norm für Energiekabel bis 35 kV mit XLPE-Isolation; für EAC-Zertifizierung erforderlich",
+"std.r4m":"Vereinigtes Königreich","std.r4s":"Britische Norm für bewehrte 36-kV-XLPE-Kabel mit Metallschirmen",
+"std.r5m":"Deutschland / EU","std.r5s":"Deutsche, mit IEC harmonisierte Reihe für Mittelspannungskabel",
+"std.r6m":"Nordamerika","std.r6s":"ICEA-Normen, verwendet in den USA und Kanada",
+"std.highlight":"Über Kabelnormen hinaus arbeitet jeder OUZHI-Cable-Standort nach ISO-9001-Qualitätsmanagement; Exportchargen werden mit Prüfzeugnissen, Konformitätsbescheinigungen und bei Bedarf EAC-/CE-Dokumenten geliefert.",
+"test.title":"Werksprüfung — was jede Trommel bestehen muss",
+"test.p":"Routineprüfungen werden an 100 % der Fertigungslänge durchgeführt. Diese Prüfungen sollte ein seriöser 35-kV-Käufer im Prüfbericht verlangen:",
+"test.s1t":"Teilentladungsprüfung","test.s1d":"Das Kabel wird unter Spannung auf innere Entladungen untersucht. Null-Entladung bei festgelegter Empfindlichkeit ist das Kernkriterium der Isolationsqualität.",
+"test.s2t":"Hochspannungsprüfung","test.s2d":"Die volle Länge hält der Prüfspannung stand (z. B. 3,5 U0 AC für 30 Minuten) und belegt die Isolationsintegrität unter Belastung.",
+"test.s3t":"Leiterwiderstand","test.s3d":"Der Gleichstromwiderstand wird gemessen und gegen die Norm geprüft, was Material und Querschnitt bestätigt.",
+"test.s4t":"Isolationswiderstand","test.s4d":"Nach Wasserlagerung gemessen, belegt die Freiheit der Isolation von Feuchtigkeit und Verunreinigungen.",
+"test.s5t":"Mantel-Funkenprüfung","test.s5d":"Der Außenmantel wird hochfrequent über die gesamte Länge auf Nadellöcher und mechanische Schäden geprüft.",
+"test.s6t":"Mechanische und maßliche Prüfung","test.s6d":"Dicke, Durchmesser, Zugfestigkeit und Dehnung an Proben von Isolation, Schirm und Mantel jeder Charge.",
+"test.highlight":"Beweis nötig? Wir begrüßen jeden Drittprüfer — SGS, Bureau Veritas, TUV, Intertek — zur Zeugenschaft der Prüfungen vor Versand.",
+"qual.title":"Warum Käufer dem Qualitätssystem von OUZHI Cable vertrauen",
+"qual.c1t":"Integrierte Fertigung","qual.c1d":"Vom Kupferstab bis zur fertigen Trommel in einem Werk. Keine Auslagerung kritischer Prozesse, keine versteckten Subunternehmer.",
+"qual.c2t":"Nur Neuware","qual.c2d":"Hochreine Kupferkathoden und erstklassige XLPE-Compounds. Materialzeugnisse begleiten jede Charge.",
+"qual.c3t":"Dreifach-Extrusionslinie","qual.c3d":"Moderne CCV-Linie mit Dreifach-Extrusion und Trockenvernetzung für makellose Leiter-, Isolations- und Isolationsschirmschichten.",
+"qual.c4t":"100 % Routineprüfung","qual.c4d":"Jeder Meter wird geprüft, nicht nur Stichproben. Vollständige Berichte werden archiviert und mitgeliefert.",
+"qual.c5t":"Rückverfolgbare Chargennummern","qual.c5d":"Trommelnummern, Chargenaufzeichnungen und Prüfdaten sind verknüpft — jedes Problem lässt sich auf Tag und Maschine zurückführen.",
+"qual.c6t":"Globale Zertifizierung","qual.c6d":"Typprüfungen nach IEC 60502-2, GOST 31996 / EAC für die GUS, CE wo anwendbar — Dokumentation für Zoll und Projektabnahme bereit.",
+"faq.title":"Technische Fragen, die Käufer am häufigsten stellen",
+"faq.q1":"F: Kupfer- oder Aluminiumleiter — was wähle ich?","faq.a1":"A: Kupfer für höhere Strombelastbarkeit, geringere Verluste und kleinere Abmessungen; Aluminium, wenn Gewicht und Kosten auf langen Strecken zählen. Wir fertigen beide aus zertifiziertem Material.",
+"faq.q2":"F: Warum ist der LSZH-Mantel in Rechenzentren Pflicht?","faq.a2":"A: PVC setzt beim Brand dichten giftigen Rauch frei. LSZH erzeugt minimalen Rauch und keine Halogengase — Zeit für Evakuierung und Schutz empfindlicher Elektronik.",
+"faq.q3":"F: Ein- oder dreiadrig für mein Projekt?","faq.a3":"A: Dreiadrig spart Platz und Kosten auf kürzeren Strecken. Einadrig ist bei sehr großen Querschnitten und langen Trassen bevorzugt, wo Verbindungsflexibilität zählt.",
+"faq.q4":"F: Ist Bewehrung immer nötig?","faq.a4":"A: Bewehrung ist Pflicht bei direkter Erdverlegung, starkem Verkehr, felsigem Boden oder Nagetierbefall. In geschützten Innenbahnen reicht in der Regel unbewehrtes LSZH.",
+"faq.q5":"F: Was beweist die Teilentladungsprüfung wirklich?","faq.a5":"A: Sie erkennt mikroskopische Hohlräume in der Isolation, die sich über Jahre zu Fehlerstellen entwickeln. Null-Entladung bei festgelegter Empfindlichkeit ist das stärkste Qualitätssignal eines 35-kV-Kabels.",
+"faq.q6":"F: Wie lagert man 35-kV-Kabel auf der Baustelle?","faq.a6":"A: Trommeln stehend auf festem Grund, Enden dicht und trocken, Temperatur zwischen -5 °C und +50 °C, LSZH-Typen vor direkter Sonne schützen. Handhabungshinweise liegen jeder Lieferung bei.",
+"cta.title":"Technische Unterlagen oder Werksaudit nötig?",
+"cta.p":"Senden Sie uns Projektdaten, Kabelliste oder die einzuhaltende Norm. Unsere Ingenieure antworten innerhalb von 24 Stunden mit Datenblättern, Prüfberichten und Werksdirekt-Angebot.",
+"cta.email":"E-Mail: info@ouzcable.com","cta.phone":"Tel: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999","cta.telegram":"Telegram: @H99G99",
+"contact.email":"E-Mail:","contact.phone":"Telefon:","contact.whatsapp":"WhatsApp:","contact.telegram":"Telegram:",
+"contact.hq":"Zentrale:","contact.hqval":"China · Weltweiter Export","contact.web":"Website:",
+"footer.back":"← Zurück zur OUZHI-Cable-Startseite","footer.rights":"Alle Rechte vorbehalten."
+},
+uk:{
+"hero.eyebrow":"Технічний розбір · Сертифікація якості · 2026",
+"hero.title":"Інженерія кабелю 35 кВ: <span class=\"accent\">матеріали, стандарти та випробування</span>",
+"hero.sub":"OUZHI Cable (欧智电缆) — виробник кабелів 26/35 кВ із зшитим поліетиленом (XLPE)",
+"hero.lead":"Як кабель 35 кВ із XLPE насправді виготовляється шар за шаром, які міжнародні стандарти визначають його якість і які заводські випробування має пройти кожна бухта перед відвантаженням. Написано інженерами заводу-виробника.",
+"hero.cta1":"Запросити технічну документацію","hero.cta2":"Переглянути посібник із закупівлі",
+"layer.title":"Анатомія кабелю 35 кВ — кожен шар має своє завдання",
+"layer.p":"Кабель 26/35 кВ із XLPE — це точна збірка з восьми функціональних шарів. Розуміння кожного шару допомагає правильно обрати кабель і перевірити якість поставки.",
+"layer.c1t":"Мідна / алюмінієва жила","layer.c1d":"Секторні або круглі ущільнені мідні чи алюмінієві жили класу 2. Мідь дає максимальну провідність; алюміній легший та економніший на великих відстанях.",
+"layer.c2t":"Екран по жилі","layer.c2d":"Гладкий напівпровідний шар над жилою, що усуває повітряні зазори та вирівнює електричне поле на поверхні жили.",
+"layer.c3t":"Ізоляція з XLPE","layer.c3d":"Зшитий поліетилен, розрахований на безперервну температуру жили 90 °C. Суха вулканізація та дегазація забезпечують стійкість до часткових розрядів і теплового старіння.",
+"layer.c4t":"Екран по ізоляції","layer.c4d":"Напівпровідний шар, щільно з'єднаний з ізоляцією, утримує поле радіальним і запобігає поверхневим розрядам.",
+"layer.c5t":"Металічний екран","layer.c5d":"Мідні дроти плюс мідна стрічка. Відводить струм короткого замикання, екранує та задає визначене електричне поле навколо ізоляції.",
+"layer.c6t":"Заповнення та обмотка","layer.c6d":"Для трижильних кабелів негігроскопічне заповнення та бандажні стрічки надають перерізу круглої форми та стабільності при циклічних навантаженнях.",
+"layer.c7t":"Броня (SWA)","layer.c7d":"Оцинкована сталева дротова броня для прокладання в землі або алюмінієва для легких установок. Захищає від механічних ударів і гризунів.",
+"layer.c8t":"Зовнішня оболонка","layer.c8d":"ПВХ для загального застосування або LSZH (малодимна безгалогенна) для приміщень і ЦОД, де критична пожежна безпека.",
+"layer.highlight":"OUZHI Cable виробляє кожен шар на власному заводі: волочіння міді, скрутка, потрійна екструзія ізоляції, екранування, бронювання та оболонка на єдиній виробничій лінії — ось що означає \"завод-виробник\".",
+"std.title":"Міжнародні стандарти — один кабель, багато шляхів відповідності",
+"std.p":"Кабелі 35 кВ приймаються на різних ринках за різними стандартами. OUZHI Cable виготовляє за стандартом країни призначення та надає повну документацію типових випробувань.",
+"std.th1":"Стандарт","std.th2":"Ринок","std.th3":"Застосування для 35 кВ",
+"std.r1m":"Світ / Міжнародний","std.r1s":"Силові кабелі з екструдованою ізоляцією від 6 до 30 кВ (U), максимальна напруга системи 36 кВ",
+"std.r2m":"Китай","std.r2s":"Китайський національний стандарт, узгоджений з IEC, для кабелів 35 кВ",
+"std.r3m":"Росія / СНД","std.r3s":"Російський стандарт для кабелів до 35 кВ із ізоляцією XLPE; обов'язковий для сертифікації EAC",
+"std.r4m":"Велика Британія","std.r4s":"Британський стандарт для броньованих кабелів 36 кВ XLPE з металічними екранами",
+"std.r5m":"Німеччина / ЄС","std.r5s":"Німецька серія, гармонізована з IEC для кабелів середньої напруги",
+"std.r6m":"Північна Америка","std.r6s":"Стандарти ICEA, що застосовуються в США та Канаді",
+"std.highlight":"Окрім кабельних стандартів, усі майданчики OUZHI Cable працюють за системою менеджменту якості ISO 9001; експортні партії супроводжуються протоколами випробувань, сертифікатами відповідності та за потреби документами EAC / CE.",
+"test.title":"Заводські випробування — що має пройти кожна бухта",
+"test.p":"Приймально-здавальні випробування проводяться на 100% виробничої довжини. Ось перевірки, які серйозний покупець кабелю 35 кВ має вимагати у протоколі:",
+"test.s1t":"Випробування частковими розрядами","test.s1d":"Кабель під напругою сканується на внутрішні розряди. Нульовий рівень розрядів за заданої чутливості — головна гарантія якості ізоляції.",
+"test.s2t":"Високовольтне випробування","test.s2d":"Вся довжина витримує випробувальну напругу (напр., 3,5 U0 AC протягом 30 хвилин), підтверджуючи цілісність ізоляції.",
+"test.s3t":"Опір жили","test.s3d":"Вимірюється та звіряється зі стандартом, підтверджуючи матеріал і переріз жили.",
+"test.s4t":"Опір ізоляції","test.s4d":"Вимірюється після витримки у воді, доводячи відсутність вологи та забруднень.",
+"test.s5t":"Іскрове випробування оболонки","test.s5d":"Оболонка сканується високою частотою по всій довжині для виявлення проколів та механічних пошкоджень.",
+"test.s6t":"Механічні та розмірні перевірки","test.s6d":"Перевірка товщини, діаметра, міцності на розрив і подовження зразків ізоляції, екрана та оболонки кожної партії.",
+"test.highlight":"Потрібні докази? Ми запрошуємо будь-якого незалежного інспектора — SGS, Bureau Veritas, TUV, Intertek — бути присутнім на випробуваннях до відвантаження.",
+"qual.title":"Чому покупці довіряють системі якості OUZHI Cable",
+"qual.c1t":"Інтегроване виробництво","qual.c1d":"Від мідного прутка до готової бухти — на одному заводі. Без аутсорсингу критичних процесів і прихованого субпідряду.",
+"qual.c2t":"Лише первинні матеріали","qual.c2d":"Мідь високої чистоти та первинні XLPE-компаунди. Сертифікати матеріалів супроводжують кожну партію.",
+"qual.c3t":"Лінія потрійної екструзії","qual.c3d":"Сучасна лінія CCV із потрійною екструзією та сухою вулканізацією для бездоганних шарів екрана та ізоляції.",
+"qual.c4t":"100% приймально-здавальні випробування","qual.c4d":"Випробовується кожен метр, а не вибірка. Повні протоколи архівуються та відправляються разом із вантажем.",
+"qual.c5t":"Простежуваність партій","qual.c5d":"Номери бухт, записи партій та дані випробувань пов'язані: будь-яку проблему можна простежити до дня та верстата виробництва.",
+"qual.c6t":"Глобальна сертифікація","qual.c6d":"Типові випробування IEC 60502-2, GOST 31996 / EAC для СНД, CE де застосовно — документація готова для митниці та приймання проєкту.",
+"faq.title":"Технічні питання, які покупці ставлять найчастіше",
+"faq.q1":"П: Мідь чи алюміній — що обрати?","faq.a1":"В: Мідь для більшої струмової здатності, менших втрат і розмірів; алюміній, коли вага та вартість важливіші на великих відстанях. Виготовляємо обидва з сертифікованого матеріалу.",
+"faq.q2":"П: Чому оболонка LSZH обов'язкова в ЦОД?","faq.a2":"В: ПВХ під час горіння виділяє щільний токсичний дим. LSZH виділяє мінімум диму та без галогенів, даючи час на евакуацію та захищаючи чутливу електроніку.",
+"faq.q3":"П: Одна чи три жили для мого проєкту?","faq.a3":"В: Три жили економлять місце та вартість на коротших трасах. Одна жила краща для дуже великих перерізів і довгих ліній, де важлива гнучкість з'єднань.",
+"faq.q4":"П: Чи завжди потрібна броня?","faq.a4":"В: Броня обов'язкова при прокладанні в землі, у місцях з інтенсивним рухом, скельним ґрунтом або гризунами. У захищених лотках зазвичай достатньо неброньованого кабелю LSZH.",
+"faq.q5":"П: Що доводить випробування частковими розрядами?","faq.a5":"В: Воно виявляє мікроскопічні порожнини в ізоляції, які за роки експлуатації перетворюються на точки відмови. Нульовий рівень розрядів — найсильніший сигнал якості кабелю 35 кВ.",
+"faq.q6":"П: Як зберігати кабелі 35 кВ на майданчику?","faq.a6":"В: Барабани вертикально на твердій основі, кінці герметизовані, температура від -5 °C до +50 °C, LSZH — без прямого сонця. Інструкції додаються до кожної поставки.",
+"cta.title":"Потрібна технічна документація чи аудит заводу?",
+"cta.p":"Надішліть напругу проєкту, кабельну відомість або необхідний стандарт. Інженери відповідатимуть протягом 24 годин із технічними даними, протоколами та ціною напряму від заводу.",
+"cta.email":"Email: info@ouzcable.com","cta.phone":"Тел.: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999","cta.telegram":"Telegram: @H99G99",
+"contact.email":"Email:","contact.phone":"Телефон:","contact.whatsapp":"WhatsApp:","contact.telegram":"Telegram:",
+"contact.hq":"Штаб:","contact.hqval":"Китай · Експорт у всьому світі","contact.web":"Сайт:",
+"footer.back":"← Назад на головну OUZHI Cable","footer.rights":"Усі права захищено."
+},
+es:{
+"hero.eyebrow":"Análisis técnico · Certificación de calidad · 2026",
+"hero.title":"Ingeniería de cables de 35 kV: <span class=\"accent\">materiales, normas y ensayos</span>",
+"hero.sub":"OUZHI Cable (欧智电缆) — Fabricante de cables de media tensión 26/35 kV con aislamiento XLPE",
+"hero.lead":"Cómo se fabrica realmente un cable de 35 kV en XLPE capa a capa, qué normas internacionales rigen su calidad y qué ensayos de fábrica debe superar cada bobina antes de su envío. Escrito por los ingenieros de la fábrica de origen.",
+"hero.cta1":"Solicitar documentación técnica","hero.cta2":"Ver guía de compra",
+"layer.title":"Anatomía de un cable de 35 kV — cada capa tiene su función",
+"layer.p":"Un cable de energía de 26/35 kV en XLPE es un ensamblaje preciso de ocho capas funcionales. Conocer la función de cada capa ayuda a especificar el cable correcto y verificar la calidad de la entrega.",
+"layer.c1t":"Conductor de cobre / aluminio","layer.c1d":"Conductor de cobre o aluminio compactado, clase 2. El cobre ofrece la mayor conductividad; el aluminio es más ligero y económico en largas distancias.",
+"layer.c2t":"Pantalla del conductor","layer.c2d":"Capa semiconductora lisa sobre el conductor que elimina huecos de aire e iguala el campo eléctrico en la superficie.",
+"layer.c3t":"Aislamiento XLPE","layer.c3d":"Polietileno reticulado para 90 °C continuos. El aislamiento curado en seco y degasificado resiste descargas parciales y envejecimiento térmico.",
+"layer.c4t":"Pantalla del aislamiento","layer.c4d":"Capa semiconductora firmemente adherida que mantiene el campo radial y evita descargas superficiales.",
+"layer.c5t":"Pantalla metálica","layer.c5d":"Hilos de cobre más cinta de cobre. Conduce la corriente de falta, apantalla y define el campo eléctrico alrededor del aislamiento.",
+"layer.c6t":"Relleno y cintas","layer.c6d":"Para cables tripolares, rellenos no higroscópicos y cintas de sujeción hacen la sección circular y estable bajo ciclos de carga.",
+"layer.c7t":"Armadura (SWA)","layer.c7d":"Armadura de alambre de acero galvanizado para enterramiento directo, o aluminio para instalaciones ligeras. Protege contra impactos y roedores.",
+"layer.c8t":"Cubierta exterior","layer.c8d":"PVC para uso general o LSZH (bajo humo, libre de halógenos) para interiores y centros de datos donde la seguridad contra incendios es crítica.",
+"layer.highlight":"OUZHI Cable produce cada capa en su propia fábrica: trefilado de cobre, cableado, triple extrusión de aislamiento, pantallas, armadura y cubierta en una línea integrada — eso significa realmente \"fábrica de origen\".",
+"std.title":"Normas internacionales — un cable, múltiples vías de cumplimiento",
+"std.p":"Los cables de 35 kV se aceptan en distintos mercados según diferentes normas. OUZHI Cable fabrica según la norma del país de destino y entrega documentación completa de ensayos de tipo.",
+"std.th1":"Norma","std.th2":"Mercado","std.th3":"Alcance para 35 kV",
+"std.r1m":"Global / Internacional","std.r1s":"Cables con aislamiento extruido de 6 kV a 30 kV (U), tensión máxima de sistema 36 kV",
+"std.r2m":"China","std.r2s":"Norma nacional china alineada con IEC, que cubre cables de 35 kV XLPE",
+"std.r3m":"Rusia / CEI","std.r3s":"Norma rusa para cables hasta 35 kV con aislamiento XLPE; requerida para certificación EAC",
+"std.r4m":"Reino Unido","std.r4s":"Norma británica para cables XLPE blindados de 36 kV con pantallas metálicas",
+"std.r5m":"Alemania / UE","std.r5s":"Serie alemana armonizada con IEC para media tensión",
+"std.r6m":"Norteamérica","std.r6s":"Normas ICEA utilizadas en EE. UU. y Canadá",
+"std.highlight":"Además de las normas de cable, cada planta de OUZHI Cable opera bajo gestión de calidad ISO 9001; los lotes de exportación llevan certificados de ensayo, certificados de conformidad y, según el caso, documentación EAC / CE.",
+"test.title":"Ensayos de fábrica — lo que cada bobina debe superar",
+"test.p":"Los ensayos de rutina se realizan sobre el 100 % de la longitud producida. Estas son las comprobaciones que un comprador serio debe exigir en el informe de ensayo:",
+"test.s1t":"Ensayo de descargas parciales","test.s1d":"El cable se energiza y se escanea buscando descargas internas. Cero descargas a la sensibilidad especificada es la garantía central de calidad del aislamiento.",
+"test.s2t":"Ensayo de soporte de alta tensión","test.s2d":"Toda la longitud soporta la tensión de ensayo (p. ej., 3,5 U0 CA durante 30 minutos), demostrando la integridad del aislamiento.",
+"test.s3t":"Resistencia del conductor","test.s3d":"Medida en continua y verificada contra la norma, confirmando material y sección del conductor.",
+"test.s4t":"Resistencia de aislamiento","test.s4d":"Medida tras inmersión en agua, demostrando ausencia de humedad y contaminantes.",
+"test.s5t":"Ensayo de chispa de la cubierta","test.s5d":"La cubierta se escanea a alta frecuencia para detectar microporos y daños mecánicos en toda la longitud.",
+"test.s6t":"Comprobaciones mecánicas y dimensionales","test.s6d":"Espesor, diámetro, tracción y alargamiento en muestras de aislamiento, pantalla y cubierta de cada lote.",
+"test.highlight":"¿Necesita pruebas? Recibimos a cualquier inspector externo — SGS, Bureau Veritas, TUV, Intertek — para presenciar los ensayos antes del envío.",
+"qual.title":"Por qué los compradores confían en el sistema de calidad de OUZHI Cable",
+"qual.c1t":"Producción integrada","qual.c1d":"De la barra de cobre a la bobina terminada en una sola planta. Sin externalización de procesos críticos ni subcontratación oculta.",
+"qual.c2t":"Solo materiales vírgenes","qual.c2d":"Cátodos de cobre de alta pureza y compuestos XLPE de primera calidad. Certificados de material acompañan cada lote.",
+"qual.c3t":"Línea de triple extrusión","qual.c3d":"Línea CCV moderna de triple extrusión y curado en seco para capas de pantalla y aislamiento impecables.",
+"qual.c4t":"Ensayos de rutina al 100 %","qual.c4d":"Se ensaya cada metro, no una muestra. Informes completos archivados y enviados con la mercancía.",
+"qual.c5t":"Lotes trazables","qual.c5d":"Números de bobina, registros de lote y datos de ensayo están vinculados: cualquier problema se rastrea hasta el día y la máquina de producción.",
+"qual.c6t":"Certificación global","qual.c6d":"Ensayos de tipo IEC 60502-2, GOST 31996 / EAC para la CEI, CE donde aplique — documentación lista para aduanas y recepción de obra.",
+"faq.title":"Preguntas técnicas más frecuentes de los compradores",
+"faq.q1":"P: ¿Conductor de cobre o aluminio — cuál elijo?","faq.a1":"R: Cobre para mayor intensidad admisible, menores pérdidas y tamaño reducido; aluminio cuando el peso y el costo importan en largas distancias. Fabricamos ambos con material certificado.",
+"faq.q2":"P: ¿Por qué la cubierta LSZH es obligatoria en centros de datos?","faq.a2":"R: El PVC libera humo tóxico denso al arder. El LSZH emite humo mínimo y sin gases halógenos, dando tiempo para evacuar y protegiendo la electrónica sensible.",
+"faq.q3":"P: ¿Unipolar o tripolar para mi proyecto?","faq.a3":"R: El tripolar ahorra espacio y costo en recorridos cortos. El unipolar se prefiere para secciones muy grandes y circuitos largos donde importa la flexibilidad de empalmes.",
+"faq.q4":"P: ¿Siempre necesito armadura?","faq.a4":"R: La armadura es obligatoria para enterramiento directo, zonas de tráfico pesado, suelo rocoso o actividad de roedores. En bandejas interiores protegidas suele bastar cable sin armar con LSZH.",
+"faq.q5":"P: ¿Qué demuestra realmente el ensayo de descargas parciales?","faq.a5":"R: Detecta huecos microscópicos en el aislamiento que crecerían hasta convertirse en puntos de fallo tras años de servicio. Cero descargas a la sensibilidad especificada es la señal de calidad más fuerte de un cable de 35 kV.",
+"faq.q6":"P: ¿Cómo almacenar cables de 35 kV en obra?","faq.a6":"R: Bobinas en vertical sobre suelo firme, extremos sellados sin humedad, temperatura entre -5 °C y +50 °C y lejos del sol directo para tipos LSZH. Incluimos instrucciones de manejo con cada envío.",
+"cta.title":"¿Necesita documentación técnica o una auditoría de fábrica?",
+"cta.p":"Envíenos la tensión de su proyecto, el cuadro de cables o la norma a cumplir. Nuestros ingenieros responderán en 24 horas con fichas técnicas, informes de ensayo y cotización directa de fábrica.",
+"cta.email":"Email: info@ouzcable.com","cta.phone":"Tel: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999","cta.telegram":"Telegram: @H99G99",
+"contact.email":"Email:","contact.phone":"Teléfono:","contact.whatsapp":"WhatsApp:","contact.telegram":"Telegram:",
+"contact.hq":"Sede:","contact.hqval":"China · Exportación mundial","contact.web":"Web:",
+"footer.back":"← Volver al inicio de OUZHI Cable","footer.rights":"Todos los derechos reservados."
+},
+tr:{
+"hero.eyebrow":"Teknik Analiz · Kalite Sertifikasyonu · 2026",
+"hero.title":"35 kV Kablo Mühendisliği: <span class=\"accent\">Malzemeler, Standartlar ve Testler</span>",
+"hero.sub":"OUZHI Cable (欧智电缆) — 26/35 kV XLPE Orta Gerilim Kablo Üreticisi",
+"hero.lead":"35 kV XLPE kablonun katman katman nasıl üretildiği, kalitesini hangi uluslararası standartların belirlediği ve her makaranın sevkiyattan önce geçmesi gereken fabrika testleri. Kaynak fabrikanın mühendisleri tarafından yazıldı.",
+"hero.cta1":"Teknik Doküman İsteyin","hero.cta2":"Satın Alma Rehberini Görün",
+"layer.title":"35 kV Kablonun Anatomisi — Her Katmanın Bir Görevi Var",
+"layer.p":"26/35 kV XLPE güç kablosu, sekiz işlevsel katmanın hassas bir birleşimidir. Her katmanın ne yaptığını bilmek, doğru kabloyu seçmenize ve teslimat kalitesini doğrulamanıza yardımcı olur.",
+"layer.c1t":"Bakır / Alüminyum İletken","layer.c1d":"Sınıf 2 kompakt örgülü bakır veya alüminyum. Bakır en yüksek iletkenliği verir; alüminyum daha hafif ve uzun mesafelerde daha ekonomiktir.",
+"layer.c2t":"İletken Ekranı","layer.c2d":"İletken üzerinde hava boşluklarını ortadan kaldıran ve elektrik alanını yüzeyde eşitleyen pürüzsüz yarı iletken katman.",
+"layer.c3t":"XLPE İzolasyonu","layer.c3d":"Sürekli 90 °C iletken sıcaklığı için tasarlanmış çapraz bağlı polietilen. Kuru kürlenmiş, gazı alınmış izolasyon kısmi deşarj ve termal yaşlanmaya dirençlidir.",
+"layer.c4t":"İzolasyon Ekranı","layer.c4d":"İzolasyon üzerinde sıkı bağlı yarı iletken katman; alanı radyal tutar ve yüzey deşarjlarını önler.",
+"layer.c5t":"Metal Ekran","layer.c5d":"Bakır teller artı bakır bant. Arıza akımını taşır, ekranlama sağlar ve izolasyon çevresinde tanımlı elektrik alanı garanti eder.",
+"layer.c6t":"Dolgu ve Sargı","layer.c6d":"Üç damarlı kablolarda higroskopik olmayan dolgular ve bağlama bantları kesiti dairesel ve yük çevrimlerinde stabil yapar.",
+"layer.c7t":"Zırh (SWA)","layer.c7d":"Doğrudan topraklama için galvanizli çelik tel zırh veya hafif tesisatlar için alüminyum tel. Mekanik darbelere ve kemirgenlere karşı korur.",
+"layer.c8t":"Dış Kılıf","layer.c8d":"Genel kullanım için PVC veya yangın güvenliğinin kritik olduğu iç mekân ve veri merkezi tesisatları için LSZH (düşük duman, halojensiz).",
+"layer.highlight":"OUZHI Cable her katmanı kendi fabrikasında üretir: bakır çekme, demetleme, üçlü ekstrüzyon izolasyon, ekranlama, zırhlama ve kılıflama tek entegre üretim hattında — \"kaynak fabrika\" gerçekten budur.",
+"std.title":"Uluslararası Standartlar — Tek Kablo, Birçok Uyumluluk Yolu",
+"std.p":"35 kV kablolar farklı pazarlarda farklı standartlara göre kabul edilir. OUZHI Cable, hedef ülkenin gerektirdiği standarda göre üretir ve eksiksiz tip test dokümantasyonu sağlar.",
+"std.th1":"Standart","std.th2":"Pazar","std.th3":"35 kV Kapsamı",
+"std.r1m":"Küresel / Uluslararası","std.r1s":"6 kV ile 30 kV (U) arası ekstrüde izolasyonlu güç kabloları, maksimum sistem gerilimi 36 kV",
+"std.r2m":"Çin","std.r2s":"IEC ile uyumlu, 35 kV XLPE kabloları kapsayan Çin ulusal standardı",
+"std.r3m":"Rusya / BDT","std.r3s":"XLPE izolasyonlu 35 kV'a kadar güç kabloları için Rus standardı; EAC sertifikasyonu için zorunlu",
+"std.r4m":"Birleşik Krallık","std.r4s":"Metal ekranlı 36 kV zırhlı XLPE kablolar için İngiliz standardı",
+"std.r5m":"Almanya / AB","std.r5s":"Orta gerilim kabloları için IEC ile uyumlu Alman serisi",
+"std.r6m":"Kuzey Amerika","std.r6s":"ABD ve Kanada'da kullanılan ICEA standartları",
+"std.highlight":"Kablo standartlarının ötesinde, OUZHI Cable'ın tüm tesisleri ISO 9001 kalite yönetimiyle çalışır; ihracat partileri test sertifikaları, uygunluk belgeleri ve gerektiğinde EAC / CE dokümanlarıyla sevk edilir.",
+"test.title":"Fabrika Testleri — Her Makaranın Geçmesi Gerekenler",
+"test.p":"Rutin testler üretim uzunluğunun %100'ünde yapılır. Ciddi bir 35 kV alıcısının test raporunda istemesi gereken kontroller şunlardır:",
+"test.s1t":"Kısmi Deşarj Testi","test.s1d":"Kablo enerjilendirilir ve iç deşarjlar taranır. Belirtilen hassasiyette sıfır deşarj, izolasyon kalitesinin temel güvencesidir.",
+"test.s2t":"Yüksek Gerilim Dayanımı","test.s2d":"Tüm uzunluk test gerilimine dayanır (ör. 30 dakika 3,5 U0 AC), izolasyon bütünlüğünü kanıtlar.",
+"test.s3t":"İletken Direnci","test.s3d":"DC direnç ölçülür ve standarda karşı doğrulanır; iletken malzemesini ve kesitini teyit eder.",
+"test.s4t":"İzolasyon Direnci","test.s4d":"Su içinde bekletildikten sonra ölçülür; izolasyonun nem ve kirleticilerden arınmış olduğunu kanıtlar.",
+"test.s5t":"Kılıf Kıvılcım Testi","test.s5d":"Dış kılıf, tüm uzunluk boyunca iğne delikleri ve mekanik hasarları tespit etmek için yüksek frekansta taranır.",
+"test.s6t":"Mekanik ve Boyutsal Kontroller","test.s6d":"Her partiden izolasyon, ekran ve kılıf numunelerinde kalınlık, çap, çekme ve uzama kontrolleri.",
+"test.highlight":"Kanıt mı gerekiyor? Sevkiyattan önce testlere tanıklık etmesi için SGS, Bureau Veritas, TUV, Intertek gibi herhangi bir üçüncü taraf denetçiyi fabrikamızda ağırlarız.",
+"qual.title":"Alıcılar OUZHI Cable'ın Kalite Sistemine Neden Güvenir",
+"qual.c1t":"Entegre Üretim","qual.c1d":"Bakır çubuktan bitmiş makaraya kadar tek tesiste. Kritik süreçlerde dış kaynak yok, gizli taşeronluk yok.",
+"qual.c2t":"Yalnızca Saf Malzeme","qual.c2d":"Yüksek saflıkta bakır katotlar ve birinci sınıf XLPE bileşikleri. Malzeme sertifikaları her partiye eşlik eder.",
+"qual.c3t":"Üçlü Ekstrüzyon Hattı","qual.c3d":"Kusursuz iletken ekranı, izolasyon ve izolasyon ekranı katmanları için modern CCV üçlü ekstrüzyon kuru kürleme hattı.",
+"qual.c4t":"%100 Rutin Test","qual.c4d":"Numune değil, her metre test edilir. Eksiksiz raporlar arşivlenir ve mallarla birlikte gönderilir.",
+"qual.c5t":"İzlenebilir Parti Numaraları","qual.c5d":"Makara numaraları, parti kayıtları ve test verileri bağlantılıdır; herhangi bir sorun tam üretim gününe ve makinesine kadar izlenebilir.",
+"qual.c6t":"Küresel Sertifikasyon","qual.c6d":"IEC 60502-2 tip testleri, BDT için GOST 31996 / EAC, uygunsa CE — gümrük ve proje kabulü için dokümantasyon hazır.",
+"faq.title":"Alıcıların En Çok Sorduğu Teknik Sorular",
+"faq.q1":"S: Bakır mı alüminyum iletken mi — hangisini seçmeliyim?","faq.a1":"C: Daha yüksek akım taşıma, daha düşük kayıp ve küçük boyut için bakır; uzun mesafelerde ağırlık ve maliyet önemliyse alüminyum. İkisini de sertifikalı malzemeden üretiyoruz.",
+"faq.q2":"S: Veri merkezlerinde LSZH kılıf neden zorunlu?","faq.a2":"C: PVC yanarken yoğun zehirli duman çıkarır. LSZH minimum duman ve halojen gazı yaymaz; tahliye için zaman tanır ve hassas elektroniği korur.",
+"faq.q3":"S: Projem için tek damarlı mı üç damarlı mı?","faq.a3":"C: Üç damarlı, kısa hatlarda kurulum alanı ve maliyet tasarrufu sağlar. Çok büyük kesitlerde ve birleştirme esnekliğinin önemli olduğu uzun devrelerde tek damarlı tercih edilir.",
+"faq.q4":"S: Her zaman zırha ihtiyaç var mı?","faq.a4":"C: Doğrudan topraklama, yoğun trafik, kayalık zemin veya kemirgen faaliyeti olan alanlarda zırh zorunludur. Korunaklı iç tesisatlarda zırhsız LSZH genellikle yeterlidir.",
+"faq.q5":"S: Kısmi deşarj testi gerçekte neyi kanıtlar?","faq.a5":"C: Yıllar içinde arıza noktalarına dönüşebilecek izolasyondaki mikroskobik boşlukları tespit eder. Belirtilen hassasiyette sıfır deşarj, bir 35 kV kablosunun taşıyabileceği en güçlü kalite sinyalidir.",
+"faq.q6":"S: 35 kV kablolar sahada nasıl saklanmalı?","faq.a6":"C: Makaraları sert zeminde dik tutun, uçları nemden koruyarak sızdırmazlayın, sıcaklık -5 °C ile +50 °C arası; LSZH tiplerini doğrudan güneşten uzak tutun. Her sevkiyata taşıma talimatları ekliyoruz.",
+"cta.title":"Teknik Doküman veya Fabrika Denetimi mi Gerekiyor?",
+"cta.p":"Proje geriliminizi, kablo listenizi veya uymanız gereken standardı bize gönderin. Mühendislerimiz 24 saat içinde veri sayfaları, test raporları ve fabrika çıkışlı fiyat teklifiyle yanıtlar.",
+"cta.email":"E-posta: info@ouzcable.com","cta.phone":"Tel: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999","cta.telegram":"Telegram: @H99G99",
+"contact.email":"E-posta:","contact.phone":"Telefon:","contact.whatsapp":"WhatsApp:","contact.telegram":"Telegram:",
+"contact.hq":"Merkez:","contact.hqval":"Çin · Dünya çapında ihracat","contact.web":"Web sitesi:",
+"footer.back":"← OUZHI Cable Anasayfasına Dön","footer.rights":"Tüm hakları saklıdır."
+},
+pt:{
+"hero.eyebrow":"Análise técnica · Certificação de qualidade · 2026",
+"hero.title":"Engenharia de cabos de 35 kV: <span class=\"accent\">materiais, normas e ensaios</span>",
+"hero.sub":"OUZHI Cable (欧智电缆) — Fabricante de cabos de média tensão 26/35 kV com isolamento XLPE",
+"hero.lead":"Como um cabo de 35 kV em XLPE é realmente fabricado camada por camada, quais normas internacionais regem sua qualidade e quais ensaios de fábrica cada bobina deve passar antes do embarque. Escrito pelos engenheiros da fábrica de origem.",
+"hero.cta1":"Solicitar documentação técnica","hero.cta2":"Ver guia de compra",
+"layer.title":"Anatomia de um cabo de 35 kV — cada camada tem sua função",
+"layer.p":"Um cabo de energia 26/35 kV em XLPE é uma montagem precisa de oito camadas funcionais. Conhecer o papel de cada camada ajuda a especificar o cabo correto e a verificar a qualidade da entrega.",
+"layer.c1t":"Condutor de cobre / alumínio","layer.c1d":"Condutor de cobre ou alumínio compactado, classe 2. O cobre oferece a maior condutividade; o alumínio é mais leve e econômico em longas distâncias.",
+"layer.c2t":"Tela do condutor","layer.c2d":"Camada semicondutora lisa sobre o condutor que elimina vazios de ar e equaliza o campo elétrico na superfície.",
+"layer.c3t":"Isolamento XLPE","layer.c3d":"Polietileno reticulado para 90 °C contínuos. O isolamento curado a seco e degaseificado resiste a descargas parciais e ao envelhecimento térmico.",
+"layer.c4t":"Tela do isolamento","layer.c4d":"Camada semicondutora firmemente ligada ao isolamento, mantendo o campo radial e evitando descargas superficiais.",
+"layer.c5t":"Tela metálica","layer.c5d":"Fios de cobre mais fita de cobre. Conduz a corrente de falta, blinda e define o campo elétrico ao redor do isolamento.",
+"layer.c6t":"Enchimento e cintas","layer.c6d":"Para cabos tripolares, enchimentos não higroscópicos e fitas de amarração tornam a seção circular e estável sob ciclos de carga.",
+"layer.c7t":"Armadura (SWA)","layer.c7d":"Armadura de fios de aço galvanizado para enterramento direto, ou alumínio para instalações leves. Protege contra impactos mecânicos e roedores.",
+"layer.c8t":"Cobertura externa","layer.c8d":"PVC para uso geral ou LSZH (baixa fumaça, zero halogênio) para interiores e data centers onde a segurança contra incêndio é crítica.",
+"layer.highlight":"A OUZHI Cable produz cada camada internamente: trefilação de cobre, encordoamento, tripla extrusão de isolamento, telas, armadura e cobertura em uma linha integrada — isso é o que \"fábrica de origem\" realmente significa.",
+"std.title":"Normas internacionais — um cabo, múltiplas vias de conformidade",
+"std.p":"Cabos de 35 kV são aceitos em diferentes mercados conforme diferentes normas. A OUZHI Cable fabrica conforme a norma do país de destino e fornece documentação completa de ensaios de tipo.",
+"std.th1":"Norma","std.th2":"Mercado","std.th3":"Escopo para 35 kV",
+"std.r1m":"Global / Internacional","std.r1s":"Cabos com isolamento extrudado de 6 kV a 30 kV (U), tensão máxima de sistema 36 kV",
+"std.r2m":"China","std.r2s":"Norma nacional chinesa alinhada à IEC, cobrindo cabos de 35 kV XLPE",
+"std.r3m":"Rússia / CEI","std.r3s":"Norma russa para cabos até 35 kV com isolamento XLPE; exigida para certificação EAC",
+"std.r4m":"Reino Unido","std.r4s":"Norma britânica para cabos XLPE blindados de 36 kV com telas metálicas",
+"std.r5m":"Alemanha / UE","std.r5s":"Série alemã harmonizada com a IEC para média tensão",
+"std.r6m":"América do Norte","std.r6s":"Normas ICEA usadas nos EUA e Canadá",
+"std.highlight":"Além das normas de cabo, todas as unidades da OUZHI Cable operam sob gestão de qualidade ISO 9001; lotes de exportação acompanham certificados de ensaio, certificados de conformidade e, quando necessário, documentação EAC / CE.",
+"test.title":"Ensaios de fábrica — o que cada bobina deve passar",
+"test.p":"Os ensaios de rotina são realizados em 100% do comprimento produzido. Estas são as verificações que um comprador sério deve exigir no relatório de ensaio:",
+"test.s1t":"Ensaio de descargas parciais","test.s1d":"O cabo é energizado e varrido em busca de descargas internas. Zero descargas na sensibilidade especificada é a garantia central da qualidade do isolamento.",
+"test.s2t":"Ensaio de suportabilidade de alta tensão","test.s2d":"Todo o comprimento suporta a tensão de ensaio (ex.: 3,5 U0 CA por 30 minutos), comprovando a integridade do isolamento.",
+"test.s3t":"Resistência do condutor","test.s3d":"Medida em corrente contínua e verificada contra a norma, confirmando material e seção do condutor.",
+"test.s4t":"Resistência de isolamento","test.s4d":"Medida após imersão em água, comprovando ausência de umidade e contaminantes.",
+"test.s5t":"Ensaio de centelhamento da cobertura","test.s5d":"A cobertura é varrida em alta frequência para detectar microfuros e danos mecânicos ao longo de todo o comprimento.",
+"test.s6t":"Verificações mecânicas e dimensionais","test.s6d":"Espessura, diâmetro, tração e alongamento em amostras de isolamento, tela e cobertura de cada lote.",
+"test.highlight":"Precisa de provas? Recebemos qualquer inspetor de terceiros — SGS, Bureau Veritas, TUV, Intertek — para testemunhar os ensaios antes do embarque.",
+"qual.title":"Por que os compradores confiam no sistema de qualidade da OUZHI Cable",
+"qual.c1t":"Produção integrada","qual.c1d":"Da barra de cobre à bobina acabada em uma única planta. Sem terceirização de processos críticos, sem subcontratação oculta.",
+"qual.c2t":"Somente materiais virgens","qual.c2d":"Cátodos de cobre de alta pureza e compostos XLPE de primeira linha. Certificados de material acompanham cada lote.",
+"qual.c3t":"Linha de tripla extrusão","qual.c3d":"Linha CCV moderna de tripla extrusão e cura a seco para camadas de tela e isolamento impecáveis.",
+"qual.c4t":"Ensaios de rotina 100%","qual.c4d":"Cada metro é ensaiado, não apenas amostras. Relatórios completos arquivados e enviados com a mercadoria.",
+"qual.c5t":"Lotes rastreáveis","qual.c5d":"Números de bobina, registros de lote e dados de ensaio são vinculados: qualquer problema é rastreado até o dia e a máquina de produção.",
+"qual.c6t":"Certificação global","qual.c6d":"Ensaios de tipo IEC 60502-2, GOST 31996 / EAC para a CEI, CE quando aplicável — documentação pronta para alfândega e aceitação de projeto.",
+"faq.title":"Perguntas técnicas mais frequentes dos compradores",
+"faq.q1":"P: Condutor de cobre ou alumínio — qual escolho?","faq.a1":"R: Cobre para maior capacidade de corrente, menores perdas e menor tamanho; alumínio quando peso e custo importam em longas distâncias. Fabricamos ambos com material certificado.",
+"faq.q2":"P: Por que a cobertura LSZH é obrigatória em data centers?","faq.a2":"R: O PVC libera fumaça tóxica densa ao queimar. O LSZH emite fumaça mínima e nenhum gás halogênio, dando tempo para evacuação e protegendo a eletrônica sensível.",
+"faq.q3":"P: Unipolar ou tripolar para meu projeto?","faq.a3":"R: O tripolar economiza espaço e custo em trechos curtos. O unipolar é preferido para seções muito grandes e circuitos longos onde importa a flexibilidade de emendas.",
+"faq.q4":"P: Sempre preciso de armadura?","faq.a4":"R: A armadura é obrigatória para enterramento direto, áreas de tráfego intenso, solo rochoso ou atividade de roedores. Em bandejas internas protegidas, cabo sem armadura com LSZH costuma bastar.",
+"faq.q5":"P: O que o ensaio de descargas parciais realmente prova?","faq.a5":"R: Detecta vazios microscópicos no isolamento que cresceriam até virar pontos de falha após anos de serviço. Zero descargas na sensibilidade especificada é o sinal de qualidade mais forte que um cabo de 35 kV pode carregar.",
+"faq.q6":"P: Como armazenar cabos de 35 kV no canteiro?","faq.a6":"R: Bobinas em pé sobre piso firme, extremidades seladas sem umidade, temperatura entre -5 °C e +50 °C e longe do sol direto para tipos LSZH. Instruções de manuseio acompanham cada remessa.",
+"cta.title":"Precisa de documentação técnica ou auditoria de fábrica?",
+"cta.p":"Envie a tensão do seu projeto, a lista de cabos ou a norma que precisa atender. Nossos engenheiros respondem em 24 horas com fichas técnicas, relatórios de ensaio e cotação direta de fábrica.",
+"cta.email":"Email: info@ouzcable.com","cta.phone":"Tel: +998 99 851 6999",
+"cta.whatsapp":"WhatsApp: +998 99 851 6999","cta.telegram":"Telegram: @H99G99",
+"contact.email":"Email:","contact.phone":"Telefone:","contact.whatsapp":"WhatsApp:","contact.telegram":"Telegram:",
+"contact.hq":"Sede:","contact.hqval":"China · Exportação mundial","contact.web":"Site:",
+"footer.back":"← Voltar para a página inicial OUZHI Cable","footer.rights":"Todos os direitos reservados."
+}
+};
+
+function setLang(l){
+  if(!I18N[l]) l='en';
+  document.documentElement.lang=l;
+  document.documentElement.dir=(l==='ar')?'rtl':'ltr';
+  var els=document.querySelectorAll('[data-i18n]');
+  for(var i=0;i<els.length;i++){
+    var k=els[i].getAttribute('data-i18n');
+    if(I18N[l][k]!==undefined) els[i].innerHTML=I18N[l][k];
+  }
+  var sel=document.getElementById('langSelect');
+  if(sel) sel.value=l;
+  try{localStorage.setItem('ouzcable-lang',l)}catch(e){}
+}
+(function(){
+  var saved=null;
+  try{saved=localStorage.getItem('ouzcable-lang')}catch(e){}
+  var urlLang=(new URLSearchParams(location.search)).get('lang');
+  var init=urlLang||saved||'en';
+  if(!I18N[init]) init='en';
+  setLang(init);
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"35 kV Power Cable Engineering: Materials, Standards & Testing","url":"https://ouzcable.com/technical.html","author":{"@type":"Organization","name":"OUZHI Cable","alternateName":"欧智电缆"},"publisher":{"@type":"Organization","name":"OUZHI Cable","logo":"https://ouzcable.com/logo-en.png"},"description":"Technical deep-dive into 26/35 kV XLPE cable construction, international standards (IEC 60502-2, GOST 31996, GB/T 12706, VDE) and factory testing by OUZHI Cable source factory.","mainEntity":{"@type":"Organization","name":"OUZHI Cable","email":"info@ouzcable.com","telephone":"+998998516999"}}
+</script>
+</body>
+</html>
+</body>
+</html>
