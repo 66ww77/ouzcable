@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ouzcable.com/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ouzcable.com/logo-en.png</image:loc>
+      <image:title>OUZHI Cable 欧智电缆 35kV Power Cable Manufacturer</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ouzcable.com/logo-zh.png</image:loc>
+      <image:title>欧智电缆 OUZHI Cable 35kV电力电缆源头工厂</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ouzcable.com/favicon.png</image:loc>
+      <image:title>OUZHI Cable 欧智电缆 favicon</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://ouzcable.com/#home</loc>
