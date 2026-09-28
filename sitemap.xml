@@ -86,6 +86,24 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://ouzcable.com/export.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ouzcable.com/quality.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ouzcable.com/solutions2.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://ouzcable.com/#contact</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
